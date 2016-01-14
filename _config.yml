@@ -1,0 +1,13 @@
+# Site settings
+title: Patrick's Blog
+description: > # this means to ignore newlines until "baseurl:"
+  Mainly reviews on recent articles concerning reinforcement learning and neural networks, 
+  as well as the occasional tutorial. Enjoy!
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://pemami4911.github.io" # the base hostname & protocol for your site
+twitter_username: patrickomid
+github_username:  pemami4911
+
+# Build settings
+markdown: kramdown
