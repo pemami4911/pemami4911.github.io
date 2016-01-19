@@ -1,7 +1,7 @@
 # Site settings
 title: Patrick's Blog
 description: > # this means to ignore newlines until "baseurl:"
-  Mainly reviews on recent articles concerning reinforcement learning and neural networks, 
+  Mainly reviews on articles concerning reinforcement learning and neural networks, 
   as well as the occasional tutorial. Enjoy!
 
 baseurl: "" # the subpath of your site, e.g. /blog

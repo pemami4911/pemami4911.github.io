@@ -1,0 +1,6 @@
+---
+layout: post
+title:  "NOTES: Playing Atari with Deep Reinforcement Learning (Mnih et al. 2015)"
+date:   2016-01-18 9:00 PM -0500
+---
+
