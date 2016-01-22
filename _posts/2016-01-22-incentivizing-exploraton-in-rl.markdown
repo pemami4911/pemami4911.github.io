@@ -1,10 +1,12 @@
 ---
 layout: post
-title:  "Incentivizing Exploration in Reinforcement Learning with Deep Predictive Models (Stadie, Levine, Abbeel) [NOTES]"
-date:   2016-01-21 11:00 PM
+title:  "Incentivizing Exploration in Reinforcement Learning with Deep Predictive Models"
+date:   2016-01-22 12:00 PM
 ---
 
-## Succint Summary ##
+[Bradly C. Stadie, Sergey Levine, Pieter Abbeel](http://arxiv.org/abs/1507.00814)
+
+## Summary ##
 
 "Optimism in the face of uncertainty", the mantra of the Upper-Confidence Bound 1 algorithm, becomes impractical to follow when the action space is continuous. Hence, most approaches default to using epsilon-greedy exploration. This paper proposes a scalable and efficient method for assigning exploration bonuses in large RL problems with complex observations. 
 
