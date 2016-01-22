@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bayesian Theory of Mind: Modeling Joint Belief-Desire Attribution [Notes]"
-date:   2016-01-18 9:00 PM -0500
+date:   2016-01-18 9:00 PM 
 ---
 [Baker, et al., 2011](http://mindmodeling.org/cogsci2011/papers/0583/paper0583.pdf)
 
