@@ -15,21 +15,20 @@ A model of the task dynamics is learned to assess the novelty of a new state. As
 ## Evidence ## 
 * This approach was evaluated on 14 games in the Arcade Learning Environment (ALE)
 * The reinforcement learning algorithm that was employed was DQN, and performance was evaluated against DQN with epsilon-greedy exploration, Boltzman exploration, and Thompson Sampling
-* Not clear that this approach outperforms 
+* Not clear that this approach outperforms other state-of-the-art methods consistently
 
 ## Strengths ## 
 * The paper references methods that were attempted but ultimately failed, such as learning a dynamics model that would predict raw frames (next states) for the Atari simulation
 
 ## Weaknesses ## 
-* Need to see this method tested on other environments and scenarios. Doesn't consistently outperform epsilon-greedy or other state-of-the-art methods. 
+* Need to see this method tested on other environments and scenarios
 
 ## Interesting related works ## 
 * Thompson Sampling
 * Boltzman exploration 
 
 ## Notes ## 
-* PAC-MDP algorithms such as MBIE-EB and Bayesian algorithms such as Bayesian Exploration Bonuses manage the exploration versus exploitation tradeoff by assigning bonuses to novel states. (What are thooose)
-** These sound similar to the UCB1 exploration strategy
+* PAC-MDP algorithms such as MBIE-EB and Bayesian algorithms such as Bayesian Exploration Bonuses manage the exploration versus exploitation tradeoff by assigning bonuses to novel states. (What are thooose). These sound similar to the UCB1 exploration strategy
 * An autoencoder was used to obtain the function sigma that encodes the state prediction model. The choice of autoencoder was for dimensionality reduction of the state space
 * "The hidden layers are reduced in dimension until maximal compression occurs with 128 units" (What does this mean?)
 * An MLP with 2 layers was used to predict model dynamics. The sixth layer of the auto-encoder produces the state with reduced dimensionality 
