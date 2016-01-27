@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  
-date:
+title: 
+date: 
 ---
 
 ## Succint Summary ##
