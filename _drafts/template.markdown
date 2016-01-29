@@ -4,7 +4,7 @@ title:
 date: 
 ---
 
-## Succint Summary ##
+## Summary ##
 
 ## Evidence ## 
 
