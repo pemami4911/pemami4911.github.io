@@ -42,7 +42,7 @@ Prior probabilities are computed by the SL policy network with a softmax tempera
 is adjusted dynamically to ensure that the rate at which positions are added to the policy queue matches the rate
 at which the GPUs evaluate the policy network. Mini-batch sizes of 1 were used to minimize the end-to-end evaluation time. 
 
-A distributed APC-MCTS was implemented which split policy evaluation across worker GPUs and handled 
+A distributed APV-MCTS was implemented which split policy evaluation across worker GPUs and handled 
 the in-tree phase of each simulation on worker CPUs. 
 
 ### Rollout policy ###
