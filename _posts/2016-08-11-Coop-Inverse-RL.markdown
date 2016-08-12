@@ -20,7 +20,7 @@ human to not attempt to teach by demonstration in a way that greedily maximizes 
 
 ## Further Notes
 
-CIRL can be formulated as a dec-POMDP, and reduced to a single-agent POMDP. Dec-POMDP's are NEXP-complete (computational complexity that is doubly exponential); single-agent POMDPs have established methods for finding approximating solutions. 
+CIRL can be formulated as a dec-POMDP, and reduced to a single-agent POMDP. The authors solved a 2D navigation task with CIRL to demonstrate the inferiority of having the human follow a "demonstration-by-expert" policy as opposed to a "best-response" policy.
 
 In the experiments, the authors used regret as a performance measure for learning the reward function with respect to a fully-observed setting where the robot knows the ground truth of the hidden reward function. Another performance measure used is
 the KL-divergence between the max-entropy trajectory distributions induced by the estimate of the reward parameters and the ground truth parameters. Finally,
