@@ -20,15 +20,14 @@ human to not attempt to teach by demonstration in a way that greedily maximizes 
 
 ## Further Notes
 
-CIRL can be formulated as a dec-POMDP, and reduced to a single-agent POMDP. dec-POMDP's are NEXP-complete (computational complexity that is doubly exponential) and 
-there are methods for approximating single-agent POMDPs. 
+CIRL can be formulated as a dec-POMDP, and reduced to a single-agent POMDP. Dec-POMDP's are NEXP-complete (computational complexity that is doubly exponential); single-agent POMDPs have established methods for finding approximating solutions. 
 
-The experimenters used regret as a measure with respect to a fully-observed setting where the robot knows the ground truth of the hidden reward function. Also,
+In the experiments, the authors used regret as a performance measure for learning the reward function with respect to a fully-observed setting where the robot knows the ground truth of the hidden reward function. Another performance measure used is
 the KL-divergence between the max-entropy trajectory distributions induced by the estimate of the reward parameters and the ground truth parameters. Finally,
-the L2-norm is used between the vector of rewards defined by the estimate of the reward parameters and the ground truth parameters.
+the L2-norm is used as a measure between the vector of rewards defined by the estimate of the reward parameters and the ground truth parameters.
 
 ## Comments
 
-I believe that we'll see some work coming out of OpenAI on research following this line, where you have AI and humans learning to colloborate safely. 
-The experiments conducted in this paper are on grid-world and far from being applied in a real world setting (until we get much better POMDP solvers, that is). 
+I believe that we'll see some work coming out of OpenAI following this line of research in the near future (where you have AI and humans learning to colloborate safely). 
+It is also interesting to note that the experiments conducted in this paper are on a grid-world and far from being applied in a real world setting (until we get much better POMDP solvers, that is).  
 
