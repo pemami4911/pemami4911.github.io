@@ -2,6 +2,7 @@
 layout: post
 title: Neural Fitted Q Iteration 
 date: 2016-03-23
+category: paper_summaries
 ---
 [Riedmiller, M 2005](http://ml.informatik.uni-freiburg.de/_media/publications/rieecml05.pdf)
 

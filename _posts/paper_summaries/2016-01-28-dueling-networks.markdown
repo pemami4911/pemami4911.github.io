@@ -2,6 +2,7 @@
 layout: post
 title: Dueling Network Architectures for Deep Reinforcement Learning
 date:  2016-01-28 11:00 PM
+category: paper_summaries
 ---
 [Wang, de Freitas, Lanctot, 2016](http://arxiv.org/abs/1511.06581)
 

@@ -2,6 +2,7 @@
 layout: post
 title:	"Prioritized Experience Replay"
 date: 	2016-01-26 2:20 PM
+category: paper_summaries
 ---
 
 [Schaul, Quan, Antonoglou, Silver 2016](http://arxiv.org/pdf/1511.05952.pdf)

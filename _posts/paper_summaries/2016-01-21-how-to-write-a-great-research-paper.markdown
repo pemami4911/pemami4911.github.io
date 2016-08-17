@@ -2,6 +2,7 @@
 layout: post
 title:  "How To Write A Great Research Paper (Professor Simon Peyton Jones)"
 date:   2016-01-21 11:00 PM
+category: paper_summaries
 ---
 
 A 30 minute [lecture](https://www.youtube.com/watch?v=g3dkRsTqdDA) on how to write a <b>great</b> research paper 

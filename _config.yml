@@ -1,7 +1,7 @@
 # Site settings
 title: Patrick Emami
 description: > # this means to ignore newlines until "baseurl:"
-  My summaries of Machine Learning papers, investigations into various mathematical and CS topics, and the occasional tutorial.
+  My summaries of Machine Learning papers and investigations into various topics concerning artificial intelligence
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://pemami4911.github.io" # the base hostname & protocol for your site

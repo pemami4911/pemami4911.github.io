@@ -1,6 +1,6 @@
 ---
 layout: page
-title: What I'm Reading
+title: Books I'm Reading
 permalink: /books/
 customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
