@@ -675,3 +675,20 @@ pre {
     .vi    { color: #008080 } // Name.Variable.Instance
     .il    { color: #099 } // Literal.Number.Integer.Long
 }
+
+.image-wrapper {
+    text-align: center;
+}
+
+.image-caption {
+    color: #808080;
+    font-size: 0.7em;
+    font-style: italic;
+}
+
+img {
+    margin: 3px;
+    padding: 3px;
+    border: 2px solid #eeeeee;
+    max-width: 100%;
+}
