@@ -13,7 +13,7 @@ This paper presents a novel approach to replace the classic **epsilon-greedy** e
 
 {% include image.html
    img="/assets/bootstrapped_dqn_arch.png"
-   caption="Bootstrapped DQN architecture. (Taken from [Osband, Ian, et al. 2016](http://arxiv.org/pdf/1602.04621v3.pdf).)"
+   caption="Bootstrapped DQN architecture"
 %}
 
 Each __head__ represents a different Q-function that is trained on a subset of the data. The shared network learns a joint feature representation across all the data; it can be thought of as a data-dependent dropout. For DRL, samples stored in a replay buffer contain a flag marking which of the K Q-functions it came from. 
