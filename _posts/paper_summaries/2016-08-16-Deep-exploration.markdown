@@ -11,7 +11,10 @@ category: paper_summaries
 
 This paper presents a novel approach to replace the classic **epsilon-greedy** exploration strategy. The main idea is to encourage **deep** exploration by creating a new Deep Q-Learning architecture that supports selecting actions from randomized Q-functions that are trained on **bootstrapped** data. This is a quick look at the proposed architecture.
 
-![Bootstrapped DQN Architecture](/assets/bootstrapped_dqn_arch.png)
+{% include image.html
+   img="/assets/bootstrapped_dqn_arch.png"
+   caption="Bootstrapped DQN architecture. (Taken from [Osband, Ian, et al. 2016](http://arxiv.org/pdf/1602.04621v3.pdf).)"
+%}
 
 Each __head__ represents a different Q-function that is trained on a subset of the data. The shared network learns a joint feature representation across all the data; it can be thought of as a data-dependent dropout. For DRL, samples stored in a replay buffer contain a flag marking which of the K Q-functions it came from. 
 

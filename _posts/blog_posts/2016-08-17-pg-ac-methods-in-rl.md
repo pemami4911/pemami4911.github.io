@@ -17,5 +17,3 @@ MathJax.Hub.Config({
 ---
 
 ## Introduction
-
-Hello $p\_z$
