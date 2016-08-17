@@ -9,7 +9,9 @@ category: paper_summaries
 
 ## Summary 
 
-This paper presents a novel approach to replace the classic **epsilon-greedy** exploration strategy. The main idea is to encourage **deep** exploration by creating a new Deep Q-Learning architecture that supports selecting actions from randomized Q-functions that are trained on **bootstrapped** data. This is a quick look at the proposed architecture. ![Bootstrapped DQN Architecture](/assets/bootstrapped_dqn_arch.png)
+This paper presents a novel approach to replace the classic **epsilon-greedy** exploration strategy. The main idea is to encourage **deep** exploration by creating a new Deep Q-Learning architecture that supports selecting actions from randomized Q-functions that are trained on **bootstrapped** data. This is a quick look at the proposed architecture.
+
+![Bootstrapped DQN Architecture](/assets/bootstrapped_dqn_arch.png)
 
 Each __head__ represents a different Q-function that is trained on a subset of the data. The shared network learns a joint feature representation across all the data; it can be thought of as a data-dependent dropout. For DRL, samples stored in a replay buffer contain a flag marking which of the K Q-functions it came from. 
 
@@ -19,9 +21,7 @@ Another key component of the Bootstrapped DQN algorithm is the bootstrap mask. T
 
 ## Strengths
 
-The authors based their idea on sound statistical principles and conducted numerous experiments to back up their claims. Their results show that Bootstrapped DQN can learn faster (but not necessarily with higher long-term rewards) than state-of-the-art DQN. 
-
-The authors also compare their work with Stadie, Levine, and Abeel's paper on Incentivizing Exploration in RL. See my previous ![post](/_posts/2016-01-22-incentivizing-exploration-in-rl.markdown) for details. The authors show that Bootstrapped DQN outperforms Stadie's methods, as Stadie's methods attempt the more ambitious task of learning a model of the task dynamics and using how well the agent has learned said model to inform the exploration. 
+The authors based their idea on sound statistical principles and conducted numerous experiments to back up their claims. Their results show that Bootstrapped DQN can learn faster (but not necessarily with higher long-term rewards) than state-of-the-art DQN. The authors also compare their work with Stadie, Levine, and Abeel's paper on Incentivizing Exploration in RL. See my previous post for [details](http://pemami4911.github.io/2016/01/22/incentivizing-exploraton-in-rl.html). The authors show that Bootstrapped DQN outperforms Stadie's methods, as Stadie's methods attempt the more ambitious task of learning a model of the task dynamics and using how well the agent has learned said model to inform the exploration. 
 
 ## Weaknesses
 
