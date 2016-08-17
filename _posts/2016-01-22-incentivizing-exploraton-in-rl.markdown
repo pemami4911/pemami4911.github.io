@@ -30,7 +30,7 @@ A model of the task dynamics is learned to assess the novelty of a new state. As
 ## Notes ## 
 * PAC-MDP algorithms such as MBIE-EB and Bayesian algorithms such as Bayesian Exploration Bonuses manage the exploration versus exploitation tradeoff by assigning bonuses to novel states. (What are thooose). These sound similar to the UCB1 exploration strategy
 * An autoencoder was used to obtain the function sigma that encodes the state prediction model. The choice of autoencoder was for dimensionality reduction of the state space
-* "The hidden layers are reduced in dimension until maximal compression occurs with 128 units" (What does this mean?)
+* "The hidden layers are reduced in dimension until maximal compression occurs with 128 units" 
 * An MLP with 2 layers was used to predict model dynamics. The sixth layer of the auto-encoder produces the state with reduced dimensionality 
 
 

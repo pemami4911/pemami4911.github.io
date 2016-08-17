@@ -24,7 +24,7 @@ Uniform sampling from replay memories is not an efficient way to learn. Rather, 
 	* Low-error transitions are almost entirely ignored
 	* Expensive to update entire replay memory, so errors are only updated for transitions that are replayed
 	* Lack of diversity leads to over-fitting
-* A stochastic sampling method is introduced which finds a balance between greedily prioritization and random sampling (current method)
+* A stochastic sampling method is introduced which finds a balance between greedy prioritization and random sampling (current method)
 * Two variants of ![Probability of sampling transition i](/assets/prioritized_exp_replay_1.gif) were studied, where P is the probability of sampling transition i, p_i > 0 is the priority of transition i, and the exponent alpha determines how much prioritization is used, with alpha = 0 the uniform case
 	* Variant 1: proportional prioritization, where ![prioritized_exp_replay_2.gif](/assets/prioritized_exp_replay_2.gif) is used and epsilon is a small positive constant that prevents the edge-case of transitions not being revisited once their error is zero. Delta is the TD-error
 	* Variant 2: rank-based prioritization, with ![prioritized_exp_replay_3.gif](/assets/prioritized_exp_replay_3.gif) where rank_i is the rank of transition i when the replay memory is sorted according to delta_i
