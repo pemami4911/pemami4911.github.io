@@ -1,0 +1,20 @@
+{
+  "name": "js",
+  "version": "0.0.0",
+  "homepage": "https://github.com/pemami4911/pemami4911.github.io",
+  "authors": [
+    "Patrick Emami <patrickemami@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "js": "^5.2.0"
+  }
+}

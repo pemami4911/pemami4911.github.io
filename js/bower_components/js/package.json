@@ -1,0 +1,27 @@
+{
+  "name": "@redcatphp/js",
+  "version": "5.2.0",
+  "description": "Asynchronous Module Definition framework",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/redcatphp/js"
+  },
+  "keywords": [
+    "dependencies",
+    "manager",
+    "javascript",
+    "amd",
+    "framework",
+    "async",
+    "asynchronous"
+  ],
+  "author": "Jo Surikat <jo@surikat.pro>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redcatphp/js/issues"
+  }
+}

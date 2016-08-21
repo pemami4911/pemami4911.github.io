@@ -1,0 +1,27 @@
+{
+	"name": "js",
+	"main": "js.js",
+	"homepage": "https://github.com/redcatphp/js",
+	"description": "Asynchronous Module Definition framework",
+	"moduleType": [],
+	"keywords": [
+		"dependencies",
+		"manager",
+		"javascript",
+		"amd",
+		"framework",
+		"async",
+		"asynchronous"
+	],
+	"authors": [
+		"Jo Surikat <jo@surikat.pro>"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
+}

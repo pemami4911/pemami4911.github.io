@@ -1,0 +1,38 @@
+{
+  "name": "js",
+  "main": "js.js",
+  "homepage": "https://github.com/redcatphp/js",
+  "description": "Asynchronous Module Definition framework",
+  "moduleType": [],
+  "keywords": [
+    "dependencies",
+    "manager",
+    "javascript",
+    "amd",
+    "framework",
+    "async",
+    "asynchronous"
+  ],
+  "authors": [
+    "Jo Surikat <jo@surikat.pro>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "5.9.1",
+  "_release": "5.9.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.9.1",
+    "commit": "1c1a2eac25a6902cb7cb010d428cb84a259abea5"
+  },
+  "_source": "https://github.com/redcatphp/js.git",
+  "_target": "~5.9.1",
+  "_originalSource": "js",
+  "_direct": true
+}
