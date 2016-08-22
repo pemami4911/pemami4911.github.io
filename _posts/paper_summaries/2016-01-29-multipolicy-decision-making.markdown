@@ -3,8 +3,9 @@ layout: post
 title: "Multipolicy Decision-Making for Autonomous Driving via Changepoint-based Behavior Prediction"
 date:  2016-01-29 10:00 PM
 category: paper_summaries
+paper_ref: Galceran, Cunningham, Eustice, Olson, 2015
 ---
-[Galceran, Cunningham, Eustice, Olson, 2015](http://www.roboticsproceedings.org/rss11/p43.pdf)
+[{{ page.paper_ref }}](http://www.roboticsproceedings.org/rss11/p43.pdf)
 
 ## Summary ##
 This paper presents an integrated behavioral anticipation and decision-making system that models behavior for both our vehicle and nearby vehicles as the result of closed-loop policies. Only a finite set of *a priori* known policies are considered. Bayesian changepoint detection is used to estimate which policy a given vehicle was executing at each point in its history of actions, then infer the likelihood of each potential intention of the vehicle.

@@ -3,9 +3,10 @@ layout: post
 title: "Deep Exploration via Bootstrapped DQN"
 date: 2016-08-16
 category: paper_summaries
+paper_ref: Osband, et al. 2016
 ---
 
-[Osband, Ian, et al. 2016](http://arxiv.org/pdf/1602.04621v3.pdf)
+[{{ page.paper_ref }}](http://arxiv.org/pdf/1602.04621v3.pdf)
 
 ## Summary 
 

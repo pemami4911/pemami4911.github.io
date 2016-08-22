@@ -3,6 +3,7 @@ layout: post
 title: Dueling Network Architectures for Deep Reinforcement Learning
 date:  2016-01-28 11:00 PM
 category: paper_summaries
+paper_ref: Wang, de Freitas, Lanctot, 2016
 ---
 
 <script type="text/javascript" async
@@ -18,7 +19,7 @@ MathJax.Hub.Config({
  
 ---
 
-[Wang, de Freitas, Lanctot, 2016](http://arxiv.org/abs/1511.06581)
+[{{ page.paper_ref }}](http://arxiv.org/abs/1511.06581)
 
 ## Summary ##
 For many states, it is unnecessary to estimate the action value for each action. This is a problem with methods that attempt to favor exploration over exploitation *too much*, because often times there will be a large number of actions that have little to no value for a given state.

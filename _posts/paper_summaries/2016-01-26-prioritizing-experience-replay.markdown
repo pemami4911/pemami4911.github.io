@@ -3,6 +3,7 @@ layout: post
 title:	"Prioritized Experience Replay"
 date: 	2016-01-26 2:20 PM
 category: paper_summaries
+paper_ref: Schaul, Quan, Antonoglou, Silver, 2016
 ---
 
 <script type="text/javascript" async
@@ -18,7 +19,7 @@ MathJax.Hub.Config({
 
 ---
 
-[Schaul, Quan, Antonoglou, Silver 2016](http://arxiv.org/pdf/1511.05952.pdf)
+[{{ page.paper_ref }}](http://arxiv.org/pdf/1511.05952.pdf)
 
 ## Summary ##
 Uniform sampling from replay memories is not an efficient way to learn. Rather, using a clever prioritization scheme to label the experiences in replay memory, learning can be carried out much faster and more effectively. However, certain biases are introduced by this non-uniform sampling; hence, weighted importance sampling must be employed in order to correct for this. It is shown through experimentation with the Atari Learning Environment that prioritized sampling with Double DQN significantly outperforms the previous state-of-the-art Atari results.

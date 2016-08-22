@@ -328,17 +328,17 @@ pre {
   text-indent: 2px;
 }
 .postContent {
-  padding-top: 3.5em;
+  padding-top: 0px;
   text-align: center;
 }
 .postDate {
-  float: left;
+  float: center;
   text-transform: uppercase;
   font-family: "Source Sans Pro";
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 2px;
-  text-indent: 2px;
+  text-indent: 0px;
 }
 .postTag {
   float: right;
@@ -379,8 +379,8 @@ pre {
   font-family: 'Josefin Sans';
 }
 .exclamationMark {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 .site-navigation {
   color: #aaa;
@@ -391,13 +391,14 @@ pre {
   font-family: 'Josefin Sans';
   font-weight: 300;
   padding-top: 5em;
+  text-align: center
 }
 .page-title {
   text-transform: uppercase;
   letter-spacing: 2px;
   text-indent: 2px;
   font-family: "PT Sans";
-  font-size: 12px;
+  font-size: 16px;
 }
 .page-tagline {
   font-size: 18px;

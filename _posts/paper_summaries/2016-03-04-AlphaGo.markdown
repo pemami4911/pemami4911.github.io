@@ -3,8 +3,9 @@ layout: post
 title: Mastering the Game of Go with Deep Neural Networks and Tree Search
 date: 2016-03-04 9:00 AM
 category: paper_summaries
+paper_ref: [Silver, et al. 2016]
 ---
-[Silver, et al. 2016](http://www.willamette.edu/~levenick/cs448/goNature.pdf)
+[{{ page.paper_ref }}](http://www.willamette.edu/~levenick/cs448/goNature.pdf)
 
 ## Summary ##
 

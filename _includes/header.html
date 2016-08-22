@@ -7,12 +7,16 @@
 </div>
 <div class="wrapper">
   <div class="trigger site-navigation">
-    <a class="page-link" href="{{site.url}}{{site.baseurl}}">Paper Summaries</a><span class="exclamationMark">/</span>
-
+   
     {% for sitePage in site.pages %}
     {% if sitePage.title %}
 
-    <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a><span class="exclamationMark">/</span>
+    <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+    
+    {% if forloop.index != 5 %}
+        <span class="exclamationMark">/</span>
+    {% endif %}
+
     {% endif %}
     {% endfor %}
   </div>

@@ -12,13 +12,14 @@ permalink: /blog/
     <div class="postDay">
       {{post.tag}}
     </div>
-    <br>
     <div class="postTitle">
     <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
     </div>
     <div class="postExt">
    {{ post.content | strip_html | truncatewords:20}}
     </div>
+    <br>
+
   </div>
 
 

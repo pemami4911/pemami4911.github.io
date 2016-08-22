@@ -5,9 +5,9 @@
 	<style>
 		#customize-list{
 			float:left;
-			margin-left:20px;
-			margin-right:20px;
-			margin-bottom:20px;
+			margin-left:5%;
+			margin-right:5%;
+			margin-bottom:5%;
 			list-style:none;
 		}
 	  #gr_updates_widget{
@@ -22,8 +22,8 @@
 		box-shadow: 0px 0px 4px 1px #595959,
 		inset 0px 0px 0px 1px #7D730B;
 		padding:15px 0 0px 15px;
-		width:250px;
-		height:500px;
+		width:260;
+		height:500;
 	  }
 	  #gr_footer{
 		margin-bottom:0px;
@@ -49,11 +49,14 @@
       <style type="text/css" media="screen">
         .gr_grid_container {
           /* customize grid container div here. eg: width: 500px; */
+          @include media-query($on-palm) {
+            padding-top: 10%;
+          }
         }
 
         .gr_grid_book_container {
           /* customize book cover container div here */
-          float: right;
+          float: left;
           width: 98px;
           height: 160px;
           padding: 0px 5px;

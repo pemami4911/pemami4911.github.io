@@ -3,8 +3,10 @@ layout: post
 title: Neural Fitted Q Iteration 
 date: 2016-03-23
 category: paper_summaries
+paper_ref: Riedmiller, M 2005
 ---
-[Riedmiller, M 2005](http://ml.informatik.uni-freiburg.de/_media/publications/rieecml05.pdf)
+
+[{{ page.paper_ref }}](http://ml.informatik.uni-freiburg.de/_media/publications/rieecml05.pdf)
 
 ## Summary ##
 The key insight here is that neural networks react globally to local weight changes, which results in unwanted behavior. For a neural network that is representing the Q-value function, the influence of a weight change for a new datapoint must be constrained by presenting previous knowledge in the form or prior experiences. The proposed algorithm is a special case of experience replay. 
