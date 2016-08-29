@@ -23,10 +23,9 @@ MathJax.Hub.Config({
 ## Summary ##
 
 1. An SL policy network of convolutional layers $p_{\sigma}$ is learned in a supervised fashion directly from expert human moves. This provides immediate feedback, high-quality gradients, and is used for improving board evaluation.
-2. Another "fast rollout" network, $p_{\pi}$, is trained for fast action selection during rollouts. Rollouts are off-policy simulated trajectories used for determining future pathways in a search tree. 
-3. An RL policy network $p_{\rho}$ is trained for optimizing winning games through self-play. The reward signal is generated
-as the end of the game (+1 for winning, -1 for losing). 
-4. Finally, a value network $v_{\theta}$ is trained to predict the winner of games played by the RL policy network against itself. 
+2. Another "fast rollout" network, $p_{\pi}$, is trained for fast action selection during rollouts from expert human moves. Rollouts are off-policy simulated trajectories used for determining future pathways in a search tree. 
+3. An RL policy network $p_{\rho}$ is trained for optimizing winning games through self-play. The weights are initialized to the SL policy network's. The reward signal is generated as the end of the game (+1 for winning, -1 for losing). 
+4. Finally, a value network $v_{\theta}$ is trained by regression to predict the winner of games played by the RL policy network against itself. 
 
 ## Methodology ##
 
