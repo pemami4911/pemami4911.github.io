@@ -2,7 +2,7 @@
 layout: post
 title: Intrinsically Motivated Reinforcement Learning
 date: 2016-08-29 10:30 AM
-category: paper_summaries
+category: papersummaries
 paper_ref: [Singh, et al., 2004]
 ---
 

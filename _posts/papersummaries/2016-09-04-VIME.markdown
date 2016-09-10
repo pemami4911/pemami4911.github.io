@@ -2,21 +2,20 @@
 layout: post
 title: Variational Information Maximizing Exploration
 date: 2016-09-04 1:00 PM
-category: paper_summaries
+category: papersummaries
 paper_ref: [Houthooft, et al. 2016 ~ OpenAI]
 ---
-
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   TeX: { equationNumbers: { autoNumber: "AMS" } },
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
 });
 </script>
- 
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> 
 ---
 
 [{{ page.paper_ref }}](http://arxiv.org/pdf/1605.09674v2.pdf)

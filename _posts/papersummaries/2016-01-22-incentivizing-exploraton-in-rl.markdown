@@ -2,7 +2,7 @@
 layout: post
 title:  "Incentivizing Exploration in Reinforcement Learning with Deep Predictive Models"
 date:   2016-01-22 12:00 PM
-category: paper_summaries
+category: papersummaries
 paper_ref: Bradly C. Stadie, Sergey Levine, Pieter Abbeel, 2015
 ---
 

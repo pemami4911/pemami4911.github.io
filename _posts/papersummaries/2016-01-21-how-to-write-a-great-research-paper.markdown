@@ -2,7 +2,7 @@
 layout: post
 title:  "How To Write A Great Research Paper (Professor Simon Peyton Jones)"
 date:   2016-01-21 11:00 PM
-category: paper_summaries
+category: papersummaries
 paper_ref: Professor Simon Peyton Jones
 ---
 

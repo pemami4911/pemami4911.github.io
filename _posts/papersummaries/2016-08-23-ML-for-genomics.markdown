@@ -2,7 +2,7 @@
 layout: post
 title: "Machine Learning in Genomic Medicine: A Review of Computational Problems and Data Sets"
 date: 2016-08-23
-category: paper_summaries
+category: papersummaries
 paper_ref: Leung, Michael K. K., 2016
 ---
 

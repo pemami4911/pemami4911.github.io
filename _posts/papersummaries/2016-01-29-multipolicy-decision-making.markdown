@@ -2,7 +2,7 @@
 layout: post
 title: "Multipolicy Decision-Making for Autonomous Driving via Changepoint-based Behavior Prediction"
 date:  2016-01-29 10:00 PM
-category: paper_summaries
+category: papersummaries
 paper_ref: Galceran, Cunningham, Eustice, Olson, 2015
 ---
 [{{ page.paper_ref }}](http://www.roboticsproceedings.org/rss11/p43.pdf)
