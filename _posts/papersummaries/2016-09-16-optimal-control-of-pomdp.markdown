@@ -114,7 +114,7 @@ It is important to see that $V_{n-1}( \cdot )$ is piecewise linear and convex, a
 
 {%
     include image.html
-    img="/assets/belief-transform.png"
+    img="/assets/belief-transform2.png"
     caption="The belief-state update $T(\pi|a,\theta)$ for a simple POMDP, from Sondik, et al."
 %}
 
