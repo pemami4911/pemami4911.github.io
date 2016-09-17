@@ -3,7 +3,7 @@ layout: post
 title: Hierarchical Deep Reinforcement Learning- Integrating Temporal Abstraction and Intrinsic Motivation
 date: 2016-09-10 4:00 PM
 category: papersummaries
-paper_ref: [Kulkarni, et al. 2016]
+paper_ref: Kulkarni, et al., 2016
 ---
 
 <script type="text/x-mathjax-config">

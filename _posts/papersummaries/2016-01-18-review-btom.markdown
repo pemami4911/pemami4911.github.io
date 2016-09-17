@@ -5,6 +5,7 @@ date:   2016-01-18 9:00 PM
 category: papersummaries
 paper_ref: Baker, et al., 2011
 ---
+
 [{{ page.paper_ref }}](http://mindmodeling.org/cogsci2011/papers/0583/paper0583.pdf)
 
 ## Introduction ##

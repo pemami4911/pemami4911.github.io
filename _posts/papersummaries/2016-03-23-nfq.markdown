@@ -3,7 +3,7 @@ layout: post
 title: Neural Fitted Q Iteration 
 date: 2016-03-23
 category: papersummaries
-paper_ref: Riedmiller, M 2005
+paper_ref: Riedmiller, M. 2005
 ---
 
 [{{ page.paper_ref }}](http://ml.informatik.uni-freiburg.de/_media/publications/rieecml05.pdf)

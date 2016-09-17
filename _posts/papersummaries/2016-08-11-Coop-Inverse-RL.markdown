@@ -3,7 +3,7 @@ layout: post
 title: "Cooperative Inverse Reinforcement Learning"
 date: 2016-08-11
 category: papersummaries
-paper_ref: Hadfield-Menell, et al. 2016
+paper_ref: Hadfield-Menell, et al., 2016
 ---
 
 [{{ page.paper_ref }}](http://arxiv.org/pdf/1606.03137v2.pdf)

@@ -3,7 +3,7 @@ layout: post
 title: Mastering the Game of Go with Deep Neural Networks and Tree Search
 date: 2016-03-04 9:00 AM
 category: papersummaries
-paper_ref: [Silver, et al. 2016]
+paper_ref: Silver, et al., 2016
 ---
 
 <script type="text/javascript" async

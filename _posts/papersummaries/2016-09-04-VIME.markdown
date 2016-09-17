@@ -3,7 +3,7 @@ layout: post
 title: Variational Information Maximizing Exploration
 date: 2016-09-04 1:00 PM
 category: papersummaries
-paper_ref: [Houthooft, et al. 2016 ~ OpenAI]
+paper_ref: Houthooft, et al., 2016 ~ OpenAI
 ---
 
 <script type="text/x-mathjax-config">
