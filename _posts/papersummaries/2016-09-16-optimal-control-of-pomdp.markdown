@@ -86,7 +86,7 @@ $$
 
 Where $q_{i}^{0}$ is the expected value of terminating the process in state $i$.
 
-### Proof that $V_{n}(\pi)$ is Piecewise Linear and Convex
+## Proof that $V_{n}(\pi)$ is Piecewise Linear and Convex
 
 We want to show the following:
 
@@ -145,8 +145,11 @@ Many people studying RL will agree that there is a long way to go until our agen
 
 So, is there any way to utilize our deep learning arsenal with traditional POMDP methods, which provide guarantees on convergence to the optimal value-function in partially observable environments? 
 
-For example, one could imagine reducing the dimensionality of the belief simplex sufficiently while simultaneously encoding the important information into some clever representation. Perhaps this could be done with a spatio-temporal approach in the general strain of [Oh, et al., 2015](http://arxiv.org/pdf/1507.08750v2.pdf). The key component would be a learned model that could predict the corresponding set of $\alpha$-vectors for each action at the current time step; then, you could construct your value-function out of your predicted hyperplanes and encoded belief state. There would be all kinds of interesting geometry to exploit, given that the probability of being in many of the hidden states should be close to 0, which would collapse various dimensions of most of the hyperplanes. Additionally, you will want to learn a sparse set of linear hyperplanes, sort of how SVMs produce a sparse set of support vectors, since the only ones you care about are the maximal, dominating ones. The advantages of taking this route are abundant, one being that we would be able to get rid of many of the false assumptions that must be made to use model-free temporal difference learning algorithms on problems that are inherently partially-observable, while at the same time preserving the scalability that deep learning has brought to RL. One of the difficulties of this approach is that you would need to come up with a way to approximate the belief-update distribution. By using this distribution, that implies that this approach is inherently model-based as opposed to model-free, which appears to be another direction that some RL-practitioners seem to be gravitating back to.
+For example, one could imagine reducing the dimensionality of the belief simplex sufficiently while simultaneously encoding the important information into some clever representation. Perhaps this could be done with a spatio-temporal approach in the general strain of [Oh, et al., 2015](http://arxiv.org/pdf/1507.08750v2.pdf), [PCA](http://www.aaai.org/Papers/JAIR/Vol23/JAIR-2301.pdf), or an autoencoder. Another key component would be a learned model that could predict the corresponding set of $\alpha$-vectors for each action at the current time step; then, you could construct your value-function out of your predicted hyperplanes and encoded belief state. There would be all kinds of interesting geometry to exploit, given that the probability of being in many of the hidden states should be close to 0, which would collapse various dimensions of most of the hyperplanes. Additionally, you will want to learn a sparse set of linear hyperplanes, sort of how SVMs produce a sparse set of support vectors, since the only ones you care about are the maximal, dominating ones. The advantages of taking this route are abundant, one being that we would be able to get rid of many of the false assumptions that must be made when approximating POMDPs as MDPs, while at the same time preserving the scalability that deep learning has brought to RL. 
 
-Please feel free to share with me your thoughts on my musings. :) 
+### Challenges
+* One of the difficulties of this approach is that you would need to come up with a way to approximate the belief-update distribution. By using this distribution, that implies that this approach is inherently model-based as opposed to model-free, which appears to be another direction that some RL-practitioners seem to be gravitating back to.
+* Another difficulty will be the representation of the belief state. Generally, a representative set of sampled particles that can be filtered through the system dynamics via Monte-Carlo methods is used. This would be good to avoid, since this adds unwieldy computational costs.  
 
+Note: There is some prior work on learning $\alpha$-vectors to obtain an approximation of the value function. Chiefly, a set of basis functions is supplied such that the $\alpha$-vectors can be factored into a linear combination of the basis functions and some weights. 
 
