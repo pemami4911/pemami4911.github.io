@@ -50,7 +50,7 @@ $$
 \end{equation} 
 $$
 
-This is the belief update, which follows simply by applying Bayes rule. The key thing to note is that $\pi$ is a sufficient statistic for computing $\pi^{\prime}$ (i.e., all of the information necessary to compute $\pi^{\prime}$ is contained in $\pi$). We can refer to **(1)** as 
+This is the belief update, which follows simply by applying Bayes rule. The key thing to note is that $\pi$ is a sufficient statistic for computing $\pi^{\prime}$ (i.e., all of the information necessary to compute $\pi^{\prime}$ is contained in $\pi$). We can refer to (1) as 
 
 $$
 \begin{equation}
@@ -98,9 +98,9 @@ $$
 
 for some set of vectors $\alpha^{k}(n) = [\alpha_{1}^{k}(n), \alpha_{2}^{k}(n), \ldots, \alpha_{N}^{k}(n)], k = 1, 2, \ldots$. To make the notation clear, note that a single $\alpha$-vector has $N$ components (one for each of the possible states the process could be in), and the $\alpha$-vector has a unique index $k$ referring to the region of the belief space that it partitions (more on this later). The index $k$ effectively enumerates the vectors as well. 
 
-We proceed by induction. Equation **(5)** demonstrates that $V_{n}(\pi)$ has the desired form for $n=0$. Proceeding with the inductive hypothesis that $V_{n-1}(\pi)$ is of the form in (6), we shall show that this implies $V_{n}(\pi)$ is of the same form. 
+We proceed by induction. (5) demonstrates that $V_{n}(\pi)$ has the desired form for $n=0$. Proceeding with the inductive hypothesis that $V_{n-1}(\pi)$ is of the form in (6), we shall show that this implies $V_{n}(\pi)$ is of the same form. 
 
-Let's substitute Equation **(1)**, the belief update, into the term $V_{n-1} [ T(\pi\|a,\theta)]$ from Equation **(4)** such that
+Let's substitute (1), the belief update, into the term $V_{n-1} [ T(\pi\|a,\theta)]$ from (4) such that
 
 $$
 \begin{equation}
@@ -120,7 +120,7 @@ It is important to see that $V_{n-1}( \cdot )$ is piecewise linear and convex, a
 
 Notice in this image how the belief simplex, represented as a triangle where each vertex is one of the possible states, is partitioned into 4 regions by the set of $\alpha$-vectors at time-step $n - 1$. There are two possible measurements which transforms the previous belief $\pi$ to two possible new locations on the belief simplex. 
 
-Using $l(\pi, a, \theta)$ and Equation **(7)**, we can substitute into Equation **(4)** to yield
+Using $l(\pi, a, \theta)$ and (7), we can substitute into (4) to yield
 
 $$
 \begin{equation}
@@ -129,7 +129,7 @@ $$
 \end{equation}
 $$
 
-To demonstrate Equation **(8)** is piecewise linear and convex, we simply need to show that the bracketed quantity is piecewise linear and convex, since a maximum of a set of piecewise linear convex functions is itself piecewise linear and convex. First, note that for each $a$ and $\theta$, $l(\pi, a, \theta)$ is a finitely valued function of $\pi$. This, plus the fact that $V_{n-1}( \cdot )$ is assumed to be convex and the continuity of $T(\pi\|a,\theta)$, implies that $l(\pi, a, \theta)$ partitions the belief simplex into a finite number of regions such that $l$ is constant in that region, as in the figure above. Holding $a$ constant in $l(\pi, a, \theta)$, we can take the union of all different partitions defined by varying $\theta$ to create a new region; the inner bracketed quantity is then constant over each of the partitions within this region; we are taking the expectation over all possible measurements, essentially. The result is that the outer bracketed quantity in Equation **(8)** is piecewise linear over the belief simplex, with each different action $a$ contributing $K^{M}$ linear functions. $K$ is the number of $\alpha$-vectors at time step $n-1$ and and $M$ is the number of different possible measurements. While every $\alpha^{l(\pi, a, \theta) = k}(n - 1)$, $k = 1, 2, \ldots$ contributes new linear functions to Equation **(8)**, the majority of these regions (indexed by $k$) are **dominated** by the subset of vectors that are maximal. This will be important later on. By taking a maximum over $k$ in Equation **(7)**, we also ensure the convexity of the outer bracketed quantity in Equation **(8)**. Therefore, Equation **(8)** is in the desired form of Equation **(6)**, and the proof is complete. 
+To demonstrate (8) is piecewise linear and convex, we simply need to show that the bracketed quantity is piecewise linear and convex, since a maximum of a set of piecewise linear convex functions is itself piecewise linear and convex. First, note that for each $a$ and $\theta$, $l(\pi, a, \theta)$ is a finitely valued function of $\pi$. This, plus the fact that $V_{n-1}( \cdot )$ is assumed to be convex and the continuity of $T(\pi\|a,\theta)$, implies that $l(\pi, a, \theta)$ partitions the belief simplex into a finite number of regions such that $l$ is constant in that region, as in the figure above. Holding $a$ constant in $l(\pi, a, \theta)$, we can take the union of all different partitions defined by varying $\theta$ to create a new region; the inner bracketed quantity is then constant over each of the partitions within this region; we are taking the expectation over all possible measurements, essentially. The result is that the outer bracketed quantity in (8) is piecewise linear over the belief simplex, with each different action $a$ contributing $K^{M}$ linear functions. $K$ is the number of $\alpha$-vectors at time step $n-1$ and and $M$ is the number of different possible measurements. While every $\alpha^{l(\pi, a, \theta) = k}(n - 1)$, $k = 1, 2, \ldots$ contributes new linear functions to (8), the majority of these regions (indexed by $k$) are **dominated** by the subset of vectors that are maximal. This will be important later on. By taking a maximum over $k$ in (7), we also ensure the convexity of the outer bracketed quantity in (8). Therefore, (8) is in the desired form of (6), and the proof is complete. 
 
 ## Discussion
 
