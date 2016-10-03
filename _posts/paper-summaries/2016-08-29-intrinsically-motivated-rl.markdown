@@ -2,8 +2,11 @@
 layout: post
 title: Intrinsically Motivated Reinforcement Learning
 date: 2016-08-29 10:30 AM
-category: papersummaries
+category: paper-summaries
 paper_ref: Singh, et al., 2004
+redirect_from: 
+    - /papersummaries/2016/08/29/intrinsically-motivated-rl.html
+    - /paper_summaries/2016/08/29/intrinsically-motivated-rl.html
 ---
 
 [{{ page.paper_ref }}](http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2005_724.pdf)

@@ -10,3 +10,7 @@ github_username:  pemami4911
 
 # Build settings
 markdown: kramdown
+
+# Redirection
+gems:
+  - jekyll-redirect-from

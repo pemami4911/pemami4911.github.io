@@ -2,8 +2,11 @@
 layout: post
 title:	"Prioritized Experience Replay"
 date: 	2016-01-26 2:20 PM
-category: papersummaries
+category: paper-summaries
 paper_ref: Schaul, Quan, Antonoglou, Silver, 2016
+redirect_from: 
+    - /papersummaries/2016/01/26/prioritizing-experience-replay.html
+    - /paper_summaries/2016/01/26/prioritizing-experience-replay.html  
 ---
 
 <script type="text/javascript" async

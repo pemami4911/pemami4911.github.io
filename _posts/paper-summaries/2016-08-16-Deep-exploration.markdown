@@ -2,8 +2,11 @@
 layout: post
 title: "Deep Exploration via Bootstrapped DQN"
 date: 2016-08-16
-category: papersummaries
+category: paper-summaries
 paper_ref: Osband, et al., 2016
+redirect_from: 
+    - /papersummaries/2016/08/16/Deep-exploration.html
+    - /paper_summaries/2016/08/16/Deep-exploration.html    
 ---
 
 [{{ page.paper_ref }}](http://arxiv.org/pdf/1602.04621v3.pdf)
@@ -25,7 +28,7 @@ Another key component of the Bootstrapped DQN algorithm is the bootstrap mask. T
 
 ## Strengths
 
-The authors based their idea on sound statistical principles and conducted numerous experiments to back up their claims. Their results show that Bootstrapped DQN can learn faster (but not necessarily with higher long-term rewards) than state-of-the-art DQN. The authors also compare their work with Stadie, Levine, and Abeel's paper on Incentivizing Exploration in RL. See my previous post for [details](http://pemami4911.github.io/papersummaries/2016/01/22/incentivizing-exploraton-in-rl.html). The authors show that Bootstrapped DQN outperforms Stadie's methods, as Stadie's methods attempt the more ambitious task of learning a model of the task dynamics and using how well the agent has learned said model to inform the exploration. 
+The authors based their idea on sound statistical principles and conducted numerous experiments to back up their claims. Their results show that Bootstrapped DQN can learn faster (but not necessarily with higher long-term rewards) than state-of-the-art DQN. The authors also compare their work with Stadie, Levine, and Abeel's paper on Incentivizing Exploration in RL. See my previous post for [details](http://pemami4911.github.io/paper-summaries/2016/01/22/incentivizing-exploraton-in-rl.html). The authors show that Bootstrapped DQN outperforms Stadie's methods, as Stadie's methods attempt the more ambitious task of learning a model of the task dynamics and using how well the agent has learned said model to inform the exploration. 
 
 ## Weaknesses
 

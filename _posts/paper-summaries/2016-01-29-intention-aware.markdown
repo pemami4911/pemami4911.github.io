@@ -2,8 +2,11 @@
 layout: post
 title: "Intention-Aware Risk Estimation: Field Results"
 date:  2016-01-29 9:00 PM
-category: papersummaries
+category: paper-summaries
 paper_ref: Lefevre, Vasquez, Laugier, Ibanez-Guzman, 2015
+redirect_from:
+    - /papersummaries/2016/01/29/intention-aware.html
+    - /paper_summaries/2016/01/29/intention-aware.html
 ---
 [{{ page.paper_ref }}](https://5d4cfa3b-a-62cb3a1a-s-sites.googlegroups.com/site/stlefevre/Lefevre_ARSO_15.pdf?attachauth=ANoY7co6MtWJ5P60cdRkTvURboXJZ6O2hEVInCYPLqHZU_kuFkCuu1JRNd2p4aLm5aT4BSzIfz8LMN3S4TBZarCcir48nbbXrxHo5qTaS1Fwzkm1AEp_faxVlca3P7vTOF0WXUvptIjkdQFrFKHkOz3CIFqHLJF96Q59rTqD14uvPfbGn1XOF9ta3W3eTC0SDCrNJFqTQ7hJ62eMvVhcwiwCvcGOMf155w%3D%3D&attredirects=0)
 

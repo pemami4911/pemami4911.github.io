@@ -2,8 +2,11 @@
 layout: post
 title: "Asynchronous Methods for Deep Reinforcement Learning"
 date: 2016-07-30
-category: papersummaries
+category: paper-summaries
 paper_ref: Mnih, et al., 2016
+redirect_from: 
+    - /papersummaries/2016/08/02/A3C.html
+    - /paper_summaries/2016/08/02/A3C.html
 ---
 
 [{{ page.paper_ref }}](http://arxiv.org/pdf/1602.01783v1.pdf)

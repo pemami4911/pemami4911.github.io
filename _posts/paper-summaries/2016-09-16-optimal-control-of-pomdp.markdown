@@ -2,8 +2,11 @@
 layout: post
 title: The Optimal Control of Partially Observable Markov Processes Over a Finite Horizon
 date: 2016-09-16 6:00 PM
-category: papersummaries
+category: paper-summaries
 paper_ref: Sondik, et al., 1973
+redirect_from: 
+    - /papersummaries/2016/09/16/optimal-control-of-pomdp.html
+    - /paper_summaries/2016/09/16/optimal-control-of-pomdp.html
 ---
 
 <script type="text/x-mathjax-config">

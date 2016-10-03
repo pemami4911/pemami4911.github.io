@@ -2,8 +2,11 @@
 layout: post
 title: Dueling Network Architectures for Deep Reinforcement Learning
 date:  2016-01-28 11:00 PM
-category: papersummaries
+category: paper-summaries
 paper_ref: Wang, de Freitas, Lanctot, 2016
+redirect_from:
+    - /papersummaries/2016/01/28/dueling-networks.html
+    - /paper_summaries/2016/01/28/dueling-networks.html
 ---
 
 <script type="text/javascript" async

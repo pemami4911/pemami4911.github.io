@@ -2,8 +2,11 @@
 layout: post
 title: "Deep Residual Learning for Image Recognition"
 date: 2016-07-30
-category: papersummaries
+category: paper-summaries
 paper_ref: He, et al., 2015
+redirect_from: 
+    - /papersummaries/2016/07/30/ResNets.html
+    - /paper_summaries/2016/07/30/ResNets.html
 ---
 [{{ page.paper_ref }}](https://arxiv.org/pdf/1512.03385v1.pdf)
 

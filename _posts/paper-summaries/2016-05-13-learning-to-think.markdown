@@ -2,8 +2,11 @@
 layout: post
 title: "Building Machines That Learn and Think Like People"
 date: 2016-05-13
-category: papersummaries
+category: paper-summaries
 paper_ref: Lake, et al., 2016
+redirect_from: 
+    - /papersummaries/2016/05/13/learning-to-think.html
+    - /paper_summaries/2016/05/13/learning-to-think.html
 ---
 [{{ page.paper_ref }}](http://arxiv.org/pdf/1604.00289v2.pdf)
 
