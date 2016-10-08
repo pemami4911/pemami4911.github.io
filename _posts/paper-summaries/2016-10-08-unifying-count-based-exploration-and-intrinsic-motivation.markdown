@@ -31,8 +31,8 @@ This paper presents the following definitions and notation, along with theoretic
 
 1. $ \mathcal{X} := $ finite or countable alphabet, with sub-sequences of length $n$ denoted by $x_{1:n} \in \mathcal{X}^n $
 2. A *sequential density model* over $\mathcal{X}$ is a mapping from finite sub-sequences to probalitiy distributions over $\mathcal{X}$. Denote these distributions by $\rho_{n}(x) := \rho(x ; x_{1:n})$
-3. The *recoding probability* of a symbol $x$ is denoted by $\rho_{n}^{\prime} := \rho(x ; x_{1:n}x)$. That is, the probability assigned to $x$ by our sequential density model after observing a new occurence of $x$.
-4. $ \hat{N}(x) := $ is the pseudo-count function (and unknown)
+3. The *recoding probability* of a symbol $x$ is denoted by $\rho_{n}^{\prime} := \rho(x ; x_{1:n}x)$. That is, the probability assigned to $x$ by our sequential density model after observing a new occurence of $x$
+4. $ \hat{N}(x) := $ the pseudo-count function
 5. $ \hat{n} := $ the pseudo-count total
 
 ## Main Result
@@ -44,7 +44,7 @@ The authors relate the pseudo-count function and the pseudo-count total as follo
 $$
 \begin{equation}
 \rho_{n}(x) = \frac{\hat{N}(x)}{\hat{n}} \qquad\text{and}\qquad
-\rho_{n}^{\prime} = \frac{\hat{N}(x) + 1}{\hat{n} + 1}
+\rho_{n}^{\prime} = \frac{\hat{N}(x) + 1}{\hat{n} + 1}.
 \end{equation}
 $$
 
@@ -55,7 +55,7 @@ $$
 \hat{N}(x) = \frac{
 	\rho_{n}(x)(1 - \rho_{n}^{\prime}(x))
 }{
-	\rho_{n}^{\prime}(x) - \rho_{n}(x)
+	\rho_{n}^{\prime}(x) - \rho_{n}(x).
 }
 
 \end{equation}
@@ -67,7 +67,7 @@ The prediction gain is defined as
 
 $$
 \begin{equation}
-PG_{n}(x) := \log \rho_{n}^{\prime}(x) - \log \rho_{n}(x)
+PG_{n}(x) := \log \rho_{n}^{\prime}(x) - \log \rho_{n}(x).
 \end{equation}
 $$
 
@@ -75,7 +75,7 @@ For the information gain (IG) defined as the change in posterior w.r.t. the KL-d
 
 $$
 \begin{equation}
-IG_{n}(x) \le PG_{n}(x) \le \hat{N}(x)^{-1}
+IG_{n}(x) \le PG_{n}(x) \le \hat{N}(x)^{-1}.
 \end{equation}
 $$
 
