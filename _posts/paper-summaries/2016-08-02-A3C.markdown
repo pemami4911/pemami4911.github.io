@@ -13,12 +13,21 @@ redirect_from:
 
 ## Summary
 
-The authors presented a number of asynchronous DRL algorithms with the intention of developing RL agents that can be trained on CPUs. 
+The authors presented a number of asynchronous DRL algorithms with the intention of developing RL agents that can be trained on CPUs with multithreading. 
 The algorithms used multiple threads to run copies of the environment and generate uncorrelated sequences of training samples. 
 Parameters were then sent to a shared parameter server at regular intervals. Because this promotes non-stationarity for the sequences of SARSA tuples, experience replay is not necessarily needed.
 The implementations of RMSProp and Momentum SGD used by the authors employed a Hogwild!-inpsired lock free scheme for maximum efficiency. 
 A3C is the "best" agent that was presented in this paper. It is an asynchronous advantage actor-critic algorithm. It maintains an approximation of the
 policy, an estimate of the value function, and computes an "advantage" function and a variance-reducing baseline [Degris, et al. 2012](http://icml.cc/2012/papers/268.pdf). An entropy regularization term was also used to discourage premature convergence. 
+
+## Notes
+
+* Implemented 1-step Q-learning, 1-step SARSA, n-step Q-learning, and Advantage Actor-Critic
+* A benefit is that learning is stabilized without having to use experience replay
+* Reduction in training time that is roughly linear in the number of parallel actor-learners. **Is this good? Seems like we can do better.** The RL algorithms used are fairly data-inefficient. 
+* Not really a noticeable difference in performance between n-step Q-learning and 1-step, except on TORCS. 
+* A3C uses n-step lookahead as well
+
 
 ## Evidence 
 
@@ -31,6 +40,6 @@ Presenting the algorithms in pseudocode is very helpful to the reader. The autho
 ## Future Directions
 
 * How can we reduce/control the asymptotic variance of these temporal difference methods? Also, of the actor-critic method? (Need to research this topic more).
-* Incorprating experience replay (seems a bit self-contradictory)
 * Dueling Networks for the state value and advantage functions
 * Reducing over-estimation bias of Q-values (Double DQN, etc)
+* Try comparing with async Recurrent-DDPG? A3C seems similar to DDPG- difference is with the deterministic vs. stochastic gradient update.
