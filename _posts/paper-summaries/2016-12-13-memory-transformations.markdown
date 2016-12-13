@@ -17,6 +17,7 @@ The research question the authors answered was whether by shifting from an episo
 The authors implemented their agent using a novel neural network architecture that consisted of, in general, an episodic memory system, a schematic memory system, a critic to generate a TD-error. 
 
 The episodic memory system was:
+
 * a spatial encoder which took in the (x,y)-pair of the current location of the agent,
 * an autoencoder implemented as a 3-layer recurrent network
 * a network of place field units 
