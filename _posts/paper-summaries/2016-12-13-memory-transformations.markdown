@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Memory Transformations Enhances Reinforcement Learning in Dynamic Environments"
+date: 2016-12-13
+category: paper-summaries
+paper_ref: Santoro, Frankland, Richards, 2016
+---
+
+[{{ page.paper_ref }}](http://www.jneurosci.org/content/36/48/12228.full)
+
+## Summary
+
+The research question the authors answered was whether by shifting (i.e., a memory transformation) from an episodic to a "schematic", or long-term/gist-like, memory system, a reinforcement learning agent could learn to achieve its goals in a dynamic environment. The authors focused on 2D navigation tasks where the reward locations constantly changed, such that new reward locations were correlated in the short-term but where independent and sampled from a stable distribution in the long-term. I found it interesting that the authors claimed the real world is like this, and consequentially they staked a lot of the significance of their work on this fact. 
+
+The main conclusion they came to was that given the existence of a stable long-term distribution for reward location (or whatever random variable the agent is concerned with estimating a distribution for), the optimal strategy for an agent is to shift from utilizing episodic to schematic memories slowly. 
+
+The authors implemented their agent using a novel neural network architecture. They had an episodic network that consisted of a spatial encoder which took in the (x,y)-pair of the current location of the agent, an autoencoder implemented as a 3-layer recurrent network (roughly analagous to the CA3 region of the hippocampus), and a network of place field units (roughly analagous to the CA1 region of the hippocampus). The use of place field units was quite interesting; the idea behind this was to learn to associate activation patterns of place cells with specific locations within the environment where rewards were recently found. The output of the spatial encoder fed into the autoencoder, and the output of this fed into the place cells. "Retrieving" memory from the place cells was implemented as a fully-connected sigmoid layer.
+
+The schematic memory was implemented as a Restricted Boltzman Machine. The first layer was a direct projection of the place cells from the episodic network. The ultimate goal of the RBM was to learn a general statistical model of the reward locations. It was trained in an offline manner (i.e., while the agent was "at rest" between trials) by using random activity in the spatial encoder, and propagating that through to the RBM. This was curious, but apparently since they also had added a TD-prediction error to the episodic system via a critic, this was more biologically plausible than iid sampling from the episodic memory. 
+
+They were able to validate their hypothesis that switching between episodic and schematic memory strictly outperforms purely episodic or purely schematic for their dynamic environment. Unsurprisingly, when the reward locations were stationary, the purely episodic agent performed best.
+
+## Evidence 
+
+The authors did a lot of valuable experimentation to prove the efficacy of their approach. Depth over breadth w.r.t. experimentation is great, but I would like to see this applied to other dynamic environments. It is not easy to think of other cool applications of this off the top of my head besides foraging tasks. Perhaps instead of dynamic rewards, this could be applied to modeling of the dynamic behavior of adversial agents? 
+ 
+
+## Future Directions
+
+How would this compare with an LSTM- literally, a Long Short-Term Memory neural network? Can an LSTM learn to adapt to environments with with both short-term and long-term statistical patterns like this? 
