@@ -22,7 +22,7 @@ MathJax.Hub.Config({
 
 ## Summary
 
-### A Brief Description of TD-Lambda
+### A Brief Description of TD($\lambda$)
 
 In TD($\lambda$), a parameterized linear function approximator is used to represent the value function. 
 The parameter update for vector $\theta_{t}$ is:
@@ -35,7 +35,8 @@ $$
 \end{equation}
 $$
 
-It is important that $V_{t}$ be linear in the parameter vector $\theta_{t}$ and $\lambda \neq 0$ so that $\nabla_{\theta_{t}} V_{t}(x_k)$ does not depend on $\theta_{t}$. This allows for an efficient, recursive algorithm to be derived to compute the sum at the end of Equation (1). 
+$\alpha_{\eta(x_{t})}$ is the step-size parameter, and $\eta(x_{t})$ is the number of transitions from state $x_{t}$ up to time step $t$.  
+It is important that $V_{t}$ be linear in the parameter vector $\theta_{t}$- and if $\lambda \neq 0$- $\nabla_{\theta_{t}} V_{t}(x_k)$ does not depend on $\theta_{t}$. This allows for an efficient, recursive algorithm to be derived to compute the sum at the end of Equation (1). 
 
 {%
     include image.html
@@ -45,9 +46,9 @@ It is important that $V_{t}$ be linear in the parameter vector $\theta_{t}$ and 
 
 Daya and Sejnowski (1994) proved parameter convergence with probability 1 under these conditions for TD($\lambda$) applied to absorbing Markov chains in a episodic-setting (i.e., offline).
 
-Bradtke (1994) introduced a normalized version of TD(0) to solve instabilities in the learning algorithm caused by the size of the input vectors $\phi_{x}$
+Bradtke (1994) introduced a normalized version of TD(0) (called NTD(0)) to solve instabilities in the learning algorithm caused by the size of the input vectors $\phi_{x}$
 
-### LSTD
+### Least-Squares Temporal-Difference Learning
 
 The general problem consists of a system with inputs $\hat \omega_{t} = \omega_{t} + \zeta_{t}$ where $\zeta_{t}$ is the input observation noise at time $t$. For a linear function approximator $\Psi$, we have 
 
@@ -55,7 +56,7 @@ $$
 \begin{align}
 
 \psi_{t} &= \Psi(\hat \omega_{t} - \zeta_{t}) + \eta_{t} \nonumber \\
-         &= \hat \omega_{t}^{\intercal} \theta^{*} - \zeta_{t}^{\intercal} + \eta_{t}
+         &= \hat \omega_{t}^{\intercal} \theta^{*} - \zeta_{t}^{\intercal} \theta^{*} + \eta_{t}
 
 \end{align}
 $$
@@ -70,13 +71,13 @@ J_{t} = \frac{1}{t} \sum_{k=1}^{t} [ \psi_{k} - \omega_{k}^{\intercal} \theta_{t
 \end{equation}
 $$
 
-and the $t^{th}$ estimate of $\theta_{*}$ is
+and the $t^{th}$ estimate of $\theta^{*}$ is
 
 $$
 \begin{equation}
 \DeclareMathOperator*{\argmin}{\arg\!\min}
 
-\theta^{*} = \argmin_{\theta_{t}} J_{t} 
+\hat \theta^{*}_{t} = \argmin_{\theta_{t}} J_{t} 
 \end{equation}
 $$
 
@@ -85,7 +86,7 @@ We introduce an *instrumental variable* $\rho_{t}$, which is a vector that is co
 $$
 \begin{equation}
 
-\theta_{t} = \bigg [ \frac{1}{t} \sum_{k=1}^{t} \rho_{k}\hat\omega_{k}^{\intercal} \bigg ]^{-1} \bigg [ \frac{1}{t} \sum_{k=1}^{t} \rho_{k} \psi_{k} \bigg].
+\hat \theta^{*}_{t} = \bigg [ \frac{1}{t} \sum_{k=1}^{t} \rho_{k}\hat\omega_{k}^{\intercal} \bigg ]^{-1} \bigg [ \frac{1}{t} \sum_{k=1}^{t} \rho_{k} \psi_{k} \bigg].
 
 \end{equation}
 $$
@@ -105,7 +106,7 @@ In other words, we can use $\phi_{x}$ as the instrumental variable to re-write E
 $$
 \begin{equation}
 
-\theta_{t} = \big[ \frac{1}{t} \sum_{k=1}^{t} \phi_{k} (\phi_{k} - \gamma \phi_{k+1})^{\intercal}\big]^{-1} \big [ \frac{1}{t} \sum_{k=1}^{t} \phi_{k} r_{k} \big]
+\hat \theta^{*}_{t} = \big[ \frac{1}{t} \sum_{k=1}^{t} \phi_{k} (\phi_{k} - \gamma \phi_{k+1})^{\intercal}\big]^{-1} \big [ \frac{1}{t} \sum_{k=1}^{t} \phi_{k} r_{k} \big]
 
 \end{equation}
 $$
@@ -171,7 +172,7 @@ $$
 \end{align}
 $$
 
-Substituting this into Equation (6) we have 
+Substituting this into Equation (7) we have 
 
 $$
 \begin{align}
@@ -195,10 +196,10 @@ Note that when $rank(\Phi) = n \lt m$, TD($\lambda$), NTD($\lambda$), and RLSTD 
 
 ## Takeaways
 
-RLSTD (and LSTD algorithms in general) extract more information from each episode. As shown in this paper, even on simple randomly generated Markov Chains, RLSTD produces parameter estimates with significantly lower variance and fast convergence rates. Also, the LSTD algorithms don't have tricky hyperparameters to tune, whereas the TD($\lambda$) algorithms do.
+RLSTD (and LSTD algorithms in general) extract more information from each episode. As shown in this paper, even on simple randomly generated Markov Chains, RLSTD produces parameter estimates with significantly lower variance and faster convergence rates than TD($\lambda$) and NTD($\lambda$). Also, the LSTD algorithms don't have tricky hyperparameters to tune, whereas the TD($\lambda$) algorithms do.
 
 In the experiments in this paper, RLSTD was not sensitive to the initial guess of $\theta_{t}$. It is unclear whether this is always true. On the other hand, TD($\lambda$) is sensitive to the initial guess (obviously, bad guesses = bad performance). 
 
-Standard LSTD algorithms require linear function approximators and fixed size feature vectors. These are not realistic for high-dimensional spaces and value functions on those spaces, which may be nonlinear. There is a major need for algorithms with nonlinear function approximators that explicitly handle the TD-error. 
+Standard LSTD algorithms require linear function approximators and fixed size feature vectors. These are usually not realistic for high-dimensional spaces and value functions on those spaces. The value function may be nonlinear, and obtaining a feature vector may be difficult or impossible. There is a major need for TD algorithms with nonlinear function approximators and automatic feature extraction that explicitly attempt to keep the variance of the TD-error small. 
 
 Some future reading I need to do is on kernel-based LSTD algorithms, that replace the fixed-size feature vector with a kernel.
