@@ -8,14 +8,8 @@ Welcome to the home of the **UF Machine Learning Reading Group**. You can reques
 
 In Spring 2017, we are meeting bi-weekly on Thursdays at 4:30 PM in CSE 301J. 
 
-# Past Meetings
+# Meetings
 
 {% include ml-meetings.html %}
-
-# Next Meeting
-
-* February 2nd, 2017
-* Presenter: Francesco Pittaluga
-* Paper: TBA
 
 Check back here for updates on reading material for future meetings. 
