@@ -259,7 +259,31 @@ pre {
     }
 }
 
+/**
+ * Tables
+ */
+ #striped-table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
 
+#striped-table td, #striped-table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#striped-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#striped-table tr:hover {background-color: #ddd;}
+
+#striped-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
 
 /**
  * Icons
@@ -379,8 +403,8 @@ pre {
   font-family: 'Josefin Sans';
 }
 .exclamationMark {
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 .site-navigation {
   color: #aaa;
