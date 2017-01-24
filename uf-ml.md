@@ -12,4 +12,5 @@ In Spring 2017, we are meeting bi-weekly on Thursdays at 4:30 PM in CSE 301J.
 
 {% include ml-meetings.html %}
 
-Check back here for updates on reading material for future meetings. 
+<br>
+*Check back here for updates on reading material for future meetings.* 
