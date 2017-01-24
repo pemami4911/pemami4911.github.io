@@ -13,7 +13,7 @@
 
     <a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
     
-    {% if forloop.index != 6 %}
+    {% if forloop.index < 6 %}
         <span class="exclamationMark">/</span>
     {% endif %}
 
