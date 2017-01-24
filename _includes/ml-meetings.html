@@ -14,7 +14,14 @@
 		<tr>
 			<td class="date">{{ post.date | date: '%B %d, %Y' }}</td>
 			<td class="presenters">{{ post.presenters }}</td>
-			<td class="papers">{{ post.papers }}</td>
+			<td class="papers">
+				{% for paper in post.papers %}
+				<a href="{{ post.paperurls[forloop.index0] }}">
+					{{ paper }}{% if forloop.index < forloop.length %}, {% endif %}
+				</a>
+				{% endfor %}
+			</td>
+				
 		</tr>
 	{% endfor %}
 	</tbody>
