@@ -15,11 +15,15 @@
 			<td class="date">{{ post.date | date: '%B %d, %Y' }}</td>
 			<td class="presenters">{{ post.presenters }}</td>
 			<td class="papers">
-				{% for paper in post.papers %}
-				<a href="{{ post.paperurls[forloop.index0] }}">
-					{{ paper }}{% if forloop.index < forloop.length %}, {% endif %}
-				</a>
-				{% endfor %}
+				{% if post.papers.first %}
+					{% for paper in post.papers %}
+						<a href="{{ post.paperurls[forloop.index0] }}">
+							{{ paper }}{% if forloop.index < forloop.length %}, {% endif %}
+						</a>
+					{% endfor %}
+				{% else %}
+					<a href="{{ post.paperurls }}">{{ post.paper }}</a>
+				{% endif %}
 			</td>
 				
 		</tr>
