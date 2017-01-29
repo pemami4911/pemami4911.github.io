@@ -2,6 +2,7 @@
 layout: page
 title: UF ML Reading Group
 permalink: /uf-ml/
+front: true
 ---
 
 Welcome to the home of the **UF Machine Learning Reading Group**. You can request to join our Facebook group [here](https://www.facebook.com/groups/1687156571600928/). 

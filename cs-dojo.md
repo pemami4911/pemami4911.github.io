@@ -2,29 +2,29 @@
 layout: page
 title: CS-Dojo
 permalink: /cs-dojo/
+front: true
 ---
 
-<div class="home">
-  {% for post in site.categories.lecture-notes %}
-  <div class="post postContent">
-    <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-    </div>
-    <div class="postDay">
-      {{post.tag}}
-    </div>
-    <div class="postTitle">
-    <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-    </div>
-    <div class="postExt">
-   {{ post.content | strip_html | truncatewords:20}}
-    </div>
-    <br>
+# Reading
 
-  </div>
+{%  
+  include reading.html
+  img="https://secure-ecsd.elsevier.com/covers/80/Tango2/large/9780124104099.jpg"
+  url="http://booksite.elsevier.com/9780124104099/"
+  title="Programming Language Pragmatics: 4th Edition"
+  author="Michael L. Scott"
+  description="The study of programming languages design and implementation. These are my notes from UF's CAP5556."
+  notes="/cs-dojo/plp"
+%}
 
+{%
+  include reading.html
+  img="/assets/NP/nonlincover.jpg"
+  url="http://www.athenasc.com/nonlinbook.html"
+  title="Nonlinear Programming: 3rd Edition"
+  author= "Dimitri P. Bertsekas"
+  description="In-depth study on continuous (mainly non-convex) optimization."
+  notes="/cs-dojo/nonlinear-programming.pdf"
+%}
 
-  {% endfor %}
-</div>
-
-
-
+	

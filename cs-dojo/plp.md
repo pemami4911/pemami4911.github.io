@@ -1,12 +1,12 @@
 ---
-layout: page
-title: Blog
-permalink: /blog/
-front: true
+layout: default
+title: Programming Language Principles
+permalink: /cs-dojo/plp/
 ---
+<br>
 
 <div class="home">
-  {% for post in site.categories.blog %}
+  {% for post in site.categories.lecture-notes %}
   <div class="post postContent">
     <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
     </div>
@@ -17,7 +17,7 @@ front: true
     <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
     </div>
     <div class="postExt">
-   {{ post.content | strip_html | truncatewords:20}}
+   {{ post.keywords }}
     </div>
     <br>
 
@@ -26,6 +26,3 @@ front: true
 
   {% endfor %}
 </div>
-
-
-

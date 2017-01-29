@@ -81,7 +81,6 @@ body {
 }
 
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -705,6 +704,26 @@ img {
     padding: 3px;
     border: 2px solid #eeeeee;
     max-width: 100%;
+}
+
+.book-container {
+    display: flex;  
+}
+
+.book-image {
+    width: 30%;
+    margin-right: 5px;
+}
+
+.book-info {
+    width: 70%;
+}
+
+.reading-description {
+    font-size: 20px;
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
 }
 
 .resp-sharing-button__link,

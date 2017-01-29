@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
+front: true
 ---
 
 I'm a first year Computer Science PhD student at the University of Florida. Contact me at: pemami at ufl dot edu. 

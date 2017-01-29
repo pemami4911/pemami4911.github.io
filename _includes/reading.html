@@ -1,0 +1,20 @@
+<div class="book-container">
+	<div class="book-image">
+		<a href="{{ include.url }}">
+			<img src="{{ include.img }}" alt="{{ include.title }}"/>	
+		</a>
+	</div>
+	<div class="book-info">
+		{% if include.title %}
+			<h3>{{ include.title }}</h3>
+		{% endif %}
+		{% if include.author %}
+			<p>{{ include.author }}</p>
+		{% endif %}
+		{% if include.description %}
+			<a href="{{ include.notes }}">
+			<h4>{{ include.description }}</h4>
+			</a>
+		{% endif %}
+	</div>	
+</div>
