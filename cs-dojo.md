@@ -1,11 +1,23 @@
 ---
 layout: page
-title: CS-Dojo
+title: CS Dojo
 permalink: /cs-dojo/
 front: true
 ---
 
-# Reading
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } },
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+ 
+<h1>$\textbf{C}$omputer $\textbf{S}$cience Dojo</h1>
+<br>
 
 {%  
   include reading.html
