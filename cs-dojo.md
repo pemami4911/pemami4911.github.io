@@ -17,7 +17,7 @@ MathJax.Hub.Config({
 </script>
  
 <h1>$\textbf{C}$omputer $\textbf{S}$cience Dojo</h1>
-<br>
+---
 
 {%  
   include reading.html
@@ -28,7 +28,7 @@ MathJax.Hub.Config({
   description="The study of programming languages design and implementation. These are my notes from UF's CAP5556."
   notes="/cs-dojo/plp"
 %}
-
+---
 {%
   include reading.html
   img="/assets/NP/nonlincover.jpg"

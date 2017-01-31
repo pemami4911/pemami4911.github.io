@@ -707,15 +707,16 @@ img {
 }
 
 .book-container {
-    display: flex;  
+    display: flex; 
+    margin-bottom: 10px; 
 }
 
 .book-image {
     width: 30%;
-    margin-right: 5px;
 }
 
 .book-info {
+    margin-left: 20px;
     width: 70%;
 }
 
