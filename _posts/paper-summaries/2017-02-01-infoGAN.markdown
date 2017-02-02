@@ -32,7 +32,7 @@ In turn, this allows the GANs to learn, in a completely unsupervised manner, int
 
 2. What justifies moving $f(x,y)$ into the third integral in Eq. 7?
 
-3. What other potential applications of GANs are there besides generated realistic samples from $p_{data}$. How can it be used for general density estimation? (This seems like a *big* question)
+3. What other potential applications of GANs are there besides generating realistic samples from $p_{data}$. How can it be used for general density estimation? (This seems like a *big* question)
 
 4. Are the features learned by the conv nets any different between InfoGAN and GAN? (What is the potential importance of this?)
 
