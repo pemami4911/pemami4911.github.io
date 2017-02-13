@@ -22,11 +22,15 @@ MathJax.Hub.Config({
 
 ## Summary
 
-In generative modeling, there is a trade-off between maximum-likelihood approaches that produce a moment-matching distribution that tries to "cover" all the modes of the unknown data distribution. This leads to a solution with probability mass in parts of the space that have negligible probability under the true distribution. In contrast, it may be preferable to estimate this unknown data distribution by "filling in" as many modes as possible; this effectively allows one to produce more realistic samples but with lower diversity. 
+In generative modeling, there is a trade-off between maximum-likelihood approaches that produce a moment-matching distribution that try to "cover" all the modes of the unknown data distribution as opposed to approaches that estimate the unknown data distribution by "filling in" as many modes as possible. The latter effectively allows one to produce more realistic samples but with lower diversity, while the former leads to a solution with probability mass in parts of the space that have negligible probability under the true distribution. 
+
+Hence, the authors make the claim that for imitation learning and generative modeling, having both a "discriminator" as well as a "generator" encourages mode-seeking behavior. They show a connection between IRL and GANs by theoretically motivating an optimal IRL discriminator that learns the optimal cost function, and an optimal IRL generator that is able to generate high-quality trajectories. The key here is formulating the discriminator so that it only needs to estimate a single distribution (it is assumed that one can sample from the generator density, e.g., it is fixed), and this single distribution is modeled as a Boltzmann distribution with a parameterized energy function.
+
+Since energy-based models are a more general form of the Maximum Entropy IRL problem, the authors also were able to show a direct connection between GANs and EBMs. Since the primary challenge of training EBMs is estimating the partition function from the Boltzmann distribution, it is shown how GANs can be used to derive unbiased estimates. Specifically, the generator is trained to produce samples with minimal energy from the data, and the discriminator acts as parameterized energy function whose objective is to maximize the log likelihood of the data. From the two learned distributions, the partition function can be estimated.     
 
 ## Notes
 
-In Section 2.3.2. Guided Cost Learning, we have the following importance sampling formulation of the cost function:
+In Section 2.3.2. Guided Cost Learning, we have the following importance sampling formulation of the cost function, where the data is modeled as a Boltzmann distribution:
 
 $$
 \begin{align}
@@ -39,6 +43,7 @@ $$
 \end{align}
 $$
 
-We want our biased distribution $q(\tau) \propto \| \exp(-c_{\theta})(\tau)) \| = \exp(-c_{\theta}(\tau)). 
+We want our biased distribution $q(\tau) \propto \| \exp(-c_{\theta})(\tau)) \| = \exp(-c_{\theta}(\tau))$. 
 
 ## Questions
+
