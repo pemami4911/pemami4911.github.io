@@ -45,5 +45,20 @@ $$
 
 We want our biased distribution $q(\tau) \propto \| \exp(-c_{\theta})(\tau)) \| = \exp(-c_{\theta}(\tau))$. 
 
-## Questions
+Importance sampling estimates suffer from high variance if the sampling distribution $q$ is biased. In Guided Cost Learning, to ensure $q$ samples from all trajectories $\tau$ with high values of $\exp(-c_{\theta}(\tau))$, the demonstration data samples (low cost as result of IRL objective) are mixed with the generated samples from $q$. Hence, $q$ is replaced with $\mu = \frac{1}{2}p + \frac{1}{2}q$ in the cost function.
 
+In Section 3, the author's theoretical argument for comparing GANs and IRL begins by assuming that the discriminator can be written as 
+
+$$
+D_{\theta}(\tau) = \frac{\frac{1}{Z} \exp (-c_{\theta}(\tau))}{\frac{1}{Z} \exp (-c_{\theta}(\tau)) + q(\tau)}
+$$
+
+To see that is similar to the standard sigmoid binary classification loss, recall the identity
+
+$$
+f(x) = \frac{1}{1 + \exp(-x)} = \frac{\exp(x)}{1 + \exp(x)}.
+$$
+
+Let $\log Z$ be the bias of the sigmoid and notice that $\log q(\tau)$ is subtracted from the input. 
+
+## Questions
