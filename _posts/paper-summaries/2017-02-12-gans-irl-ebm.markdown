@@ -28,6 +28,12 @@ Hence, the authors make the claim that for imitation learning and generative mod
 
 Since energy-based models are a more general form of the Maximum Entropy IRL problem, the authors also were able to show a direct connection between GANs and EBMs. Since the primary challenge of training EBMs is estimating the partition function from the Boltzmann distribution, it is shown how GANs can be used to derive unbiased estimates. Specifically, the generator is trained to produce samples with minimal energy from the data, and the discriminator acts as parameterized energy function whose objective is to maximize the log likelihood of the data. From the two learned distributions, the partition function can be estimated.     
 
+No experiments are provided in this paper, so the efficacy of using GANs for IRL remain to be seen. 
+
+Guided Cost Learning Demo: 
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/hXxaepw0zAw" frameborder="0" allowfullscreen></iframe>
+
 ## Notes
 
 In Section 2.3.2. Guided Cost Learning, we have the following importance sampling formulation of the cost function, where the data is modeled as a Boltzmann distribution:
@@ -61,4 +67,11 @@ $$
 
 Let $\log Z$ be the bias of the sigmoid and notice that $\log q(\tau)$ is subtracted from the input. 
 
+The author's argument continues by showing that this specific form of a GAN optimizes the same thing that MaximumEnt IRL does (pg. 6).
+
 ## Questions
+
+* What problems might arise when applying GANs to IRL? 
+* Being able to compute the generator's density and evaluate it cheaply enables this method, since you can then realistically learn an unbiased estimate of the partition function. What happens when the partition function remains biased?
+* In Guided Cost Learning, what form does $q(\tau)$ take? It attaches a probability to a trajectory, so it has the same form as a the demonstration distribution $p$?
+* The GAN training procedure minimizes the [Jensen-Shannon divergence](https://en.wikipedia.org/wiki/Jensen%E2%80%93Shannon_divergence), which works sort of like the reverse-KL divergence. However, GANs don't try to fit as many modes of the data distribution as the model is able to- see [Section 3.2.5](https://arxiv.org/pdf/1701.00160.pdf) of Goodfellow's 2016 NIPS tutorial. In fact, this is in part a symptom of the mode collapse problem that GANs have. So, does training Guided Cost Learning/EBMs with GANs make them susceptible to this problem? The authors don't *really* discuss this, but it may only become apparent in practice. The motivation for the mixed sampling distribution for the importance sampling formulation seems to be realted to this. 
