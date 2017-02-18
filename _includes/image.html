@@ -6,7 +6,7 @@ Source: https://superdevresources.com/image-caption-jekyll/
 {% if include.url %}
 <a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
 {% endif %}
-<img src="{{ include.img }}" alt="{{ include.title }}"/>
+<img src="{{ include.img }}" alt="{{ include.title }}" width="{{ include.width}}" height="{{ include.width }}"/>
 {% if include.url %}
 </a>
 {% endif %}
