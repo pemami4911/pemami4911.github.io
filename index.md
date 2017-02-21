@@ -4,7 +4,9 @@ title: About Me
 front: true
 ---
 
-I'm a first year Computer Science PhD student at the University of Florida under [Sanjay Ranka](https://sites.google.com/site/sanjayranka/) in UF's [Transportation Institute](http://www.transportation.institute.ufl.edu/). My interests lie broadly within machine learning. Currently, I am conducting research on sensor fusion, stochastic optimization, and stochastic control for intelligent traffic intersection management. 
+I'm a Computer Science PhD student at the University of Florida under [Sanjay Ranka](https://sites.google.com/site/sanjayranka/). I work with a multi-disciplinary team in UF's [Transportation Institute](http://www.transportation.institute.ufl.edu/) to design intelligent traffic control systems for urban intersections that support both autonomous and conventional vehicles. My interests lie broadly within theoretical and applied machine learning; my research covers topics in sensor fusion, stochastic optimization, and stochastic control.
+
+I'm also a [McKnight Fellow](http://fefonline.org/mdf.html), and I'm always looking for better ways to promote diversity and inclusivity in the field of computing. 
 
 <br>
 
