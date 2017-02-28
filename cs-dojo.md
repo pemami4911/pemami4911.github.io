@@ -39,4 +39,5 @@ MathJax.Hub.Config({
   notes="/cs-dojo/nonlinear-programming.pdf"
 %}
 
+I'll be posting my solutions to various exercises in Nonlinear Programming [on Github](https://github.com/pemami4911/Nonlinear-Programming-Exercises).
 	
