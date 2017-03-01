@@ -48,7 +48,7 @@ $$
 \end{align}
 $$
 
-We want our biased distribution $q(\tau) \propto \| \exp(-c_{\theta})(\tau)) \| = \exp(-c_{\theta}(\tau))$. 
+We want our biased distribution $q(\tau) \propto \| \exp(-c_{\theta})(\tau)) \| = \exp(-c_{\theta}(\tau))$. This is the optimal importance sampling distribution that produces the importance sampling estimate of some function of a random variable $f(X)$ with minimal variance. It can be shown that $q*(x) \propto f(x) * p(x)$.
 
 Importance sampling estimates suffer from high variance if the sampling distribution $q$ is biased. In Guided Cost Learning, to ensure $q$ samples from all trajectories $\tau$ with high values of $\exp(-c_{\theta}(\tau))$, the demonstration data samples (low cost as result of IRL objective) are mixed with the generated samples from $q$. Hence, $q$ is replaced with $\mu = \frac{1}{2}p + \frac{1}{2}q$ in the cost function.
 
