@@ -6,15 +6,31 @@ layout: default
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline"><a class="post-title-link"  href="{{page.url}}">{{ page.title }}</a></h1>
   <center>  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+    
     {% if page.author %}
      <div class="">
        <center><p ><strong><span class="authorKeyword">Author</span><span class="small-site-title"> <h2 style="letter-spacing: 3px !important;
        text-transform: uppercase !important;">{{page.author}}</h2></span></strong></p></center>
 
      </div>
-     {% endif %}
+    {% endif %}
 
-     {% include sharing-buttons.html %}
+    {% include sharing-buttons.html %}
+
+    <div class="PageNavigation">
+      {% if page.lecture-notes_next %}
+         <a class="next" href="{{page.lecture-notes_next.url}}"> &laquo; {{page.lecture-notes_next.title}}</a>
+      {% endif %}
+      {% if page.lecture-notes_prev %}
+         <a class="prev" href="{{page.lecture-notes_prev.url}}">{{page.lecture-notes_prev.title}} &raquo;</a>
+      {% endif %}
+      {% if page.paper-summaries_next %}
+         <a class="next" href="{{page.paper-summaries_next.url}}"> &laquo; {{page.paper-summaries_next.title}}</a>
+      {% endif %}
+      {% if page.paper-summaries_prev %}
+         <a class="prev" href="{{page.paper-summaries_prev.url}}">{{page.paper-summaries_prev.title}} &raquo;</a>
+      {% endif %}
+    </div>
 
    </center>
   </header>
@@ -23,5 +39,15 @@ layout: default
     {{ content }}
   </div>
 
-
+  <!--
+  <div class="PageNavigation">
+     {% if page.previous.url %}
+       <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+     {% endif %}
+     {% if page.next.url %}
+       <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+     {% endif %}
+  </div>
+  -->
+  
 </article>

@@ -8,7 +8,7 @@ redirect_from:
     - /papersummaries/2016/01/21/how-to-write-a-great-research-paper.html
     - /paper_summaries/2016/01/21/how-to-write-a-great-research-paper.html
 ---
-
+---
 A 30 minute [lecture](https://www.youtube.com/watch?v=g3dkRsTqdDA) on how to write a <b>great</b> research paper 
 
 ## What I Learned ##

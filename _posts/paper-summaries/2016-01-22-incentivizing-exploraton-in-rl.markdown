@@ -8,7 +8,7 @@ redirect_from:
     - /papersummaries/2016/01/22/incentivizing-exploration-in-rl.html
     - /paper_summaries/2016/01/22/incentivizing-exploration-in-rl.html
 ---
-
+---
 [{{ page.paper_ref }}](http://arxiv.org/abs/1507.00814)
 
 ## Summary ##

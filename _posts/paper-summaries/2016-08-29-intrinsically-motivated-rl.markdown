@@ -8,7 +8,7 @@ redirect_from:
     - /papersummaries/2016/08/29/intrinsically-motivated-rl.html
     - /paper_summaries/2016/08/29/intrinsically-motivated-rl.html
 ---
-
+---
 [{{ page.paper_ref }}](http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2005_724.pdf)
 
 ## Summary

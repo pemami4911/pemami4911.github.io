@@ -5,7 +5,7 @@ date: 2016-12-13
 category: paper-summaries
 paper_ref: Santoro, Frankland, Richards, 2016
 ---
-
+---
 [{{ page.paper_ref }}](http://www.jneurosci.org/content/36/48/12228.full)
 
 ## Summary

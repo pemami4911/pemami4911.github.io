@@ -484,6 +484,33 @@ pre {
     }
   }
 }
+
+/**
+ * Page Navigation
+ */
+ .PageNavigation {
+  font-size: 18px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: center;
+  float: left;
+}
+
+.PageNavigation .prev {
+  text-align: center;
+  float: right;
+}
+
 /**
  * Site footer
  */
