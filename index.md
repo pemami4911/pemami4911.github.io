@@ -6,7 +6,7 @@ front: true
 
 I'm a Computer Science PhD student at the University of Florida under [Sanjay Ranka](https://sites.google.com/site/sanjayranka/). I work with a multi-disciplinary team in UF's [Transportation Institute](http://www.transportation.institute.ufl.edu/) to design intelligent traffic control systems for urban intersections that support both autonomous and conventional vehicles. My interests lie broadly within theoretical and applied machine learning; my research covers topics in sensor fusion, stochastic optimization, and stochastic control.
 
-I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctoral Fellowship program is designed to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
+I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
 
 <br>
 
