@@ -5,7 +5,7 @@ date: 2016-12-20
 category: paper-summaries
 paper_ref: Mirowski, et. al., 2016
 ---
-
+---
 [{{ page.paper_ref }}](https://arxiv.org/pdf/1611.03673v2.pdf)
 
 ## Summary

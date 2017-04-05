@@ -8,6 +8,7 @@ redirect_from:
     - /papersummaries/2016/01/29/multipolicy-decision-making.html
     - /paper_summaries/2016/01/29/multipolicy-decision-making.html
 ---
+---
 [{{ page.paper_ref }}](http://www.roboticsproceedings.org/rss11/p43.pdf)
 
 ## Summary ##

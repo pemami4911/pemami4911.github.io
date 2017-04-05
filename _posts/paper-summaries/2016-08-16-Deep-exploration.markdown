@@ -8,7 +8,7 @@ redirect_from:
     - /papersummaries/2016/08/16/Deep-exploration.html
     - /paper_summaries/2016/08/16/Deep-exploration.html    
 ---
-
+---
 [{{ page.paper_ref }}](http://arxiv.org/pdf/1602.04621v3.pdf)
 
 ## Summary 

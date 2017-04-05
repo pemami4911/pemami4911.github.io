@@ -5,7 +5,7 @@ permalink: /uf-ml/
 front: true
 ---
 
-Welcome to the home of the **UF Machine Learning Reading Group**. You can request to join our Facebook group [here](https://www.facebook.com/groups/1687156571600928/). 
+Welcome to the **UF Machine Learning Reading Group**. We now have a [Google Group](https://groups.google.com/forum/#!forum/uf-ml-reading-group) where we make announcements and hold discussions about papers.
 
 In Spring 2017, we are meeting bi-weekly on **Thursdays at 4:30 PM in CSE 404**. 
 

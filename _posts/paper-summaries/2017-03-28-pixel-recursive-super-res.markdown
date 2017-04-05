@@ -5,6 +5,7 @@ date: 2017-03-28
 category: paper-summaries
 paper_ref: Dahl, Norouzi, Shlens, 2017
 ---
+
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
   TeX: { equationNumbers: { autoNumber: "AMS" } },
@@ -31,5 +32,5 @@ This paper proposes a novel neural architecture for solving the super resolution
 ## General commentary
 
 * Dictionary-inspired methods that search a bank of pre-learned filters on images and selecting appropriate patches by an efficient hashing mechanism has comparable performance
-* PixelCNN is a stochastic model that provides an explicit model for $\log p(y_i | x, y_{< i})$. However, the auto-regressive distribution largely ignores the conditioning on the low-resoultion image without explicitly separating the network into two components, one being a "conditioning" network.
+* PixelCNN is a stochastic model that provides an explicit model for $ \log p( y_i \| x, y_{< i}) $. However, the auto-regressive distribution largely ignores the conditioning on the low-resoultion image without explicitly separating the network into two components, one being a "conditioning" network.
 * Had to add an extra term to the loss, the cross-entropy between the conditioning network's predictions via a softmax over the `K` possible values that the `i'th` output pixel can take and the ground truth labels

@@ -8,7 +8,7 @@ redirect_from:
     - /papersummaries/2016/08/11/Coop-Inverse-RL.html
     - /paper_summaries/2016/08/11/Coop-Inverse-RL.html
 ---
-
+---
 [{{ page.paper_ref }}](http://arxiv.org/pdf/1606.03137v2.pdf)
 
 ## Summary
