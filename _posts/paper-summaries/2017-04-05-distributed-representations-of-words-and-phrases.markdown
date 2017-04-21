@@ -22,7 +22,7 @@ MathJax.Hub.Config({
 
 ## Skip-gram model
 
-Objective is to find word representations that are useful for predicting the surrounding words in a sentence or a document. Given a sequence of words $w_1, w_2, ..., w_T$, the Skip-gram model aimts to max the average log probability
+Objective is to find word representations that are useful for predicting the surrounding words in a sentence or a document. Given a sequence of words $w_1, w_2, ..., w_T$, the Skip-gram model aims to max the average log probability
 
 $$
 \frac{1}{T} \sum_{t=1}^{T} \sum_{-c \le j \le c, j \neq 0} \log p(w_{t+j} | w_t)
