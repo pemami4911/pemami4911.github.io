@@ -22,7 +22,7 @@ MathJax.Hub.Config({
 
 ## Definitions
 
-** Homology** is a general way of associating a sequence of algebraic objects such as abelian groups or modules to other mathematical objects such as topological spaces. Homology itself was developed as a way to analyse and classify manifolds according to their cycles – closed loops (or more generally submanifolds) that can be drawn on a given n dimensional manifold but not continuously deformed into each other [1](https://en.wikipedia.org/wiki/Homology_(mathematics)#Construction_of_homology_groups).
+**Homology** is a general way of associating a sequence of algebraic objects such as abelian groups or modules to other mathematical objects such as topological spaces. Homology itself was developed as a way to analyse and classify manifolds according to their cycles – closed loops (or more generally submanifolds) that can be drawn on a given n dimensional manifold but not continuously deformed into each other [1](https://en.wikipedia.org/wiki/Homology_(mathematics)#Construction_of_homology_groups).
 
 **Connectivity information** is information concerning the loops and higher dimensional analogues in a space. 
 
@@ -30,9 +30,9 @@ MathJax.Hub.Config({
 
 Two mathematical objects are said to be **homotopic** if one can be continuously deformed into the other. 
 
-The ** k-th Betti number ** corresponds to an informal notion of the number of independent k-dimensional surfaces in a k-dimensional vector space.
+The **k-th Betti number** corresponds to an informal notion of the number of independent k-dimensional surfaces in a k-dimensional vector space.
 
-A ** simplicial complex structure ** on a space is an expression of the space as a union of points, intervals, triangles, and higher dimensional analogues. 
+A **simplicial complex structure** on a space is an expression of the space as a union of points, intervals, triangles, and higher dimensional analogues. 
 
 ## Summary 
 
