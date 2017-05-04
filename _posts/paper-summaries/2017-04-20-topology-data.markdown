@@ -18,7 +18,7 @@ MathJax.Hub.Config({
 </script> 
 ---
 
-[{{page.paper_ref}}]http://www.ams.org/images/carlsson-notes.pdf)
+[{{page.paper_ref}}](http://www.ams.org/images/carlsson-notes.pdf)
 
 ## Definitions
 
