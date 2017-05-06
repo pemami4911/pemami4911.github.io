@@ -41,20 +41,29 @@ Author's argue that continuous Gaussian outputs are unimodal conditioned on the 
 
 ## Deep G-CRF architecture
 
-The network infers what the $A$ (pairwise) and $B$ (unary) terms in the energy function are for an image. Then the QO + softmax module gives the final per-class scores for each pixel in the image (See Fig. 1)
+The basic idea is to set the outputs of a convolutional neural network to be the energy of a segmentation hypothesis, in the form of 
+$$
+\begin{equation}
+E(x) = \frac{1}{2} x^{\intercal}(A + \lambda I) x - Bx
+\end{equation}
+$$ 
+. The network predicts what the $A$ (pairwise) and $B$ (unary) terms in the energy function are for an image. $\lambda$ is set manually to enforce positive-definiteness. Then a Quadratic Optimization + softmax module gives the final per-class scores for each pixel in the image (See Fig. 1) by solving for $x$. Originally, $A$ is a $(P \times L) \times (P \times L)$ matrix, where $L$ is the number of class labels and $P$ is number of pixels.
 
 ## Shared pair-wise terms
 
-$A$ is no longer dependent on the number of class labels. Now, the inference equation $(A + \lambda I) x = B$ is reduced to a system of $L + 1$ equations for $A$ of dim $P \times P$, where $P$ is the number of pixels.
+$A$ is no longer dependent on the number of class labels; only care about pixel interactions independent on what the label is. Now, the inference equation $(A + \lambda I) x = B$ is reduced to a system of $L + 1$ equations for $A$ of dim $P \times P$.
 
 ## Conjugate Gradient method 
 
+Need to solve $x = A^{-1}b$. 
 The $A$ matrix is very sparse, since it only deals with 4, 8, or 12-connected neighborhoods. CG is the current recommended approach for solving $Ax = b$ when $A$ is sparse [why?](https://math.stackexchange.com/questions/655306/conjugate-gradient-method-and-sparse-systems) When $A$ is dense, it is recommended to factorize A and then use backsubstitution. [see here](https://www.cs.cmu.edu/~quake-papers/painless-conjugate-gradient.pdf)
 
 ## Experiments
 
+Try out the above + fusing information across 3 different resolutions.
+
 * metric - Intersection over Union
-* baseline - Extended DeepLab-LargeFOV
+* baselines - Multiresolution DeepLab-LargeFOV, CRF-RNN
 * QO network - Baseline extended to have a binary and unary stream. QO module can be shared by all resolutions, or replicated three times for each scale
 
-Without more details and tests of significance, hard to say whether this method is really more effective. It seems to do about ~1-2% IOU better than the baselines. Also seems to be much faster. 
+75.5% mean IOU on VOC PASCAL 2012 for this approach. Without more details and tests of significance, hard to say whether this method is really more effective than prev SOTA. It seems to do about ~1-2% IOU better than the baselines. Also seems to be much faster. 
