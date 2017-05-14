@@ -3,7 +3,7 @@ layout: post
 title: "InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets"
 date: 2017-02-01
 category: paper-summaries
-paper_ref: Chen, et. al. 2016
+paper_ref: Chen, et. al., 2016
 ---
 
 <script type="text/x-mathjax-config">

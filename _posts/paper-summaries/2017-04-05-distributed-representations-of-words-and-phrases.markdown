@@ -3,7 +3,7 @@ layout: post
 title: "Distributed Representations of Words and Phrases and their Compositionality"
 date: 2017-04-05
 category: paper-summaries
-paper_ref: Mikolov, et al 2013
+paper_ref: Mikolov, et. al., 2013
 ---
 
 <script type="text/x-mathjax-config">
