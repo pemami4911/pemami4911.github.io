@@ -1,0 +1,40 @@
+---
+layout: post
+title: "InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets"
+date: 2017-02-01
+paper_ref: Chen, et. al., 2016
+redirect_from:
+    - /paper-summaries/2017/02/01/infoGAN.html
+---
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } },
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> 
+---
+
+[{{ page.paper_ref }}](https://arxiv.org/pdf/1606.03657v1.pdf)
+
+## Summary
+
+InfoGAN is an extension to Generative Adversarial Networks that learns disentangled representations of the latent variables within the generator network. The authors employ the variational information maximization framework to optimize a lower bound on a mutual information criterion. This MI is between a small subset of the latent variables and the output of the generator. The authors argue that this encourages these latent variables to become "disentangled".
+
+In turn, this allows the GANs to learn, in a completely unsupervised manner, interesting data representations such as stylistic factors on the MNIST dataset. The change to the traditional GAN architecture is minimal, since this is simply a regularized MI term added to the minimax function. 
+
+## Questions
+
+1. Why don't they use the reverse KL in Eq. 4? This is what is normally used in Variational Bayes (why?). The reverse KL, KL(Q \|\| P), is minimized when Q places no probability mass where P has no probability mass..
+
+2. What justifies moving $f(x,y)$ into the third integral in Eq. 7?
+
+3. What other potential applications of GANs are there besides generating realistic samples from $p_{data}$. How can it be used for general density estimation? (This seems like a *big* question)
+
+4. Are the features learned by the conv nets any different between InfoGAN and GAN? (What is the potential importance of this?)
+
+5. Does InfoGAN produce sharper/more realistic images than GANs? Seems like the answer would be no, but hard to quantify this

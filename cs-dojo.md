@@ -31,7 +31,7 @@ MathJax.Hub.Config({
 ---
 {%
   include reading.html
-  img="/assets/NP/nonlincover.jpg"
+  img="/img/NP/nonlincover.jpg"
   url="http://www.athenasc.com/nonlinbook.html"
   title="Nonlinear Programming: 3rd Edition"
   author= "Dimitri P. Bertsekas"

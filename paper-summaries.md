@@ -6,28 +6,60 @@ front: true
 ---
 
 <div class="home">
+  
+  <h2>Deep Reinforcement Learning</h2>
+    {% for post in site.categories.deep-RL %}
+      {%
+        include post-content.html
+      %}
+    {% endfor %}
 
+  <h2>Computer Vision</h2>
+    {% for post in site.categories.computer-vision %}
+      {%
+        include post-content.html
+      %}
+    {% endfor %}
+  
+  <h2>Reinforcement Learning Theory</h2>
+    {% for post in site.categories.reinforcement-learning-theory %}
+      {%
+        include post-content.html
+      %}
+    {% endfor %}
 
-  {% for post in site.categories.paper-summaries%}
-  <div class="post postContent">
-    <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-    </div>
-    <div class="postDay">
-      {{post.tag}}
-    </div>
-    <div class="postTitle">
-    
-    <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-    </div>
+  <h2>Generative Adversarial Networks</h2>
+    {% for post in site.categories.generative-adversarial-networks %}
+      {%
+        include post-content.html
+      %}
+    {% endfor %}
+  
+  <h2>Natural Language Processing</h2>
+    {% for post in site.categories.natural-language-processing %}
+      {%
+        include post-content.html
+      %}
+    {% endfor %}
+  
+  <h2>Deep Learning</h2>
+    {% for post in site.categories.deep-learning %}
+      {%
+        include post-content.html
+      %}
+    {% endfor %}
 
-    <div class="postExt">
-   {{ post.paper_ref }}
-    </div>
-    <br>
+  <h2>General Artificial Intelligence</h2>
+    {% for post in site.categories.general-AI %}
+      {%
+        include post-content.html
+      %}
+    {% endfor %}
 
-  </div>
-
-
-  {% endfor %}
-
+  <h2>General Machine Learning</h2>
+    {% for post in site.categories.general-ML %}
+      {%
+        include post-content.html
+      %}
+    {% endfor %}
 </div>

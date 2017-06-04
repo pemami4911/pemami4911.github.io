@@ -1,0 +1,84 @@
+---
+layout: post
+title: Variational Information Maximizing Exploration
+date: 2016-09-04 1:00 PM
+paper_ref: Houthooft, et al., 2016 ~ OpenAI
+redirect_from:
+    - /papersummaries/2016/09/04/VIME.html
+    - /paper_summaries/2016/09/04/VIME.html
+    - /paper-summaries/2016/09/04/VIME.html
+---
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } },
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> 
+---
+
+[{{ page.paper_ref }}](http://arxiv.org/pdf/1605.09674v2.pdf)
+
+## Summary
+
+The authors present a solution to the problem of exploring the state-action space of a continuous control task efficiently. Their solution stems from prior work on curiousity-driven exploration, which makes use of key ideas taken from information theory. The general idea is to have the agent select actions that maximize the information gain about the agent's internal belief of the dynamics of the model. They use variational inference (VI) to measure information gain and Bayesian neural networks to represent the agent's belief of the environment's dynamics. The algorithm presented in Section 2.5 is referred to as VIME.
+
+### VIME
+
+VIME uses VI to compute the posterior probability of the parameters of the environment dynamics. 
+That is, for the model $ p(s_{t+1}|s_{t}, a_{t}; \theta) $, parameterized by the random variable $\Theta$ with values $\theta \in \Theta$, $p(\theta \| \mathcal{D}) \approx q(\theta; \phi)$. In this setting, $q(\theta; \phi)$ is represented as factorized distribution, as is common in VI. In particular, they use a Bayesian Neural Network parameterized by a fully factorized Gaussian distrubtion.
+
+Key point: **The agent is encouraged to take actions that lead to states that are maximally informative about the dynamics model.** Letting the history of the agent up to time step $t$ be $\xi_{t} = \\{s_{0}, a_{0}, s_{1}, a_{1}, ..., s_{t}\\} $, we can derive the mutual information of the dynamics model before and after taking action $a_{t}$ as:
+
+$$
+\begin{equation}
+
+I(S_{t+1}; \Theta | \xi_{t}, a_{t}) = \mathbb{E}_{s_{t+1} \sim P(.| \xi_{t}, a_{t})} \big [ D_{KL} [p(\theta|\xi_{t}, a_{t}) \hspace{2pt} || \hspace{2pt} p(\theta|\xi_{t})] \big]
+
+\end{equation}
+$$
+
+Using the variational distribution $q$, we can approximate our posterior distribution by minimizing $ D_{KL} [q(\theta\|\phi) \hspace{2pt} \|\| \hspace{2pt} p(\theta\| \mathcal{D})] $. This is done through the maximization of the variational lower bound $L[q]$:
+
+$$
+\begin{equation}
+
+L[q(\theta; \phi), \mathcal{D}] = \mathbb{E}_{\theta \sim q(.;\phi)} \big[ \log p (\mathcal{D} | \theta ) \big] -  D_{KL} [q(\theta|\phi) \hspace{2pt} || \hspace{2pt} p(\theta)]
+
+\end{equation}
+$$
+
+A clear derivation of the variational lower bound is available on [wikipedia](https://en.wikipedia.org/wiki/Variational_Bayesian_methods). Note that in this case, the log evidence term $ \log p(\mathcal{D}) $ is computed as an expectation over the model parameters $\theta$ w.r.t. the variational distribution $q$. 
+
+The variational distribution is then used to compute a "bonus" for the external reward function as follows: 
+
+$$
+\begin{equation}
+
+r'(s_{t}, a_{t}, s_{t+1}) = r(s_{t}, a_{t}) + \eta D_{KL} [ q(\theta; \phi_{t+1}) \hspace{2pt} || \hspace{2pt} q(\theta; \phi_{t}) ]
+\end{equation}
+$$
+
+The KL-divergence between the new approximate posterior and the old approximate posterior thereby represents the information gained by having taken $a_{t}$, ended up in state $s_{t+1}$. The hyperparameter $\eta$ controls the amount of incentive to explore (the curiosity). See Section 2.4 of the paper for an analogy drawn to model compression (the intuition is that the most informative state-action sequence up to time $t$ is the one with the shortest description length). Section 2.5 contains implementation details and an outline of the overall algorithm. One of the key points of Section 2.5 is that the use of a fully factorized Gaussian allows the KL-divergence in Eq. 3 to be computedly simply.
+
+## Broader Impact on the RL Community
+
+The authors conducted experiments with VIME to show that, when augmenting an RL algorithm, there are significant improvements in the face of sparse reward signals. They specifically tested it with Trust-Region Policy Optimization (TRPO), REINFORCE, and ERWR. As a baseline, they used these algorithms sans VIME. 
+
+They included a neat figure of the state space exploration in MountainCar of TRPO with and without VIME. With VIME, the exploration is much more diffused, whereas with naive Gaussian exploration it's condensed and ball-shaped around the origin.
+
+In my opinion, this is one of the major avenues for further research in RL. We should be focused on developing strategies for learning with sparse or nonexistant reward signals. This is extremely important for bringing RL into new problem domains. As can be seen so far, information theory offers a promising starting point. 
+
+Similar work by [Mohamed and Rezende](https://arxiv.org/pdf/1509.08731v1.pdf) in 2015 presented an algorithm inspired by intrinsically motivated RL that focused on the notion of **empowerment**. This is a broad term that attempts to formalize the notion of having "internal drives" that agents can experience to learn about their environment in an unsupervised fashion. They developed a stochastic variational information maximization algorithm. The formulation as presented in this paper is useful when explicit external reward functions are not available to an agent. The computed empowerment can be used in a closed-loop planner such as Q-learning; agents can then learn information-maximizing behaviors this way. The paper contains some cool examples of this. A major distinction with VIME, however, is that empowerment doesn't necessarily favor exploration- as stated by Mohamed and Rezende, agents are only 'curious' about parts of its environment that can be reached within its internal planning horizon. 
+
+Despite the significance of the recent work in the intersection of VI and intrinsically motivated RL, these methods are non-trivial and hence will most likely catch on slower.
+
+## Notes
+
+1. [Bayesian RL](http://tx.technion.ac.il/~avivt/BRLS_journal.pdf) and [PAC-MDP](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.297.6237&rep=rep1&type=pdf)
+
+2. Boltzmann exploration requires a training time exponential in the number of states in order to solve an n-chain MDP..!

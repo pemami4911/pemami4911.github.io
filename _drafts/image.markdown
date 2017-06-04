@@ -1,5 +1,5 @@
 {%
     include image.html
-    img="/assets/*.png"
+    img="/img/*.png"
     caption=""
 %}

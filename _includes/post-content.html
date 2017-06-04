@@ -1,0 +1,14 @@
+<div class="post postContent">
+  <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
+  </div><br> 
+  <div class="postTitle">
+    <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+    <div class="paperRef">
+     //
+     {{ post.paper_ref }}
+    </div>
+  </div>
+ 
+  <br>
+
+</div>

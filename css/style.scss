@@ -352,10 +352,10 @@ pre {
 }
 .postContent {
   padding-top: 0px;
-  text-align: center;
+  text-align: left;
 }
 .postDate {
-  float: center;
+  float: left;
   text-transform: uppercase;
   font-family: "Source Sans Pro";
   font-size: 16px;
@@ -363,15 +363,24 @@ pre {
   letter-spacing: 2px;
   text-indent: 0px;
 }
+
+.paperRef {
+  text-transform: uppercase;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-indent: 0px;
+}
+
 .postTag {
   float: right;
 }
 .postTitle {
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
   letter-spacing: 3px;
-  text-indent: 3px;
 }
 /**
  * Site header
@@ -413,7 +422,7 @@ pre {
   text-indent: 6px;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  padding-top: 5em;
+  padding-top: 2em;
   text-align: center
 }
 .page-title {
@@ -722,8 +731,8 @@ pre {
 
 .image-caption {
     color: #808080;
-    font-size: 0.1em;
     font-style: italic;
+    text-align: center;
 }
 
 img {
@@ -745,6 +754,11 @@ img {
 .book-info {
     margin-left: 20px;
     width: 70%;
+}
+
+.profile-pic {
+    margin: 0px 20px 0px 0px;
+    float: left;
 }
 
 .reading-description {

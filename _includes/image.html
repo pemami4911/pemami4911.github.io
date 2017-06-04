@@ -2,15 +2,19 @@
 Source: https://superdevresources.com/image-caption-jekyll/
 {% endcomment %}
 
-<div class="image-wrapper" >
-{% if include.url %}
-<a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
-{% endif %}
-<img src="{{ include.img }}" alt="{{ include.title }}" width="{{ include.width}}" height="{{ include.width }}"/>
-{% if include.url %}
-</a>
-{% endif %}
-{% if include.caption %}
-<p class="image-caption">{{ include.caption }}</p>
-{% endif %}
+<div>
+	<div class="image-wrapper" >
+	{% if include.url %}
+	<a href="{{ include.url }}" title="{{ include.title }}" target="_blank">
+	{% endif %}
+	<img src="{{ include.img }}" alt="{{ include.title }}" width="{{ include.width}}" height="{{ include.width }}"/>
+	{% if include.url %}
+	</a>
+	{% endif %}
+	</div>
+	<div>
+	{% if include.caption %}
+	<p class="image-caption">{{ include.caption }}</p>
+	{% endif %}
+	</div>
 </div>

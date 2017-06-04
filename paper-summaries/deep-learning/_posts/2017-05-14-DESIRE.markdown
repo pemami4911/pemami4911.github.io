@@ -1,0 +1,45 @@
+---
+layout: post
+title: "DESIRE: Distant Future Prediction in Dynamic Scenes with Interacting Agents"
+date: 2017-05-14
+paper_ref: Lee, et. al., 2016
+redirect_from:
+    - /paper-summaries/2017/05/14/DESIRE.html
+---
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } },
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> 
+---
+
+[{{page.paper_ref}}](https://arxiv.org/abs/1704.04394v1)
+
+## Summary
+
+This paper presents a framework for predicting how a scene containing multiple interacting agents will play out by leveraging a number of powerful techniques. DESIRE stands for Deep Stochastic IOC RNN Encoder-decoder framework.
+
+The following are the biggest obstacles for successfully predicting future actions taken by interacting agents given a visual snapshot of the present: 
+
+* The space of future states for each agent in a scene is hard to optimize over; even when taking the context of the scene into account, there could be many plausible outcomes that seem equally likely
+* In turn, this makes rolling out and scoring potential future trajectories computationally expensive, since it requires sampling a large number of trajectories. This isn't relevant for offline processing, but for real-time robotics applications, this is important
+* The multi-agent problem; how to infer interactions between multiple actors in a scene?
+* Taking into account long-term prediction rewards, rather than just one-step prediction
+* How to define a multi-objective loss function that doesn't commit errors such as averaging over all future possibilities
+
+DESIRE attempts to address these challenges as follows:
+
+* Diverse sample generation using a conditional Variational Autoencoder. This allows for differentiable efficient sampling of plausible futures 
+* RNN encoder-decoder neural architecture that allows for mapping trajectories represented by world coordinates in $\mathbb{R}^2$ or $\mathbb{R}^3$ to a high-dimensional distributed representation that can be efficiently combined with the Conditoinal VAE
+* An Inverse Optimal-Control (IOC) based Ranking and Refinement module that determines the most likely hypotheses, while incorporating scene context and interactions. The IOC module estimates a regression vector to refine each prediction sample. 
+* A convolutional neural network is used to carry out scene context fusion. This enables encoding features such as object velocities into the hypothesis scoring component.
+
+The model is trained end-to-end with a total loss consisting of multiple auxiliary losses (e.g., reconstruction error from the output trajectory of the decoder during training). The authors evaluate its performance on the KITTI and Stanford Drone tracking datasets. They show the performance with the metric "error in meters" for future time steps at intervals of 1, 2, 3, and 4 seconds.
+
+Overall, the proposed model seems quite complex, with many sub-components. However, the motivation behind each component is reasonable and the model is shown to perform well on the datasets. The separation of the system into a Sample Generation Module and the Ranking and Refinement Module is reminiscent of the actor-critic architecture in RL. However, the Ranking and Refinement Module isn't handed a reward function like the critic usually is; rather, it uses unsupervised learning losses to learn to score/refine the "actor", or Sample Generation Module.

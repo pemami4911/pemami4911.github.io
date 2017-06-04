@@ -1,0 +1,89 @@
+---
+layout: post
+title: Mastering the Game of Go with Deep Neural Networks and Tree Search
+date: 2016-03-04 9:00 AM
+paper_ref: Silver, et al., 2016
+redirect_from:
+    - /papersummaries/2016/03/04/AlphaGo.html
+    - /paper_summaries/2016/03/04/AlphaGo.html
+    - /paper-summaries/2016/03/04/AlphaGo.html
+---
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } },
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+ 
+---
+[{{ page.paper_ref }}](http://www.willamette.edu/~levenick/cs448/goNature.pdf)
+
+## Summary ##
+
+1. An SL policy network of convolutional layers $p_{\sigma}$ is learned in a supervised fashion directly from expert human moves. This provides immediate feedback, high-quality gradients, and is used for improving board evaluation.
+2. Another "fast rollout" network, $p_{\pi}$, is trained for fast action selection during rollouts from expert human moves. Rollouts are off-policy simulated trajectories used for determining future pathways in a search tree. 
+3. An RL policy network $p_{\rho}$ is trained for optimizing winning games through self-play. The weights are initialized to the SL policy network's. The reward signal is generated as the end of the game (+1 for winning, -1 for losing). 
+4. Finally, a value network $v_{\theta}$ is trained by regression to predict the winner of games played by the RL policy network against itself. 
+
+## Methodology ##
+
+### Monte Carlo Tree Search ###
+
+AlphaGo uses a form of MCTS for position evaluation. The algorithm for this mixes full rollouts with truncated rollouts, resembling 
+$TD(\gamma)$. To integrate MCTS into AlphaGo, an asynchronous policy and value MCTS (APV-MCTS) algorithm was developed. 
+
+#### Async Search Algorithm ####
+Each node in the tree stores the prior probability $P(s,a)$, Monte Carlo estimates of the total action value 
+calculated by a weighted combination of the rollout policy and the value network, the number of times the rollout policy and 
+the value network has evaluated the node, and the combined mean action value. 
+
+* <b>Selection</b> The algorithm begins at the root and uses a variant of UCT to traverse the tree for time steps $t \lt L$, where $L$ is the step at which the algorithm reaches leaf node $s_{L}$
+* <b>Expansion</b> Prior probabilities $P(s_{L}, a)$ are computed by the SL policy network with a softmax temperature set to $\beta$. When the visit count for a successor node exceeds a threshold, the successor state/node $s' = f(s,a)$ is added to the search tree. The new node is added to a queue for async GPU evaluation by the policy network.  The threshold is adjusted dynamically to ensure that the rate at which positions are added to the policy queue matches the rate at which the GPUs evaluate the policy network. Mini-batch sizes of 1 were used to minimize the end-to-end evaluation time.
+* <b>Evaluation</b> The leaf node $s_{L}$ is added to a queue for evaluation by the value network $v_{\theta}$, unless it has previously been evaluated. Then, the fast rollout policy $p_{\pi}$ is used to simulate the rest of the game until a terminal reward is obtained. 
+* <b>Backup</b> At each in-tree step $t \le L$, the rollout statistics are updated as if it has virtually lost $n_{vl}$ games, to discourage other threads from simulateously exploring the identical variation. The value network's output is used to update value 
+statistics in a second backward pass through each step $t \le L$. At the end of the simulation, the rollout statistics
+are updated by replacing the virtual losses by the true outcome. The mean action value $Q(s,a)$ is a weighted average
+of the output of the value network and the rollout evaluations. 
+ 
+A distributed APV-MCTS was implemented which split policy evaluation across worker GPUs and handled 
+the in-tree phase of each simulation on worker CPUs. 
+
+### Rollout policy ###
+
+This is a linear softmax policy based on fast, incrementally computed, local pattern-based features. A number of 
+handcrafted local features encode common-sense Go rules. Similar to the policy network, the weights $\pi$ of the 
+rollout policy are trained from 8 million positions from human games to maximize the log likelihood by 
+stochastic gradient descent. 3 x 3 pattern matching against previous moves selected by the most probable action 
+is used; this is a generalization of the 'last good reply' heuristic. 
+
+### Symmetries ###
+Go symmetry is exploited at run-time by dynamically transforming each position using 8 reflections/rotations. 
+
+### SL policy Network ###
+A data set of 29.4 million positions from 160,000 games was used. Each position consisted of a raw board description 
+'s' and the move 'a' selected by the human. Each position was augmented with all 8 reflections/rotatoins. 
+Asynchronous SGD was used to maximize the log likelihood of the action. Step size was was initialized to 0.003 and halved
+every 80 million steps, without momentum, and with a mini-batch size of 16. Gradients older than 100 steps were
+discarded. 
+
+### RL policy network ###
+N games were played in parallel between the current policy network that was being trained and an opponent
+that uses parameters from a previous iteration of the network, randomly sampled from a pool of opponents. Games
+were played out till termination, scored, then replayed to calculate the policy gradient update. 
+REINFORCE was used with a baseline for variance reduction. On the first pass, the baseline was set to 0, 
+on the second pass, the value network was used as a baseline. 10,000 minibatches of 128 games was the training set. 
+
+### Value network trained on RL policy network ###
+The Value Network $v_{\theta}$ was trained to approximate the value function of the RL policy network. Overfitting was handled by crafting a dataset of uncorrelated self-play positions. Each game was generated by randomly sampling a time-step
+$U$, sampling the first $t = 1$ to $U-1$ moves from the SL policy network, then sampling one move 
+uniformly at random from available moves, then sampling the remaining sequence of moves until the game terminates, 
+$t = U + 1$ to $T$, from the RL policy network. Finally, the game was scored to determine the outcome. 
+
+## Evaluation ##
+Each program was given a max of 5s computation per move. The distributed AlphaGo was used against
+Fan Hui and won 5 - 0 in formal matches. 
