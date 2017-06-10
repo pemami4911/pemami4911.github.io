@@ -24,7 +24,7 @@ I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctor
 
 ## Posters
 
-* **A Demonstration of Integrating Autonomous Vehicles into Signal Control Optimization**
+* **A Demonstration of Fusing DSRC and Radar for Optimizing Intersection Performance**
     * Patrick Emami, Mahmoud Pourmehrab, Lily Elefteriadou, Sanjay Ranka, Carl Crane. AUVSI 2017 [[Abstract](pdfs/AUVSI 2017 Abstract.pdf)]
 
 <br>
