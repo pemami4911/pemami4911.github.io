@@ -1,0 +1,46 @@
+---
+layout: post
+title: "The Markov Chain Monte Carlo Revolution"
+date: 2017-06-21
+paper_ref: Persi Diaconis, 2009
+---
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } },
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> 
+---
+
+[{{page.paper_ref}}](http://www.ams.org/journals/bull/2009-46-02/S0273-0979-08-01238-X/home.html)
+
+### The Fundamental Theorem of Markov Chains
+
+From any starting state $x$, the $n^{th}$ step of a run of the MC has chance close to $\pi (y)$ of being at $y$ if $n$ is large. The MC must be connected, i.e., in the limit, the kernel $K$/proposal distribution/Markov transition matrix has no zero-probability transitions.
+
+## Metropolis Algorithm
+
+* Based on "proposal" and "acceptance"
+* The acceptance ratio is to ensure that the fraction of time spent in each state is proportional to $\pi(x)$ for $x \in \chi$
+* In this algorithm, the normalization constants of the stationary distributions cancel out!
+
+In Equation 2.3, if the acceptance ratio is $< 1$, you are multiplying the probabilities $J(x,y)$ and $A(x,y)$ together. This generates the success probability $J(x,y)A(x,y)$ for transitioning x -> y. You want to accept transitions that move to states that are reversible (and hence move you closer to the true stationary distribution), and stay away from states that are not. The algorithm hence allows the Markov Chain to stay in the same place with some probability if the acceptance ratio is low. 
+
+This algorithm produces a reversible Markov chain: 
+
+$$
+\pi(x) K(x,y) = \pi(y) K(y, x).
+$$
+
+Since $\pi K = \pi$ (the stationary distribution is unchanged by the operation of the kernel $K$), $\pi$ is a left eigenvector of $K$ with eigenvalue 1. The basic result on convergence to the stationary distribution can be found by taking the spectral decomposition of $K$. 
+
+## Gibbs sampler
+
+## Example
+
+[Here's a neat example of the Metropolis Hastings algorithm for sampling from a boltzmann distribution](http://www.nehalemlabs.net/prototype/blog/2014/02/24/an-introduction-to-the-metropolis-method-with-python/). Remember- low-energy states have high boltzmann probability!
