@@ -17,6 +17,8 @@ I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctor
 
 ## Papers
 
+* **POMDPy: An Extensible Framework for Implementing POMDPs in Python**
+    * Patrick Emami, Alan Hamlet, Carl Crane. 2015 [[PDF](pdfs/pomdpy-extensible-framework.pdf)][[code](https://github.com/pemami4911/POMDPy)]
 * **The Cognitive Driving Framework: Joint Inference for Collision Prediction and Avoidance in Autonomous Vehicles**
     * Alan Hamlet, Patrick Emami, Carl Crane. ICCAS 2015 [[PDF](pdfs/ICCAS2015.pdf)]
 * **A Gesture Recognition System for Mobile Robots That Learns Online**
@@ -25,7 +27,7 @@ I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctor
 ## Posters
 
 * **A Demonstration of Fusing DSRC and Radar for Optimizing Intersection Performance**
-    * Patrick Emami, Mahmoud Pourmehrab, Lily Elefteriadou, Sanjay Ranka, Carl Crane. AUVSI 2017 [[Abstract](pdfs/AUVSI 2017 Abstract.pdf)]
+    * Patrick Emami, Mahmoud Pourmehrab, Lily Elefteriadou, Sanjay Ranka, Carl Crane. AVS 2017 [[Abstract](pdfs/AUVSI 2017 Abstract.pdf)]
 
 <br>
 
