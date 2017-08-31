@@ -32,7 +32,7 @@ The aspects of AI that this work focuses on are closely related to those propose
 
 A Q-learning agent is designed for their toy example. The state space consists of the different interactions between the learned symbolic abstractions of the environment. A tracking process is carried out separately from the agent for keeping track of the different symbolic abstractions. 
 
-Main result: on random toy problem instances, DQN is not able to better than chance... Hypothesis: DQN relies on the fact that you should be able to internally learn a model for $p(s_{t+1}|s_{t},a_{t})$ after going through a lot of examples. When this distribution is non-stationary, it can't! However, the proposed architecture doesn't seem to care about this. It instead directly is learning about object interactions.
+Main result: on random toy problem instances, DQN is not able to better than chance... Hypothesis: DQN relies on the fact that you should be able to internally learn a model for $p(s_{t+1}\|s_{t},a_{t})$ after going through a lot of examples. When this distribution is non-stationary, it can't! However, the proposed architecture doesn't seem to care about this. It instead directly is learning about object interactions.
 
 
 
