@@ -11,7 +11,7 @@ front: true
     img="/img/me-2.jpg"
 %}
 
-I'm a 2nd-year PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/). I work with in UF's [Transportation Institute](http://www.transportation.institute.ufl.edu/) to design intelligent traffic control systems for urban intersections that support both autonomous and conventional vehicles. My interests lie broadly within theoretical and applied machine learning; my research covers topics in **multi-sensor fusion**, **reinforcement learning**, and **optimization**.
+I am a 2nd-year Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/). Currently, I am a research assistant in UF's [Transportation Institute](http://www.transportation.institute.ufl.edu/) where I work on next-generation intelligent transportation systems for autonomous vehicles. My interests lie broadly within theoretical and applied machine learning; at the moment, I am researching topics in **multi-sensor fusion**, **reinforcement learning**, and **optimization**.
 
 I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
 
