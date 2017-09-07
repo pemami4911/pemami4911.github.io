@@ -31,6 +31,10 @@ I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctor
 * **A Demonstration of Fusing DSRC and Radar for Optimizing Intersection Performance**
     * Patrick Emami, Mahmoud Pourmehrab, Lily Elefteriadou, Sanjay Ranka, Carl Crane. Automated Vehicles Symposium (AVS), 2017 [[Abstract](pdfs/AUVSI 2017 Abstract.pdf)]
 
+## Presentations
+
+* **Introduction to Deep Learning**
+    * UF Informatics Institute Student Data Analysis Seminar. September 7th, 2017. [[Slides](pdfs/deep-learning.pdf)]
 <br>
 
 {%
