@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Geometric deep learning: going beyond Euclidean data"
-date: 2017-02-11
+date: 2017-11-19
 paper_ref: Bronstein, 2017
 ---
 
