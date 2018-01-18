@@ -17,7 +17,7 @@ front: true
     <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
     </div>
     <div class="postExt">
-        An introduction to the Deep Deterministic Policy Gradient (DDPG) algorithm
+        {{post.byline}}
     </div>
     <br>
 

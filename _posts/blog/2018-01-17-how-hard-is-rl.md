@@ -3,6 +3,7 @@ layout: post
 title:  "How Hard is Reinforcement Learning?"
 date:   2018-01-17
 category: blog
+byline: A note on the computational complexity of RL
 ---
 
 <script type="text/javascript" async
@@ -30,11 +31,11 @@ Usually you will need an initial state distribution $s_0 \sim \rho$ as well. A g
 
 ## P-completeness of Markov decision processes
 
-In complexity theory, the class **P** refers to the "tractable" problems. A proof that the finite-horizon MDP is [P-complete](https://en.wikipedia.org/wiki/P-complete) is provided in [2]. The authors use a reduction from the circuit value problem, a well-known P-complete problem, to show membership in P. They also show that the discounted horizon and average cost variants of MDPs are also P-complete. In practice, solving MDPs exactly can be cumbersome due to the curse of dimensionality; the number of states often grows exponentially with the number of state variables [1]. Regardless, there exists dynamic programming algorithms that run in polynomial time that can solve MDPs with millions of states on today's computers. 
+In complexity theory, the class **P** refers to the "tractable" problems. A proof that the finite-horizon MDP is [P-complete](https://en.wikipedia.org/wiki/P-complete) is provided in [2]; specifically, the authors use a reduction from the circuit value problem, a well-known P-complete problem, to show membership in P. They also show that the discounted horizon and average cost variants of MDPs are also P-complete. In practice, solving MDPs exactly can be cumbersome due to the curse of dimensionality; the number of states often grows exponentially with the number of state variables [1]. Regardless, there exists dynamic programming algorithms that run in polynomial time that can solve MDPs with millions of states on today's computers. 
 
 ## Hardness of POMDPs
 
-The Markovian assumption that is used to efficiently solve MDPs is relaxed for POMDPs. Now, the agent's observations at each time step do not give it complete information about the current state. Notably, it can be formulated as the following decision problem: ''Given an environment, is there some deterministic memoryless policy mapping observations to actions that guarantees the agent will achieve its goal?''. It turns out that this version of the reinforcement learning problem is NP-complete [5]. A reduction from the classic NP-complete problem 3-CNF-SAT is given in [5]. Furthermore, the variation of this problem where policies are not memoryless, in that they form a mapping from *histories* of all present and past observations to actions, is PSPACE-hard. [PSPACE](https://en.wikipedia.org/wiki/PSPACE) is the class of problems that can be solved by only using a polynomial amount of space. A proof for this claim via a reduction from QSAT (the quantified satisfiability problem) is in [2].
+The Markovian assumption that is used to efficiently solve MDPs is relaxed for POMDPs. In this setting, the agent's observations at each time step do not give it complete information about the current state. Notably, it can be formulated as the following decision problem: ''Given an environment, is there some deterministic memoryless policy mapping observations to actions that guarantees the agent will achieve its goal?''. It turns out that this version of the reinforcement learning problem is NP-complete [5]. A reduction from the classic NP-complete problem 3-CNF-SAT is given in [5]. Furthermore, the variation of this problem where policies are not memoryless, in that they form a mapping from *histories* of all present and past observations to actions, is PSPACE-hard. [PSPACE](https://en.wikipedia.org/wiki/PSPACE) is the class of problems that can be solved by only using a polynomial amount of space. A proof for this claim via a reduction from QSAT (the quantified satisfiability problem) is in [2].
 
 ## Non-approximability of POMDPs
 
