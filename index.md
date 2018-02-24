@@ -17,6 +17,8 @@ I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctor
 
 ## Papers
 
+* **Machine Learning Methods for Solving Assignment Problems in Multi-Target Tracking**
+    * Patrick Emami, Panos M. Pardalos, Lily Elefteriadou, Sanjay Ranka. Submitted to ACM Computing Surveys, 2018 [[arxiv](https://arxiv.org/abs/1802.06897v1)].
 * **Tracking Vehicles Equipped with Dedicated Short-Range Communication at Traffic Intersections**
 	* Patrick Emami, Lily Elefteriadou, Sanjay Ranka. Seventh ACM International Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications (DIVANet’17), 2017 [[PDF]](pdfs/tracking-vehicles-equipped-with-dsrc.pdf)
 * **POMDPy: An Extensible Framework for Implementing POMDPs in Python**
@@ -33,6 +35,8 @@ I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctor
 
 ## Presentations
 
+* **Deep Reinforcement Learning: An Overview**
+    * UF Informatics Institute Student Data Analysis Seminar. February 23rd, 2018. [[Slides](pdfs/deep-rl.pdf)]
 * **Introduction to Deep Learning**
     * UF Informatics Institute Student Data Analysis Seminar. September 7th, 2017. [[Slides](pdfs/deep-learning.pdf)]
 <br>
