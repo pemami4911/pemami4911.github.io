@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Horde: A Scalable Real-time Architecture for Learning Knowledge from Unsupervised Sensorimotor Interaction"
+date: 2018-03-01
+paper_ref: Sutton, et. al. 2011
+---
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } },
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script> 
+---
+
+[{{page.paper_ref}}](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/horde1.pdf)
+
+## Summary
+
+A key idea pushed in this paper is that a value function represents semantic knowledge. Indeed, they state, *"A value function asks a question--what will the cumulative reward be?--and an approximate value function provides an answer to that question"*. Accordingly, they introduce **Generalized Value Functions** (GVFs), a construct to expand the knowledge that value functions can encapsulate to make them capable of representing knowledge about the world.
+
+A GVF is parameterized with four functions, a policy, pseudo-reward function, pseudo-terminal reward function, and pseudo-termination function, called *question functions*.
+
+They introduce **Horde**, an architecture for learning 1 or more approximate GVFs in parallel, where each "demon" of the Horde is responsible for learning a piece of knowledge that contributes to the whole. Approximate GVFs can be learned off-policy.
+
+The paper uses GQ($\lambda$) to train each demon, and hence a feature vector $\phi$, behavior policy $b$, and eligibilty trace function $\lambda$ must be specified; these are collectively called *answer functions*, since they are used to numerically find the value of approximate GVFs (answering the "question").
+
+They show that a physical robot with many sensors is able to learn to predict how many steps it can go before needing to stop before hitting a wall (via 1 "predictive" demon, i.e., a demon that seeks to accurately "predict" the cumulative return by learning the approximate GVF for a given policy). The robot also uses 8 control demons to learn to separately maximize returns for "maxing out" 8 different sensors. Finally, they trained 1 control demon to learn a light-seeking behavior.
+
+Recently, [Barreto, et. al 2017](http://papers.nips.cc/paper/6994-successor-features-for-transfer-in-reinforcement-learning) developed the ideas of successor features (SF), a value function representation that decouples environment dynamics from the reward function. They use it to show transfer between tasks. They discuss how their method is a special case of a GVF, but that it provides a method for "selecting" pseudo-rewards.
+
+This paper differs from the [options framework](https://ac.els-cdn.com/S0004370299000521/1-s2.0-S0004370299000521-main.pdf?_tid=spdf-33adf66b-944d-4bbc-8a21-240c893f6961&acdnat=1519922099_e72ff155b5fbb0d6702f56ddf6a326a5) in that options essentially define a hierarchy of policy abstractions. The authors note that GVFs could be combined with this approach, however.
