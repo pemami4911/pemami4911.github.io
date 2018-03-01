@@ -17,6 +17,8 @@ MathJax.Hub.Config({
 </script> 
 ---
 
+[{{page.paper_ref}}](https://www.cs.swarthmore.edu/~meeden/DevelopmentalRobotics/horde1.pdf)
+
 ## Summary
 
 A key idea pushed in this paper is that a value function represents semantic knowledge. Indeed, they state, *"A value function asks a question--what will the cumulative reward be?--and an approximate value function provides an answer to that question"*. Accordingly, they introduce **Generalized Value Functions** (GVFs), a construct to expand the knowledge that value functions can encapsulate to make them capable of representing knowledge about the world.
