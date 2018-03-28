@@ -23,6 +23,8 @@ MathJax.Hub.Config({
 
 The basic idea is to introduce a curriculum into the GAN training procedure. One starts by training the Generator to produce 4 x 4 images, progressively adding layers to up the resolution. In the paper, they should high-quality 1024 x 1024 samples from CelebA, LSUN, and CIFAR-10.
 
-### Increasing variation
+This is a nice applied paper where the core idea is quite simple and explained clearly, and in addition they describe all of the challenges hidden under the surface and how they tackle them.
 
-Compute average standard deviation over all features and spatial locations of the minibatch and then insert as a layer near the end. Encourages generated and real image minibatches to have similar statistics.
+They found that the progressive scheme helps the GAN converege to much better optimum (image quality is amazing) and reduces total training time by about a factor of 2.
+
+They mainly use the [WGAN-GP](https://arxiv.org/abs/1704.00028) loss. Recall that the WGAN loss is $$ \min_G \max_D \mathbb{E}_{x \sim \mathbb{P}_r} [ D(x) ] - \mathbb{E}_{\hat{x} \sim \mathbb{P}_g} [(D(\hat(x))) ] $$
