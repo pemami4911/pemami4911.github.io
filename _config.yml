@@ -12,5 +12,5 @@ github_username:  pemami4911
 markdown: kramdown
 
 # Redirection
-gems:
+plugins:
   - jekyll-redirect-from
