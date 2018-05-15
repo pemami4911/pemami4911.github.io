@@ -42,15 +42,15 @@ front: true
       %}
     {% endfor %}
   
-  <h2>Deep Learning</h2>
-    {% for post in site.categories.deep-learning %}
+  <h2>Deep Learning Theory</h2>
+    {% for post in site.categories.deep-learning-theory %}
       {%
         include post-content.html
       %}
     {% endfor %}
 
-  <h2>General Artificial Intelligence</h2>
-    {% for post in site.categories.general-AI %}
+  <h2>Artificial General Intelligence</h2>
+    {% for post in site.categories.AGI %}
       {%
         include post-content.html
       %}
