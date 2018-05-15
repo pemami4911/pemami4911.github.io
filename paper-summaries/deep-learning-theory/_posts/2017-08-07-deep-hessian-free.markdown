@@ -3,6 +3,8 @@ layout: post
 title: "Deep Learning via Hessian-Free Optimization"
 date: 2017-08-07
 paper_ref: James Martens, 2010
+redirect_from:
+    - /paper-summaries/deep-learning/2017/08/07/deep-hessian-free.html
 ---
 
 <script type="text/x-mathjax-config">

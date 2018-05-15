@@ -3,6 +3,8 @@ layout: post
 title: "Geometric deep learning: going beyond Euclidean data"
 date: 2017-11-19
 paper_ref: Bronstein, 2017
+redirect_from:
+    - /paper-summaries/deep-learning/2017/11/19/geometric-deep-learning.html
 ---
 
 <script type="text/x-mathjax-config">

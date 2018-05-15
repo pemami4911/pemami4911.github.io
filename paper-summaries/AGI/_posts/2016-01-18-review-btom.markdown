@@ -7,6 +7,7 @@ redirect_from:
     - /papersummaries/2016/01/18/review-btom.html
     - /paper_summaries/2016/01/18/review-btom.html
     - /paper-summaries/2016/01/18/review-btom.html
+    - /paper-summaries/general-ai/01/18/review-btom.html
 ---
 ---
 [{{ page.paper_ref }}](http://mindmodeling.org/cogsci2011/papers/0583/paper0583.pdf)

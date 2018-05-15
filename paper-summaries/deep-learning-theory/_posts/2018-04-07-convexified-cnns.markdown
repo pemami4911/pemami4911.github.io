@@ -3,6 +3,8 @@ layout: post
 title: "Convexified Convolutional Neural Networks"
 date: 2018-04-07
 paper_ref: Zhang, Liang, Wainwright, 2016
+redirect_from:
+    - /paper-summaries/deep-learning/2018/04/07/convexified-cnns.html
 ---
 
 <script type="text/x-mathjax-config">

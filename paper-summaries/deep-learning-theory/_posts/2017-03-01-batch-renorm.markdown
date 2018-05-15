@@ -5,6 +5,7 @@ date: 2017-03-01
 paper_ref: Ioffe, 2017
 redirect_from:
     - /paper-summaries/2017/03/01/batch-renorm.html
+    - /paper-summaries/deep-learning/2017/03/01/batch-renorm.html
 ---
 
 <script type="text/x-mathjax-config">

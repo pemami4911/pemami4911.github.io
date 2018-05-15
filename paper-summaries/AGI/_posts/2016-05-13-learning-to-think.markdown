@@ -7,6 +7,7 @@ redirect_from:
     - /papersummaries/2016/05/13/learning-to-think.html
     - /paper_summaries/2016/05/13/learning-to-think.html
     - /paper-summaries/2016/05/13/learning-to-think.html
+    - /paper-summaries/general-ai/05/13/learning-to-think.html
 ---
 ---
 [{{ page.paper_ref }}](http://arxiv.org/pdf/1604.00289v2.pdf)
