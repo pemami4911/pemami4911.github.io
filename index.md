@@ -17,21 +17,23 @@ I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctor
 
 ## Papers
 
+* **Learning Permutations with Sinkhorn Policy Gradient**
+    * Patrick Emami, Sanjay Ranka. Submitted to NIPS 2018. [[arxiv]](https://arxiv.org/abs/1805.07010)
 * **Machine Learning Methods for Solving Assignment Problems in Multi-Target Tracking**
-    * Patrick Emami, Panos M. Pardalos, Lily Elefteriadou, Sanjay Ranka. Submitted to ACM Computing Surveys, 2018 [[arxiv](https://arxiv.org/abs/1802.06897v1)].
+    * Patrick Emami, Panos M. Pardalos, Lily Elefteriadou, Sanjay Ranka. Submitted to ACM Computing Surveys, 2018. [[arxiv](https://arxiv.org/abs/1802.06897v1)]
 * **Tracking Vehicles Equipped with Dedicated Short-Range Communication at Traffic Intersections**
-	* Patrick Emami, Lily Elefteriadou, Sanjay Ranka. Seventh ACM International Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications (DIVANet’17), 2017 [[PDF]](pdfs/tracking-vehicles-equipped-with-dsrc.pdf)
+	* Patrick Emami, Lily Elefteriadou, Sanjay Ranka. Seventh ACM International Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications (DIVANet’17), 2017. [[PDF]](pdfs/tracking-vehicles-equipped-with-dsrc.pdf)
 * **POMDPy: An Extensible Framework for Implementing POMDPs in Python**
-    * Patrick Emami, Alan Hamlet, Carl Crane. 2015 [[PDF](pdfs/pomdpy-extensible-framework.pdf)][[code](https://github.com/pemami4911/POMDPy)]
+    * Patrick Emami, Alan Hamlet, Carl Crane. 2015. [[PDF](pdfs/pomdpy-extensible-framework.pdf)][[code](https://github.com/pemami4911/POMDPy)]
 * **The Cognitive Driving Framework: Joint Inference for Collision Prediction and Avoidance in Autonomous Vehicles**
-    * Alan Hamlet, Patrick Emami, Carl Crane. Fifteenth International Conference on Control, Automation, and Systems (ICCAS), 2015 [[PDF](pdfs/ICCAS2015.pdf)]
+    * Alan Hamlet, Patrick Emami, Carl Crane. Fifteenth International Conference on Control, Automation, and Systems (ICCAS), 2015. [[PDF](pdfs/ICCAS2015.pdf)]
 * **A Gesture Recognition System for Mobile Robots That Learns Online**
-    * Alan Hamlet, Patrick Emami, Carl Crane. International Conference on Intelligent Robots and Systems (IROS), 2014 [[PDF](pdfs/IROS_2014.pdf)]
+    * Alan Hamlet, Patrick Emami, Carl Crane. International Conference on Intelligent Robots and Systems (IROS), 2014. [[PDF](pdfs/IROS_2014.pdf)]
 
 ## Posters
 
 * **A Demonstration of Fusing DSRC and Radar for Optimizing Intersection Performance**
-    * Patrick Emami, Mahmoud Pourmehrab, Lily Elefteriadou, Sanjay Ranka, Carl Crane. Automated Vehicles Symposium (AVS), 2017 [[Abstract](pdfs/AUVSI 2017 Abstract.pdf)]
+    * Patrick Emami, Mahmoud Pourmehrab, Lily Elefteriadou, Sanjay Ranka, Carl Crane. Automated Vehicles Symposium (AVS), 2017. [[Abstract](pdfs/AUVSI 2017 Abstract.pdf)]
 
 ## Presentations
 
