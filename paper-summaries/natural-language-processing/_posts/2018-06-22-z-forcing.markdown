@@ -21,7 +21,7 @@ MathJax.Hub.Config({
 
 ## Intro
 
-A new training procedure for recurrent VAEs is proposed. Recall that for VAEs, we model a joint distribution over observations $x$ and latent variables $z$, and assume that $z$ is involved in the generation of $x$. This distribution is parameterized by $\theta$. Maximizing the marginal log-likelihood $p_{\theta}(x)$ wrt $\theta$ is intractable bc it requires integrating over $z$. Instead, introduce a variational distribution $q_{\phi}(z|x)$ and maximize a lower bound on the marginal log-likelihood--the ELBO.
+A new training procedure for recurrent VAEs is proposed. Recall that for VAEs, we model a joint distribution over observations $x$ and latent variables $z$, and assume that $z$ is involved in the generation of $x$. This distribution is parameterized by $\theta$. Maximizing the marginal log-likelihood $p_{\theta}(x)$ wrt $\theta$ is intractable bc it requires integrating over $z$. Instead, introduce a variational distribution $q_{\phi}(z\|x)$ and maximize a lower bound on the marginal log-likelihood--the ELBO.
 
 ### Stochastic recurrent networks
 
