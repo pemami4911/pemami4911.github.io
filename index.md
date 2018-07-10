@@ -38,7 +38,7 @@ I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctor
 ## Presentations
 
 * **Deep Reinforcement Learning: An Overview**
-    * UF Informatics Institute Student Data Analysis Seminar. February 23rd, 2018. [[Slides](pdfs/deep-rl.pdf)]
+    * UF Informatics Institute Student Data Analysis Seminar. February 23rd, 2018. [[Slides](pdfs/slides-deep-reinforcement.pdf)]
 * **Introduction to Deep Learning**
     * UF Informatics Institute Student Data Analysis Seminar. September 7th, 2017. [[Slides](pdfs/deep-learning.pdf)]
 <br>
