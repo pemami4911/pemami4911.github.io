@@ -11,24 +11,24 @@ front: true
     img="/img/me-2.jpg"
 %}
 
-I am a 2nd-year Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/). Currently, I am a research assistant in UF's [Transportation Institute](http://www.transportation.institute.ufl.edu/) where I work on next-generation intelligent transportation systems for autonomous vehicles. My interests lie broadly within theoretical and applied artificial intelligence and machine learning; at the moment, I am researching topics in **deep reinforcement learning** and **multi-object tracking**.
+I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/). Currently, I am a research assistant in UF's [Transportation Institute](http://www.transportation.institute.ufl.edu/). My research interests are motivated by a desire to understand human intelligence and replicate its learning processes in machines. Lately, I've been working on problems that lie at the intersection of **multi-object tracking**, **combinatorial optimization**, and **reinforcement learning**.
 
 I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
 
-## Papers
+Here's my [CV](pdfs/cv.pdf).
+
+## Latest Publications
+
+See my CV for a complete list.
 
 * **Learning Permutations with Sinkhorn Policy Gradient**
-    * Patrick Emami, Sanjay Ranka. Submitted to NIPS 2018. [[arxiv]](https://arxiv.org/abs/1805.07010)
+    * Patrick Emami, Sanjay Ranka. Submitted to NIPS 2018. [[arxiv]](https://arxiv.org/abs/1805.07010)[[code]](https://github.com/pemami4911/sinkhorn-policy-gradient.pytorch)
 * **Machine Learning Methods for Solving Assignment Problems in Multi-Target Tracking**
     * Patrick Emami, Panos M. Pardalos, Lily Elefteriadou, Sanjay Ranka. Submitted to ACM Computing Surveys, 2018. [[arxiv](https://arxiv.org/abs/1802.06897v1)]
 * **Tracking Vehicles Equipped with Dedicated Short-Range Communication at Traffic Intersections**
-	* Patrick Emami, Lily Elefteriadou, Sanjay Ranka. Seventh ACM International Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications (DIVANet’17), 2017. [[PDF]](pdfs/tracking-vehicles-equipped-with-dsrc.pdf)
+    * Patrick Emami, Lily Elefteriadou, Sanjay Ranka. Seventh ACM International Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications (DIVANet’17), 2017. [[PDF]](pdfs/tracking-vehicles-equipped-with-dsrc.pdf)
 * **POMDPy: An Extensible Framework for Implementing POMDPs in Python**
     * Patrick Emami, Alan Hamlet, Carl Crane. 2015. [[PDF](pdfs/pomdpy-extensible-framework.pdf)][[code](https://github.com/pemami4911/POMDPy)]
-* **The Cognitive Driving Framework: Joint Inference for Collision Prediction and Avoidance in Autonomous Vehicles**
-    * Alan Hamlet, Patrick Emami, Carl Crane. Fifteenth International Conference on Control, Automation, and Systems (ICCAS), 2015. [[PDF](pdfs/ICCAS2015.pdf)]
-* **A Gesture Recognition System for Mobile Robots That Learns Online**
-    * Alan Hamlet, Patrick Emami, Carl Crane. International Conference on Intelligent Robots and Systems (IROS), 2014. [[PDF](pdfs/IROS_2014.pdf)]
 
 ## Posters
 
