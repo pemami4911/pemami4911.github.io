@@ -11,7 +11,7 @@ front: true
     img="/img/me-2.jpg"
 %}
 
-I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/). Currently, I am a research assistant in UF's [Transportation Institute](http://www.transportation.institute.ufl.edu/). My research interests are motivated by a desire to understand human intelligence and replicate its learning processes in machines. Lately, I've been working on problems that lie at the intersection of **multi-object tracking**, **combinatorial optimization**, and **reinforcement learning**.
+I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/). Currently, I am a research assistant in UF's [Transportation Institute](http://www.transportation.institute.ufl.edu/). My research interests are motivated by a desire to understand human intelligence and develop machines that can learn like us. Lately, I've been working on problems that lie at the intersection of **multi-object tracking**, **combinatorial optimization**, and **reinforcement learning**.
 
 I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
 
