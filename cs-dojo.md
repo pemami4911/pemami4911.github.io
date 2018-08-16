@@ -28,6 +28,7 @@ MathJax.Hub.Config({
   description="The study of programming languages design and implementation. These are my notes from UF's CAP5556."
   notes="/cs-dojo/plp"
 %}
+
 ---
 {%
   include reading.html
@@ -38,6 +39,15 @@ MathJax.Hub.Config({
   description="In-depth study on continuous (mainly non-convex) optimization."
   notes="/cs-dojo/nonlinear-programming.pdf"
 %}
-
 I'll be posting my solutions to various exercises in Nonlinear Programming [on Github](https://github.com/pemami4911/Nonlinear-Programming-Exercises).
-	
+
+---
+{%
+  include reading.html
+  img="/img/cg.jpeg"
+  url="http://people.inf.elte.hu/fekete/algoritmusok_msc/terinfo_geom/konyvek/Computational%20Geometry%20-%20Algorithms%20and%20Applications,%203rd%20Ed.pdf"
+  title="Computational Geometry Algorithms and Applications: 3rd Edition"
+  author="de Berg, Cheong, van Kreveld, Overmars"
+  description="Survey of algorithms for low-dimensional discrete geometric transportation problems."
+  notes="/cs-dojo/algorithms-geometric-transportation.pdf"
+%}
