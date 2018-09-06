@@ -37,6 +37,8 @@ See my CV for a complete list.
 
 ## Presentations
 
+* **Machine Learning in Intelligent Transportation Systems**
+  * UF Informatics Institute Student Data Analysis Seminar. September 6th, 2018. [[Slides](pdfs/ml-in-its.pdf)]
 * **Deep Reinforcement Learning: An Overview**
     * UF Informatics Institute Student Data Analysis Seminar. February 23rd, 2018. [[Slides](pdfs/slides-deep-reinforcement.pdf)]
 * **Introduction to Deep Learning**
