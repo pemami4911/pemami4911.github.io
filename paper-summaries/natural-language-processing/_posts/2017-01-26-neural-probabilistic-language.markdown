@@ -2,7 +2,7 @@
 layout: post
 title: "A Neural Probabilistic Language Model"
 date: 2017-01-26
-paper_ref: Bengio, et. al., 2003
+paper_ref: Bengio, et al., 2003
 redirect_from:
      - /paper-summaries/2017/01/26/neural-probabilistic-language.html
 ---

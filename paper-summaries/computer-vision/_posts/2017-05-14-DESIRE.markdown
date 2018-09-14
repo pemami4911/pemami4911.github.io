@@ -2,7 +2,7 @@
 layout: post
 title: "DESIRE: Distant Future Prediction in Dynamic Scenes with Interacting Agents"
 date: 2017-05-14
-paper_ref: Lee, et. al., 2016
+paper_ref: Lee, et al., 2016
 redirect_from:
     - /paper-summaries/2017/05/14/DESIRE.html
     - /paper-summaries/deep-learning/2017/05/14/DESIRE.html

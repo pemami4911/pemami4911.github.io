@@ -2,7 +2,7 @@
 layout: post
 title: "Horde: A Scalable Real-time Architecture for Learning Knowledge from Unsupervised Sensorimotor Interaction"
 date: 2018-03-01
-paper_ref: Sutton, et. al. 2011
+paper_ref: Sutton, et al. 2011
 ---
 
 <script type="text/x-mathjax-config">

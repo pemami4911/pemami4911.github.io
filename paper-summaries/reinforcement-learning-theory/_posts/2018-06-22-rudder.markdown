@@ -2,7 +2,7 @@
 layout: post
 title: "RUDDER: Return Decomposition for Delayed Rewards"
 date: 2018-06-22
-paper_ref: Arjona-Medina, Gillhofer, et. al., 2018
+paper_ref: Arjona-Medina, Gillhofer, et al., 2018
 ---
 
 <script type="text/x-mathjax-config">

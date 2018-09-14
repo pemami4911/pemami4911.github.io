@@ -2,7 +2,7 @@
 layout: post
 title: "Distributed Representations of Words and Phrases and their Compositionality"
 date: 2017-04-05
-paper_ref: Mikolov, et. al., 2013
+paper_ref: Mikolov, et al., 2013
 redirect_from:
     - /paper-summaries/2017/04/05/distributed-representations-of-words-and-phrases.html
 ---

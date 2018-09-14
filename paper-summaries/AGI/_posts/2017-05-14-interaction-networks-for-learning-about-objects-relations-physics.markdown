@@ -2,7 +2,7 @@
 layout: post
 title: "Interaction Networks for Learning about Objects, Relations, and Physics"
 date: 2017-05-14
-paper_ref: Battaglia, et. al., 2016
+paper_ref: Battaglia, et al., 2016
 redirect_from:
     - /paper-summaries/2017/05/14/interaction-networks-for-learning-about-objects-relations-physics.html
     - /paper-summaries/deep-learning/2017/05/14/interaction-networks-for-learning-about-objects-relations-physics.html

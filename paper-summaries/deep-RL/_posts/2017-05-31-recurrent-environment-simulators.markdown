@@ -2,7 +2,7 @@
 layout: post
 title: "Recurrent Environment Simulators"
 date: 2017-05-31
-paper_ref: Chiappa, et. al., 2017
+paper_ref: Chiappa, et al., 2017
 redirect_from:
     - /paper-summaries/2017/05/31/recurrent-environment-simulators.html
 ---
@@ -23,7 +23,7 @@ MathJax.Hub.Config({
 
 ## Summary
 
-This paper extends the results on action-conditional video prediction from [Oh, et. al., 2015](https://arxiv.org/abs/1507.08750). The motivation behind this line of research is to investigate whether training RL agents to learn how their actions affect the environment reduces the amount of time they spend in exploration. The authors outline the following main challenges:
+This paper extends the results on action-conditional video prediction from [Oh, et al., 2015](https://arxiv.org/abs/1507.08750). The motivation behind this line of research is to investigate whether training RL agents to learn how their actions affect the environment reduces the amount of time they spend in exploration. The authors outline the following main challenges:
 
 1. The properties of generalization and sensitivity to model structure of these methods are poorly understood
 2. Accurate prediction for long time periods into the future is hard

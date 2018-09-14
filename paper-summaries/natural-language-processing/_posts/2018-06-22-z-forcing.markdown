@@ -2,7 +2,7 @@
 layout: post
 title: "Z-Forcing: Training Stochastic Recurrent Networks"
 date: 2018-06-22
-paper_ref: Goyal, et. al., 2017
+paper_ref: Goyal, et al., 2017
 ---
 
 <script type="text/x-mathjax-config">

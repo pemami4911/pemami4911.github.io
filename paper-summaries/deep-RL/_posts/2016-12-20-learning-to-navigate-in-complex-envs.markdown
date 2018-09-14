@@ -2,7 +2,7 @@
 layout: post
 title: "Learning To Navigate in Complex Environments"
 date: 2016-12-20
-paper_ref: Mirowski, et. al., 2016
+paper_ref: Mirowski, et al., 2016
 redirect_from:
     - /paper-summaries/2016/12/20/learning-to-navigate-in-complex-envs.html
 ---

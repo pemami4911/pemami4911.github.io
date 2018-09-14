@@ -36,7 +36,6 @@ if __name__ == '__main__':
 
     with open(fn, 'w+') as new_paper_sum:
         with open(os.path.join('_drafts', 'paper-summaries-template.md'), 'r') as template:
-            import pdb; pdb.set_trace()
             t = template.read()
             new_paper_sum.write(t)
 

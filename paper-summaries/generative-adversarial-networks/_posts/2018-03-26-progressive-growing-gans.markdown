@@ -2,7 +2,7 @@
 layout: post
 title: "Progressive Growing of GANs for Improved Quality, Stability, and Variation"
 date: 2018-03-26
-paper_ref: Karras, et. al., 2018
+paper_ref: Karras, et al., 2018
 ---
 
 <script type="text/x-mathjax-config">

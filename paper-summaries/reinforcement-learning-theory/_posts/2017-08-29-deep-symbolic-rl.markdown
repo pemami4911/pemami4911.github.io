@@ -2,7 +2,7 @@
 layout: post
 title: "Towards Deep Symbolic Reinforcement Learning"
 date: 2017-08-29
-paper_ref: Garnelo, et. al., 2017
+paper_ref: Garnelo, et al., 2017
 ---
 
 <script type="text/x-mathjax-config">
@@ -28,7 +28,7 @@ MathJax.Hub.Config({
 
 It is desirable for an agent to symbolically reason about its environment, in order to expediate the process of learning optimal behaviors. However, "classic" symbolic AI suffers from the **symbol grounding problem**; symbolic elements have traditionally been hand-crafted, and hence, are brittle. On the other hand, Deep Learning can be used to automatically learn ~optimal "symbols", upon which a reinforcement learning agent could learn behaviors motivated by these learned symbols. By forcing a Deep RL agent to operate in a symbolic domain, the decisions made by the agent are naturally more interpretable.
 
-The aspects of AI that this work focuses on are closely related to those proposed in the manifesto written by [Lake et. al.](http://pemami4911.github.io/paper-summaries/general-ai/2016/05/13/learning-to-think.html). There are also nods to [Douglas Hofstadter's](http://cogs.indiana.edu/people/profile.php?u=dughof) work on analogy as being the main driving force behind intelligence, as well as [Marcus Hutter's](http://www.hutter1.net/) Universal Artificial Intelligence work.
+The aspects of AI that this work focuses on are closely related to those proposed in the manifesto written by [Lake et al.](http://pemami4911.github.io/paper-summaries/general-ai/2016/05/13/learning-to-think.html). There are also nods to [Douglas Hofstadter's](http://cogs.indiana.edu/people/profile.php?u=dughof) work on analogy as being the main driving force behind intelligence, as well as [Marcus Hutter's](http://www.hutter1.net/) Universal Artificial Intelligence work.
 
 1. Conceptual abstraction - agents can use abstractions to make analogies and hence learn optimal behaviors faster
 2. Compositional structure - probabilistic first-order logic provides the underlying framework for a representation medium that is compositional
