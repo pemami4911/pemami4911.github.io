@@ -11,18 +11,18 @@ front: true
     img="/img/me-2.jpg"
 %}
 
-I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/). Currently, I am a research assistant in UF's [Transportation Institute](http://www.transportation.institute.ufl.edu/). My research interests are motivated by a desire to understand human intelligence and develop machines that can learn like us. Lately, I've been working on problems that lie at the intersection of **multi-object tracking**, **combinatorial optimization**, and **reinforcement learning**.
+I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/) and [Dr. Anand Rangarajan](https://www.cise.ufl.edu/~anand/bio.html). My research interests are motivated by a desire to understand human intelligence and develop machines that can learn like us. Lately, I've been working on problems in computer vision, an area of machine learning where the emphasis is on building systems that have visual capabilities similar to our own. In particular, I've been working on solving image matching with deep learning, which has applications in localization and mapping for autonomous vehicles and in mixed/augmented reality.
 
 I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
 
 Here's my [CV](pdfs/cv.pdf).
 
-## Latest Publications
+## Recent publications
 
 See my CV for a complete list.
 
 * **Learning Permutations with Sinkhorn Policy Gradient**
-    * Patrick Emami, Sanjay Ranka. Submitted to NIPS 2018. [[arxiv]](https://arxiv.org/abs/1805.07010)[[code]](https://github.com/pemami4911/sinkhorn-policy-gradient.pytorch)
+    * Patrick Emami, Sanjay Ranka. [[arxiv]](https://arxiv.org/abs/1805.07010)[[code]](https://github.com/pemami4911/sinkhorn-policy-gradient.pytorch)
 * **Machine Learning Methods for Solving Assignment Problems in Multi-Target Tracking**
     * Patrick Emami, Panos M. Pardalos, Lily Elefteriadou, Sanjay Ranka. Submitted to ACM Computing Surveys, 2018. [[arxiv](https://arxiv.org/abs/1802.06897v1)]
 * **Tracking Vehicles Equipped with Dedicated Short-Range Communication at Traffic Intersections**
