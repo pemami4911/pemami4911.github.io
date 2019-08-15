@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "A Note on Bayesian Recursive Filters"
-date:   2017-08-20
+title: "A Note on Bayesian Recursive Filters"
+date: 2017-08-20
 category: blog
 ---
 
