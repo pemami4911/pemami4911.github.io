@@ -11,7 +11,7 @@ front: true
     img="/img/me-2.jpg"
 %}
 
-I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/) and [Dr. Anand Rangarajan](https://www.cise.ufl.edu/~anand/bio.html). My research interests are motivated by a desire to understand human intelligence and develop machines that can learn like us. Lately, I've been working on problems in computer vision, an area of machine learning where the emphasis is on building systems that have visual capabilities similar to our own. In particular, I've been working on solving image matching with deep learning, which has applications in localization and mapping for autonomous vehicles and in mixed/augmented reality.
+I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/) and [Dr. Anand Rangarajan](https://www.cise.ufl.edu/~anand/bio.html). My research interests are motivated by a desire to understand human intelligence and develop machines that can learn like us. Lately, I've been working on multi-object spatiotemporal problems in computer vision, an area of machine learning where the emphasis is on building systems that have advanced visual capabilities.
 
 I'm also a [McKnight Fellow](http://fefonline.org/mdf.html); the McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
 
@@ -21,14 +21,14 @@ Here's my [CV](pdfs/cv.pdf).
 
 See my CV for a complete list.
 
+* **A Comparison of Intelligent Signalized Intersection Controllers Under Mixed Traffic**
+    * Patrick Emami, Mahmoud Pourmehrab, Marilo Martin-Gasulla, Sanjay Ranka, Lily Elefteriadou. IEEE Intelligent Transportation Systems Conference, 2018. [[IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8569939)]
 * **Learning Permutations with Sinkhorn Policy Gradient**
     * Patrick Emami, Sanjay Ranka. [[arxiv]](https://arxiv.org/abs/1805.07010)[[code]](https://github.com/pemami4911/sinkhorn-policy-gradient.pytorch)
 * **Machine Learning Methods for Solving Assignment Problems in Multi-Target Tracking**
     * Patrick Emami, Panos M. Pardalos, Lily Elefteriadou, Sanjay Ranka. Submitted to ACM Computing Surveys, 2018. [[arxiv](https://arxiv.org/abs/1802.06897v1)]
 * **Tracking Vehicles Equipped with Dedicated Short-Range Communication at Traffic Intersections**
     * Patrick Emami, Lily Elefteriadou, Sanjay Ranka. Seventh ACM International Symposium on Design and Analysis of Intelligent Vehicular Networks and Applications (DIVANet’17), 2017. [[PDF]](pdfs/tracking-vehicles-equipped-with-dsrc.pdf)
-* **POMDPy: An Extensible Framework for Implementing POMDPs in Python**
-    * Patrick Emami, Alan Hamlet, Carl Crane. 2015. [[PDF](pdfs/pomdpy-extensible-framework.pdf)][[code](https://github.com/pemami4911/POMDPy)]
 
 ## Posters
 
