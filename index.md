@@ -8,7 +8,7 @@ front: true
 
 {%
     include profile-pic.html
-    img="/img/me-2.jpg"
+    img="/img/headshot-cropped.jpg"
 %}
 
 I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/) and [Dr. Anand Rangarajan](https://www.cise.ufl.edu/~anand/bio.html). My research interests are motivated by a desire to understand human intelligence and develop machines that can learn like us. Lately, I've been working on multi-object spatiotemporal problems in computer vision, an area of machine learning where the emphasis is on building systems that have advanced visual capabilities.
