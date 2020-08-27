@@ -24,7 +24,7 @@ See my CV for a complete list.
 * **On the Detection of Disinformation Campaign Activity with Network Analysis**
     * Patrick Emami\*, Luis Vargas\*, Patrick Traynor (\*Equal contribution). To appear at CCSW 2020: The ACM Cloud Computing Security Workshop. 2020.
 * **Machine Learning Methods for Data Association in Multi-Object Tracking**
-    * Patrick Emami, Panos M. Pardalos, Lily Elefteriadou, Sanjay Ranka. ACM Computing Surveys, 53, 4, Article 69 (August 2020). [[PDF]](pdfs/Machine_Learning_for_Data_Association_in_Multi_Object_Tracking.pdf)[[ACM Digital Library]](https://dl.acm.org/doi/10.1145/3394659)
+    * Patrick Emami, Panos M. Pardalos, Lily Elefteriadou, Sanjay Ranka. ACM Computing Surveys, 53, 4, Article 69 (August 2020). [[arxiv](https://arxiv.org/abs/1802.06897)][[ACM Digital Library](https://dl.acm.org/doi/10.1145/3394659)]
 * **A Comparison of Intelligent Signalized Intersection Controllers Under Mixed Traffic**
     * Patrick Emami, Mahmoud Pourmehrab, Marilo Martin-Gasulla, Sanjay Ranka, Lily Elefteriadou. IEEE Intelligent Transportation Systems Conference, 2018. [[IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/8569939)]
 * **Learning Permutations with Sinkhorn Policy Gradient**
