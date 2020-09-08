@@ -22,7 +22,7 @@ Here's my [CV](pdfs/cv.pdf).
 See my CV for a complete list.
 
 * **On the Detection of Disinformation Campaign Activity with Network Analysis**
-    * Patrick Emami\*, Luis Vargas\*, Patrick Traynor (\*Equal contribution). To appear at CCSW 2020: The ACM Cloud Computing Security Workshop. 2020.
+    * Patrick Emami\*, Luis Vargas\*, Patrick Traynor (\*Equal contribution). To appear at CCSW 2020: The ACM Cloud Computing Security Workshop. 2020. [[arxiv](https://arxiv.org/abs/2005.13466)]
 * **Machine Learning Methods for Data Association in Multi-Object Tracking**
     * Patrick Emami, Panos M. Pardalos, Lily Elefteriadou, Sanjay Ranka. ACM Computing Surveys, 53, 4, Article 69 (August 2020). [[arxiv](https://arxiv.org/abs/1802.06897)][[ACM Digital Library](https://dl.acm.org/doi/10.1145/3394659)]
 * **A Comparison of Intelligent Signalized Intersection Controllers Under Mixed Traffic**
