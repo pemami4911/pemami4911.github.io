@@ -11,7 +11,7 @@ front: true
     img="/img/headshot-cropped.jpg"
 %}
 
-I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/) and [Dr. Anand Rangarajan](https://www.cise.ufl.edu/~anand/bio.html). My research is motivated by a desire to understand human intelligence and to develop machines that can learn like us. I mainly study deep generative models for multi-object spatiotemporal visual data. I collaborate on inter-disciplinary projects where I apply machine learning to [transportation engineering](http://avian.essie.ufl.edu/) and [cybersecurity](https://arxiv.org/abs/2005.13466).
+I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/) and [Dr. Anand Rangarajan](https://www.cise.ufl.edu/~anand/bio.html). My research is motivated by a desire to understand human intelligence and to develop machines that can learn like us. I mainly study deep generative models for multi-object spatiotemporal visual data. I also collaborate on inter-disciplinary projects where I apply machine learning to [transportation engineering](http://avian.essie.ufl.edu/) and [cybersecurity](https://arxiv.org/abs/2005.13466).
 
 I'm also a [Florida McKnight Fellow](http://fefonline.org/mdf.html). The McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
 
