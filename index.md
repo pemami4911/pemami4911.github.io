@@ -22,7 +22,7 @@ Contact: pemami[at]ufl[dot][edu]
 ## News
 
 * **November 2020** An article on my work on efficient multi-modal deep learning for object tracking at urban traffic intersections [has been featured](https://www.transportation.institute.ufl.edu/2020/11/computer-science-graduate-student-work-on-creating-a-framework-for-optimizing-intelligent-traffic-intersection-controllers/) in the UF Transportation Institute newsletter/homepage
-* **November 2020** My paper "A Symmetric and Object-Centric World Model for Stochastic Environments" has been accepted as an Oral (5/20) at the NeurIPS Object Representations for Learning and Reasoning workshop! Stay tuned for a link to the camera ready and code.
+* **November 2020** My paper "A Symmetric and Object-Centric World Model for Stochastic Environments" has been <span style="color:red">**accepted as an Oral (5/20)**</span> at the NeurIPS Object Representations for Learning and Reasoning workshop! Stay tuned for a link to the camera ready and code.
 * **October 2020** I have been awarded the [STRIDE](https://stride.ce.ufl.edu/) 2020 Student of the Year Award!
 
 ## Recent publications
@@ -30,7 +30,7 @@ Contact: pemami[at]ufl[dot][edu]
 See my CV for a complete list.
 
 * **A Symmetric and Object-Centric World Model for Stochastic Environments**
-    * Patrick Emami, Pan He, Anand Rangarajan, Sanjay Ranka. NeurIPS Workshop on Object Representations for Learning and Reasoning. 2020. [paper/code/videos soon!]
+    * Patrick Emami, Pan He, Anand Rangarajan, Sanjay Ranka. NeurIPS Workshop on Object Representations for Learning and Reasoning. **Oral (5/20)**. 2020. [paper/code/videos soon!]
 * **On the Detection of Disinformation Campaign Activity with Network Analysis**
     * Patrick Emami\*, Luis Vargas\*, Patrick Traynor (\*Equal contribution). CCSW 2020: The ACM Cloud Computing Security Workshop. 2020. [[arxiv](https://arxiv.org/abs/2005.13466)]
 * **Machine Learning Methods for Data Association in Multi-Object Tracking**
