@@ -30,7 +30,7 @@ Contact: pemami[at]ufl[dot][edu]
 See my CV for a complete list.
 
 * **A Symmetric and Object-Centric World Model for Stochastic Environments**
-    * Patrick Emami, Pan He, Anand Rangarajan, Sanjay Ranka. NeurIPS Workshop on Object Representations for Learning and Reasoning. **Oral (5/20)**. 2020. [paper/code/videos soon!]
+    * Patrick Emami, Pan He, Anand Rangarajan, Sanjay Ranka. NeurIPS Workshop on Object Representations for Learning and Reasoning. **Oral (5/20)**. 2020. [[pdf]](https://github.com/orlrworkshop/orlrworkshop.github.io/blob/master/pdf/ORLR_3.pdf)[[webpage](https://pemami4911.github.io/blog/2020/12/08/symmetric-and-object-centric-world-models.html)]
 * **On the Detection of Disinformation Campaign Activity with Network Analysis**
     * Patrick Emami\*, Luis Vargas\*, Patrick Traynor (\*Equal contribution). CCSW 2020: The ACM Cloud Computing Security Workshop. 2020. [[arxiv](https://arxiv.org/abs/2005.13466)]
 * **Machine Learning Methods for Data Association in Multi-Object Tracking**
