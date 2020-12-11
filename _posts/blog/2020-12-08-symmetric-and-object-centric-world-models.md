@@ -33,7 +33,7 @@ Object-centric world models learn useful representations for planning and contro
 
 [[paper]](https://github.com/orlrworkshop/orlrworkshop.github.io/blob/master/pdf/ORLR_3.pdf) [[code]](https://github.com/pemami4911/symmetric-and-object-centric-world-models) [[poster]](/pdfs/Workshop_poster_HD.pdf)
 
-## Demos
+## Demos - BAIR Towel Pick 30K with noisy actions
 
 <!-- {%
     include image.html
@@ -50,6 +50,13 @@ From left to right: ground truth, **Ours**, OP3, VRNN:
     <img src="/img/orlr/BAIR_Ours-video-1-rollout-0.gif">
     <img src="/img/orlr/BAIR_OP3-video-1-rollout-0.gif">
     <img src="/img/orlr/BAIR_VRNN-video-1-rollout-0.gif">
+</div>
+
+<div class="image-wrapper">
+    <img src="/img/orlr/BAIR_gt-video-2-rollout-0.gif">
+    <img src="/img/orlr/BAIR_Ours-video-2-rollout-0.gif">
+    <img src="/img/orlr/BAIR_OP3-video-2-rollout-0.gif">
+    <img src="/img/orlr/BAIR_VRNN-video-2-rollout-0.gif">
 </div>
 
 <div class="image-wrapper">
