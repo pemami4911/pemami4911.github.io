@@ -11,11 +11,11 @@ front: true
     img="/img/headshot-cropped.jpg"
 %}
 
-I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/) and [Dr. Anand Rangarajan](https://www.cise.ufl.edu/~anand/bio.html). My research is motivated by a desire to understand human intelligence and to develop machines that can learn like us. I mainly study deep generative models for multi-object spatiotemporal visual data. I also collaborate on inter-disciplinary projects where I apply machine learning to [transportation engineering](http://avian.essie.ufl.edu/) and [cybersecurity](https://arxiv.org/abs/2005.13466).
+I am a Computer Science PhD student at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/) and [Dr. Anand Rangarajan](https://www.cise.ufl.edu/~anand/bio.html). My research is motivated by a desire to understand human intelligence and to develop machines that can learn like us. I research neural algorithms for analyzing and generating multi-object spatiotemporal visual data. I also collaborate on inter-disciplinary projects where I apply machine learning to [transportation engineering](http://avian.essie.ufl.edu/) and [cybersecurity](https://arxiv.org/abs/2005.13466).
 
-I'm also a [Florida McKnight Fellow](http://fefonline.org/mdf.html). The McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
+I'm a [Florida McKnight Fellow](http://fefonline.org/mdf.html). The McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
 
-Here's my [CV](pdfs/cv.pdf). I am currently looking for internships for Summer 2021.
+Here's my [CV](pdfs/cv.pdf) and [resume](pdfs/resume.pdf). I am currently looking for internships for Summer 2021.
 
 Contact: pemami[at]ufl[dot][edu]
 
@@ -29,6 +29,8 @@ Contact: pemami[at]ufl[dot][edu]
 
 See my CV for a complete list.
 
+* **Long-range Tracking of Vehicles at Traffic Intersections Without a GPU**
+    * Patrick Emami, Lily Elefteriadou, Sanjay Ranka. IEEE Transactions on Intelligent Transportation Systems. 2021. Submitted.
 * **A Symmetric and Object-Centric World Model for Stochastic Environments**
     * Patrick Emami, Pan He, Anand Rangarajan, Sanjay Ranka. NeurIPS Workshop on Object Representations for Learning and Reasoning. **Oral (5/20)**. 2020. [[pdf]](https://github.com/orlrworkshop/orlrworkshop.github.io/blob/master/pdf/ORLR_3.pdf)[[webpage](https://pemami4911.github.io/blog/2020/12/08/symmetric-and-object-centric-world-models.html)]
 * **On the Detection of Disinformation Campaign Activity with Network Analysis**
