@@ -15,7 +15,7 @@ I am a Computer Science Ph.D. Candidate at the University of Florida advised by 
 
 I'm a [Florida McKnight Fellow](http://fefonline.org/mdf.html). The McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
 
-Here's my [CV](pdfs/cv.pdf) and [resume](pdfs/resume.pdf). I am currently looking for internships for Summer 2021.
+Here's my [CV](pdfs/cv.pdf) and [resume](pdfs/resume.pdf).
 
 Contact: pemami[at]ufl[dot][edu]
 
