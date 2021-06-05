@@ -3,7 +3,7 @@ layout: post
 title: "A Symmetric and Object-centric World Model for Stochastic Environments"
 date: 2020-12-08
 category: blog
-byline: "Web page for my NeurIPS ORLR Workshop Spotlight paper"
+byline: "Web page for my NeurIPS ORLR workshop spotlight paper"
 ---
 
 <script type="text/javascript" async
@@ -18,20 +18,22 @@ MathJax.Hub.Config({
 </script>
 
 ---
-**Patrick Emami**, Pan He, Anand Rangarajan, Sanjay Ranka
+**Patrick Emami**, Pan He, Anand Rangarajan, Sanjay Ranka. NeurIPS Object Representations for Learning and Reasoning Workshop. 2020. (*Spotlight presentation*)
 
-2020 NeurIPS Object Representations for Learning and Reasoning Workshop **Oral Presentation**
-
-{%
-    include image.html
-    img="/img/orlr/orlr_main.png"
-%}
+ 
+<span style="color:blue">**tl;dr**:</span> We identify limitations of applying certain object-centric world models to stochastic environments and propose a state space model and training objective that achieves better stochastic future prediction.
 
 ## Abstract
 
 Object-centric world models learn useful representations for planning and control but have so far only been applied to synthetic and deterministic environments. We introduce a perceptual-grouping-based world model for the dual task of extracting object-centric representations and modeling stochastic dynamics in visually complex and noisy video environments. The world model is built upon a novel latent state space model that learns the variance for object discovery and dynamics separately. This design is motivated by the disparity in available information that exists between the discovery component, which takes a provided video frame and decomposes it into objects, and the dynamics component, which predicts representations for future video frames conditioned only on past frames. To learn the dynamics variance, we introduce a best-of-many-rollouts objective. We show that the world model successfully learns accurate and diverse rollouts in a real-world robotic manipulation environment with noisy actions while learning interpretable object-centric representations.
 
 [[paper]](https://github.com/orlrworkshop/orlrworkshop.github.io/blob/master/pdf/ORLR_3.pdf) [[code]](https://github.com/pemami4911/symmetric-and-object-centric-world-models) [[poster]](/pdfs/Workshop_poster_HD.pdf)
+
+{%
+    include image.html
+    img="/img/orlr/orlr_main.png"
+%}
+
 
 ## Demos - BAIR Towel Pick 30K with noisy actions
 

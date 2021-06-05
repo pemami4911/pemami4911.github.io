@@ -24,7 +24,7 @@ Contact: pemami[at]ufl[dot][edu]
 * **May 2021** I am interning this summer with the National Renewable Energy Lab's (NREL) [Complex Systems Simulation and Optimization group](https://www.nrel.gov/computational-science/complex-systems-simulation-optimization.html) working on reinforcement learning for traffic signal control!
 * **April 2021** I am now a Ph.D. Candidate!
 * **November 2020** An article on my work on efficient multi-modal deep learning for object tracking at urban traffic intersections [has been featured](https://www.transportation.institute.ufl.edu/2020/11/computer-science-graduate-student-work-on-creating-a-framework-for-optimizing-intelligent-traffic-intersection-controllers/) in the UF Transportation Institute newsletter/homepage
-* **November 2020** My paper "A Symmetric and Object-Centric World Model for Stochastic Environments" has been <span style="color:red">**accepted as an Oral (5/20)**</span> at the NeurIPS Object Representations for Learning and Reasoning workshop!
+* **November 2020** My paper "A Symmetric and Object-Centric World Model for Stochastic Environments" has been <span style="color:red">**accepted as an spotlight (5/20)**</span> at the NeurIPS Object Representations for Learning and Reasoning workshop!
 
 ## Recent publications
 
@@ -42,7 +42,7 @@ See my CV for a complete list.
 ## Presentations
 
 * **A Symmetric and Object-Centric World Model for Stochastic Environments**
-  * NeurIPS Workshop on Object Representations for Learning and Reasoning. **Oral**. December 11, 2020. [[Slides](https://www.dropbox.com/s/2sp8fvbwbj3nep0/ORLR%20spotlight_Feb_19.pptx?dl=0)]
+  * NeurIPS Workshop on Object Representations for Learning and Reasoning. **Spotlight**. December 11, 2020. [[Slides](https://www.dropbox.com/s/2sp8fvbwbj3nep0/ORLR%20spotlight_Feb_19.pptx?dl=0)]
 * **Machine Learning in Intelligent Transportation Systems**
   * UF Informatics Institute Student Data Analysis Seminar. September 6th, 2018. [[Slides](pdfs/ml-in-its.pdf)]
 * **Deep Reinforcement Learning: An Overview**
@@ -53,6 +53,6 @@ See my CV for a complete list.
 
 {%
     include image.html
-    img="/img/me.jpg"
-    caption="As a researcher, either you won’t understand something and you will feel stupid and like a worm, or you will understand something and think it’s too trivial and hence still feel like a worm - Simon Peyton Jones"
+    img="/img/leeuwenberg.png"
+    caption="Leeuwenberg, E. L. J. \"A Perceptual Coding Language for Visual and Auditory Patterns.\" The American Journal of Psychology, vol. 84, no. 3, 1971, pg. 338."
 %}
