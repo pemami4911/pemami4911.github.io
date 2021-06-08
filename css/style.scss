@@ -9,7 +9,7 @@
 $base-font-family: "PT Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * 0.9;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
@@ -618,7 +618,7 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
+  font-size: 48px;
 
   text-align: center;
   font-family: "PT Sans";
@@ -733,6 +733,7 @@ pre {
     color: #808080;
     font-style: italic;
     text-align: center;
+    font-size: $small-font-size !important;
 }
 
 img {

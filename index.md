@@ -21,15 +21,18 @@ Contact: pemami[at]ufl[dot][edu]
 
 ## News
 
+* **May 2021** My paper "Efficient Iterative Amortized Inference for Learning Symmetric and Disentangled Multi-Object Representations" has been <span style="color:red">**accepted as a short talk at ICML'21**</span>! 
 * **May 2021** I am interning this summer with the National Renewable Energy Lab's (NREL) [Complex Systems Simulation and Optimization group](https://www.nrel.gov/computational-science/complex-systems-simulation-optimization.html) working on reinforcement learning for traffic signal control!
 * **April 2021** I am now a Ph.D. Candidate!
 * **November 2020** An article on my work on efficient multi-modal deep learning for object tracking at urban traffic intersections [has been featured](https://www.transportation.institute.ufl.edu/2020/11/computer-science-graduate-student-work-on-creating-a-framework-for-optimizing-intelligent-traffic-intersection-controllers/) in the UF Transportation Institute newsletter/homepage
-* **November 2020** My paper "A Symmetric and Object-Centric World Model for Stochastic Environments" has been <span style="color:red">**accepted as an spotlight (5/20)**</span> at the NeurIPS Object Representations for Learning and Reasoning workshop!
+* **November 2020** My paper "A Symmetric and Object-Centric World Model for Stochastic Environments" has been accepted as an spotlight (5/20) at the NeurIPS Object Representations for Learning and Reasoning workshop!
 
 ## Recent publications
 
 See my CV for a complete list.
 
+* **Efficient Iterative Amortized Inference for Learning Symmetric and Disentangled Multi-Object Representations**
+    * Patrick Emami, Pan He, Sanjay Ranka, Anand Rangarajan. International Conference on Machine Learning (ICML). 2021. [[arxiv](https://arxiv.org/abs/2106.03630)][[code and data](https://github.com/pemami4911/EfficientMORL)]
 * **Long-range Multi-Object Tracking at Traffic Intersections for Edge Devices**
     * Patrick Emami, Lily Elefteriadou, Sanjay Ranka. IEEE Transactions on Intelligent Transportation Systems. 2021. Under review.
 * **A Symmetric and Object-Centric World Model for Stochastic Environments**
