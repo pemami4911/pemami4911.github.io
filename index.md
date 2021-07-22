@@ -21,11 +21,10 @@ Contact: pemami[at]ufl[dot][edu]
 
 ## News
 
+* **July 2021** I was recognized as a [Top 10% reviewer](https://icml.cc/Conferences/2021/Reviewers) at ICML'21!
 * **May 2021** My paper "Efficient Iterative Amortized Inference for Learning Symmetric and Disentangled Multi-Object Representations" has been <span style="color:red">**accepted as a short talk at ICML'21**</span>! 
 * **May 2021** I am interning this summer with the National Renewable Energy Lab's (NREL) [Complex Systems Simulation and Optimization group](https://www.nrel.gov/computational-science/complex-systems-simulation-optimization.html) working on reinforcement learning for traffic signal control!
 * **April 2021** I am now a Ph.D. Candidate!
-* **November 2020** An article on my work on efficient multi-modal deep learning for object tracking at urban traffic intersections [has been featured](https://www.transportation.institute.ufl.edu/2020/11/computer-science-graduate-student-work-on-creating-a-framework-for-optimizing-intelligent-traffic-intersection-controllers/) in the UF Transportation Institute newsletter. Pre-print forthcoming.
-* **November 2020** My paper "A Symmetric and Object-Centric World Model for Stochastic Environments" has been accepted as an spotlight (5/20) at the NeurIPS Object Representations for Learning and Reasoning workshop!
 
 ## Publications
 
