@@ -11,9 +11,7 @@ front: true
     img="/img/Home/headshot-cropped.jpg"
 %}
 
-I am a Computer Science Ph.D. Candidate at the University of Florida advised by [Dr. Sanjay Ranka](https://sites.google.com/site/sanjayranka/) and [Dr. Anand Rangarajan](https://www.cise.ufl.edu/~anand/bio.html). My research is motivated by a desire to build computational vision systems that mimic how humans perceive the world. I also enjoy collaborating on inter-disciplinary projects where I apply machine learning to [transportation engineering](http://avian.essie.ufl.edu/) and [cybersecurity](https://arxiv.org/abs/2005.13466). My thesis research is on the development of efficient neural algorithms for object-centric scene understanding, with applications to traffic signal control and model-based reinforcement learning.
-
-I'm a [Florida McKnight Fellow](http://fefonline.org/mdf.html). The McKnight Doctoral Fellowship program aims to address the under-representation of African American and Hispanic faculty in the state of Florida. I'm always looking for ways in which I can better promote diversity and inclusivity in the field of computing. 
+I am a machine learning researcher broadly interested in representation learning, reinforcement learning, and AI for social good. I am a Ph.D. candidate at the University of Florida expecting to graduate in December 2021. My research has spanned many topics including object-centric deep generative models, low-resource multi-object tracking, and traffic signal control. I'm also a [Florida McKnight Fellow](http://fefonline.org/mdf.html). During the summer of 2021, I worked as a research intern at the National Renewable Energy Lab. There, I built a tool that uses a scalable stochastic approximation method to calibrate traffic simulations and investigated a new deep reinforcement learning approach for NEMA-compliant traffic signal control.
 
 Here's my [CV](pdfs/cv.pdf) and [resume](pdfs/resume.pdf).
 
