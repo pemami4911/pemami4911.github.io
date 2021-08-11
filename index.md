@@ -11,7 +11,7 @@ front: true
     img="/img/Home/headshot-cropped.jpg"
 %}
 
-I am a machine learning researcher broadly interested in representation learning, reinforcement learning, and AI for social good. I am a Ph.D. candidate at the University of Florida expecting to graduate in December 2021. My research has spanned many topics including object-centric deep generative models, low-resource multi-object tracking, and traffic signal control. I'm also a [Florida McKnight Fellow](http://fefonline.org/mdf.html). During the summer of 2021, I worked as a research intern at the National Renewable Energy Lab. There, I built a tool that uses a scalable stochastic approximation method to calibrate traffic simulations and investigated a new deep reinforcement learning approach for NEMA-compliant traffic signal control.
+I am a machine learning researcher interested in representation learning, reinforcement learning, and AI for social good. I am a Ph.D. candidate at the University of Florida expecting to graduate in December 2021. My research has spanned topics including object-centric deep generative modeling, low-resource multi-object tracking, and traffic signal control. I'm also a [Florida McKnight Fellow](http://fefonline.org/mdf.html). During the summer of 2021, I worked as a research intern at the National Renewable Energy Lab. There, I built a tool that uses a scalable stochastic approximation method to calibrate traffic simulations and investigated a new deep reinforcement learning approach for NEMA-compliant traffic signal control.
 
 Here's my [CV](pdfs/cv.pdf) and [resume](pdfs/resume.pdf).
 
