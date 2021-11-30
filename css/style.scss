@@ -23,10 +23,10 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    1000px;
+$content-width:    1250px;
 
-$on-palm:          600px;
-$on-laptop:        1000px;
+$on-palm:          750px;
+$on-laptop:        1250px;
 
 
 
@@ -60,7 +60,7 @@ body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
-    padding: 0;
+    padding: 5px;
 }
 
 
