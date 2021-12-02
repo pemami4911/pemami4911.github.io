@@ -21,6 +21,7 @@ Contact: pemami[at]ufl[dot][edu]
 
 ## News
 
+* **December 2021** One paper accepted at AAAI'22 (15% acceptance rate)!
 * **November 2021** One paper accepted for publication in IEEE Transactions on Intelligent Transportation Systems (T-ITS) and one paper accepted for publication in the International Journal of Computer Vision (IJCV)
 * **July 2021** I was recognized as a [Top 10% reviewer](https://icml.cc/Conferences/2021/Reviewers) at ICML'21!
 * **May 2021** My paper "Efficient Iterative Amortized Inference for Learning Symmetric and Disentangled Multi-Object Representations" has been <span style="color:red">**accepted as a short talk at ICML'21**</span>! 
