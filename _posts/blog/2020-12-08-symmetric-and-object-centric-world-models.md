@@ -18,7 +18,8 @@ MathJax.Hub.Config({
 </script>
 
 ---
-**Patrick Emami**, Pan He, Anand Rangarajan, Sanjay Ranka. NeurIPS Object Representations for Learning and Reasoning Workshop. 2020. (*Spotlight presentation*)
+**Patrick Emami**, Pan He, Anand Rangarajan, Sanjay Ranka.   
+NeurIPS Object Representations for Learning and Reasoning Workshop. 2020. (*Spotlight presentation*)
 
  
 <span style="color:blue">**tl;dr**:</span> We identify limitations of applying certain object-centric world models to stochastic environments and propose a state space model and training objective that achieves better stochastic future prediction.
