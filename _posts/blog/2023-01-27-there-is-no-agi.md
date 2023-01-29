@@ -39,9 +39,10 @@ If we see tools as an extension of our selves, is it really a stretch then to vi
 
 ## There is no such thing as AGI
 In pop culture, "artificial general intelligence" (AGI) is thought to be a sentient entity forged from silicon suddenly announced to the world in a press release by Big Tech Corp.
+It is thought that this AGI will have far superior capabilities to humans and will likely be uncontrollable.
 I argue that there is not and never will be such a thing.
-Rather, I think the situation actually resembles a slowly evolving symbiosis of human and machine.
 
+Rather, I think the situation we are in resembles a slowly evolving symbiosis of increasingly intelligent humans and machines.
 For example, today I may use a Google Doc to temporarily expand my short-term memory while sitting in on a brainstorming meeting.
 We use satellites to augment our eyes to analyze the Earth's surface and microscopes to peer at things a nanometer long. 
 We use Google Translate to speak to people in different languages, chat bots to help us write code faster, and supercomputers to forecast tomorrow's weather.
@@ -50,15 +51,14 @@ They might think we have exoskeletons that we can take off and put on at will. 
 
 Humans---generally intelligent beings---possess the ability to **augment** themselves with artificial intelligences! 
 The implications of this are terribly exciting.
-
-Now, maybe some of you are thinking, "well, AGI is a *thing* that will eventually exist---it is the point to which humans and machines are slowly converging, and it will be something totally incomprehensible to us today".
-Sure, I think some kind of convergence is plausible.
-However, I would respond that this would take thousands or millions of years, if it ever happens at all. 
+For one, we can think about the point towards which humans and machines are slowly converging to.
+The cyber-physical organism that emerges from this process is likely totally incomprehensible to us today.
+It will not resemble AGI in the pop culture sense, and it will take thousands or perhaps millions of years for this to happen, if it ever happens at all. 
 Evolution hasn't even reacted yet to the invention of the steam engine.
-It won't happen next year. Or in 10 years. Or in 100 years.
+It won't happen next year. Or in 10 years. Or 100. 
 
-Many believe AGI will be an embodied computational learning system with agency, capable of rapidly expanding its repertoire of real world skills. 
-Would this represent a true bifurcation of the branch *homo sapiens* in our tree of life---a new branch that has split off from our own? 
+Others are happy to call an embodied computational learning system with agency, capable of rapidly expanding its repertoire of real world skills, an "AGI".  
+Would this represent a bifurcation of the branch *homo sapiens* in our tree of life---a new branch that has split off from our own? 
 The crux of my perspective says that, in short answer, no.
 This is because I believe we should not think about such systems outside of the context of their human designers and users.
 What we would be creating are powerful *tools* that further empower *artificially augmented general intelligences* (AAGIs for short?)---the general intelligences in question being our own.
