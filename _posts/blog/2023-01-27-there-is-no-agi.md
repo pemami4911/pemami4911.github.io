@@ -48,19 +48,17 @@ We use satellites to augment our eyes to analyze the Earth's surface and microsc
 We use Google Translate to speak to people in different languages, chat bots to help us write code faster, and supercomputers to forecast tomorrow's weather.
 Imagine how an alien from another solar system might react if they were to see us driving a car.
 They might think we have exoskeletons that we can take off and put on at will. 
+*Basically, humans---generally intelligent beings---possess the ability to **augment** themselves with artificial intelligences!* 
 
-Humans---generally intelligent beings---possess the ability to **augment** themselves with artificial intelligences! 
-The implications of this are terribly exciting.
-For one, we can think about the point towards which humans and machines are slowly converging to.
+Let's imagine the point that evolution is pulling humans and machines to converge at.
 The cyber-physical organism that emerges from this process is likely totally incomprehensible to us today.
 It will not resemble AGI in the pop culture sense, and it will take thousands or perhaps millions of years for this to happen, if it ever happens at all. 
 Evolution hasn't even reacted yet to the invention of the steam engine.
 It won't happen next year. Or in 10 years. Or 100. 
 
-Others are happy to call an embodied computational learning system with agency, capable of rapidly expanding its repertoire of real world skills, an "AGI".  
-Would this represent a bifurcation of the branch *homo sapiens* in our tree of life---a new branch that has split off from our own? 
-The crux of my perspective says that, in short answer, no.
-This is because I believe we should not think about such systems outside of the context of their human designers and users.
+Others are happy to call an embodied computational learning system with agency, capable of rapidly expanding its repertoire of real world skills, an "AGI". Would this represent a bifurcation of the branch *homo sapiens* in our tree of life---a new branch that has split off from our own? 
+The crux of my perspective is that, in short answer, this is not the case.
+I believe we should not think about such systems outside of the context of their human designers and users.
 What we would be creating are powerful *tools* that further empower *artificially augmented general intelligences* (AAGIs for short?)---the general intelligences in question being our own.
 
 ## Human knowledge in AI research
@@ -84,8 +82,7 @@ On the flip side, bad humans have always existed, so bad cyber-physical organism
 This is nature. 
 Perhaps evolution will eventually delete or re-write the parts of our DNA that predisposes some of us to do Evil things.
 Another implication is that dedicating time and resources to building alien AGI entities today is highly questionable at best.
-
-As AI researchers, my belief is that we should be making new tools that augment all people *today* to lead longer, happier, and healthier lives.
+My belief is that we AI researchers should be making new tools that augment all people *today* to lead longer, happier, and healthier lives.
 
 ## In conclusion
 This is my articulation of various thoughts I've been having about AI and evolution and how it relates to my ethos as an AI researcher. I hope it inspires others in this field, helps de-hype things a bit, and keeps us focused on a goal of *empowering humans to lead better lives*.
