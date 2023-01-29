@@ -55,7 +55,7 @@ Now, maybe some of you are thinking, "well, AGI is a *thing* that will eventuall
 Sure, I think some kind of convergence is plausible.
 However, I would respond that this would take thousands or millions of years, if it ever happens at all. 
 Evolution hasn't even reacted yet to the invention of the steam engine.
-It won't not happen next year. Or in 10 years. Or in 100 years.
+It won't happen next year. Or in 10 years. Or in 100 years.
 
 Many believe AGI will be an embodied computational learning system with agency, capable of rapidly expanding its repertoire of real world skills. 
 Would this represent a true bifurcation of the branch *homo sapiens* in our tree of life---a new branch that has split off from our own? 
