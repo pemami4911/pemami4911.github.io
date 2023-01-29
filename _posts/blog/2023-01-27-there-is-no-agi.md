@@ -52,9 +52,10 @@ Imagine how an alien from another solar system might react if they were to see u
 They might think we have exoskeletons that we can take off and put on at will. 
 We humans, or AAGIs, are constantly finding new ways to augment ourselves with artificial intelligences!
 
-Let's imagine the point far along the tree of life where humans and and machine might eventually converge.
-The AAGI cyber-physical organism that emerges at this point is likely totally inconceivable to us today.
-It will not resemble AGI in the pop culture sense, and it will take thousands or perhaps millions of years for this to happen, if it ever happens at all. 
+Let's imagine the point far along the tree of life where the line between what's human and and what's machine is totally blurred.
+The AAGI cyber-physical organism that emerges at this point of convergence is likely totally inconceivable to us today.
+It will not resemble AGI in the pop culture sense.
+The truth is that this would take thousands or perhaps millions of years to happen, if it ever happens at all. 
 Evolution hasn't even reacted yet to the invention of the steam engine.
 It won't happen next year. Or in 10 years. Or 100. 
 
