@@ -43,17 +43,17 @@ It is thought that this AGI will have far superior capabilities to humans and wi
 I argue that there is not and never will be such a thing.
 
 Rather, I think the situation we are in resembles a slowly evolving symbiosis of increasingly intelligent humans and machines.
-We create powerful *tools* that further empower our *artificially augmented general intelligences* (AAGIs for short?)---the general intelligences in question being our own.
+We are constantly making new powerful tools that further empower our own general intelligence---which I think of as *artificially augmented general intelligence* (AAGI for short?).
 
 For example, today I use a Google Doc to temporarily expand my short-term memory while sitting in on a brainstorming meeting.
 We use satellites to augment our eyes to analyze the Earth's surface and microscopes to peer at things a nanometer long. 
 We use Google Translate to speak to people in different languages, chat bots to help us write code faster, and supercomputers to forecast tomorrow's weather.
 Imagine how an alien from another solar system might react if they were to see us driving a car.
 They might think we have exoskeletons that we can take off and put on at will. 
-We humans---generally intelligent beings---are constantly finding new ways to augment ourselves with artificial intelligences!
+We humans, or AAGIs, are constantly finding new ways to augment ourselves with artificial intelligences!
 
-Let's imagine the point far along the tree of life where humans and and machine might eventually converge at.
-The cyber-physical organism that emerges at this point is likely totally inconceivable to us today.
+Let's imagine the point far along the tree of life where humans and and machine might eventually converge.
+The AAGI cyber-physical organism that emerges at this point is likely totally inconceivable to us today.
 It will not resemble AGI in the pop culture sense, and it will take thousands or perhaps millions of years for this to happen, if it ever happens at all. 
 Evolution hasn't even reacted yet to the invention of the steam engine.
 It won't happen next year. Or in 10 years. Or 100. 
@@ -65,7 +65,7 @@ I believe we should not think about such systems outside of the context of their
 ## Human knowledge in AI research
 I don't think it is a hot take to say that out of the tired symbolists vs. connectionists debate, those arguing for the fusion of both paradigms were always right.
 Just look at the recent success of [reinforcement learning from human feedback](https://openai.com/blog/instruction-following/), or RLHF, where human experts distill symbolic knowledge into large language models, making them significantly better.
-Like our ancestors, we will continue to use our knowledge to build increasingly complex tools (e.g., learning systems), which we will in turn use to augment our faculty for creating more powerful learning systems, *ad infinitum*.
+Like our ancestors, we will continue to use our knowledge to build increasingly complex tools (e.g., learning systems), which we will in turn use to create even more powerful learning systems, *ad infinitum*.
 There is a certain beauty to this cyclical, symbiotic relationship, at least to me.
 
 
