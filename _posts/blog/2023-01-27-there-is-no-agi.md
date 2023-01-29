@@ -35,7 +35,7 @@ Then, they started to develop and use tools.
 These tools further expanded their mental and physical faculties, which in turn helped make these creatures even smarter.
 Being smarter meant better tools, which again made them smarter, and eventually they developed the digital computer.
 
-If we see tools as an extension of our selves, is it really a stretch then to view the *homo sapiens* branch of this tree as representing a *single cyber-physical* organism?
+If we see tools as an extension of our selves, is it a stretch to say that the *homo sapiens* branch of this tree represents a *single cyber-physical* organism?
 
 ## There is no such thing as AGI
 In pop culture, "artificial general intelligence" (AGI) is thought to be a sentient entity forged from silicon suddenly announced to the world in a press release by Big Tech Corp.
@@ -43,15 +43,17 @@ It is thought that this AGI will have far superior capabilities to humans and wi
 I argue that there is not and never will be such a thing.
 
 Rather, I think the situation we are in resembles a slowly evolving symbiosis of increasingly intelligent humans and machines.
-For example, today I may use a Google Doc to temporarily expand my short-term memory while sitting in on a brainstorming meeting.
+We create powerful *tools* that further empower our *artificially augmented general intelligences* (AAGIs for short?)---the general intelligences in question being our own.
+
+For example, today I use a Google Doc to temporarily expand my short-term memory while sitting in on a brainstorming meeting.
 We use satellites to augment our eyes to analyze the Earth's surface and microscopes to peer at things a nanometer long. 
 We use Google Translate to speak to people in different languages, chat bots to help us write code faster, and supercomputers to forecast tomorrow's weather.
 Imagine how an alien from another solar system might react if they were to see us driving a car.
 They might think we have exoskeletons that we can take off and put on at will. 
-*Basically, humans---generally intelligent beings---possess the ability to **augment** themselves with artificial intelligences!* 
+*Basically, we humans---generally intelligent beings---possess the ability to **augment** themselves with artificial intelligences!* 
 
-Let's imagine the point that evolution is pulling humans and machines to converge at.
-The cyber-physical organism that emerges from this process is likely totally incomprehensible to us today.
+Let's imagine the point far along the tree of life where humans and and machine might eventually converge at.
+The cyber-physical organism that emerges at this point is likely totally inconceivable to us today.
 It will not resemble AGI in the pop culture sense, and it will take thousands or perhaps millions of years for this to happen, if it ever happens at all. 
 Evolution hasn't even reacted yet to the invention of the steam engine.
 It won't happen next year. Or in 10 years. Or 100. 
@@ -59,7 +61,6 @@ It won't happen next year. Or in 10 years. Or 100.
 Others are happy to call an embodied computational learning system with agency, capable of rapidly expanding its repertoire of real world skills, an "AGI". Would this represent a bifurcation of the branch *homo sapiens* in our tree of life---a new branch that has split off from our own? 
 The crux of my perspective is that, in short answer, this is not the case.
 I believe we should not think about such systems outside of the context of their human designers and users.
-What we would be creating are powerful *tools* that further empower *artificially augmented general intelligences* (AAGIs for short?)---the general intelligences in question being our own.
 
 ## Human knowledge in AI research
 I don't think it is a hot take to say that out of the tired symbolists vs. connectionists debate, those arguing for the fusion of both paradigms were always right.
