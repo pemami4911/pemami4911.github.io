@@ -83,7 +83,7 @@ If humans and machines are viewed as a single cyber-physical organism, the quest
 On the flip side, bad humans have always existed, so bad cyber-physical organisms have and will continue to exist.
 This is nature. 
 Perhaps evolution will eventually delete or re-write the parts of our DNA that predisposes some of us to do Evil things.
-Another implication is the dedication of time and resources towards building alien AGI entities is highly questionable at best.
+Another implication is that dedicating time and resources to building alien AGI entities today is highly questionable at best.
 
 As AI researchers, my belief is that we should be making new tools that augment all people *today* to lead longer, happier, and healthier lives.
 
