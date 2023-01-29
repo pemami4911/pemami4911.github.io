@@ -50,7 +50,7 @@ We use satellites to augment our eyes to analyze the Earth's surface and microsc
 We use Google Translate to speak to people in different languages, chat bots to help us write code faster, and supercomputers to forecast tomorrow's weather.
 Imagine how an alien from another solar system might react if they were to see us driving a car.
 They might think we have exoskeletons that we can take off and put on at will. 
-*Basically, we humans---generally intelligent beings---possess the ability to **augment** themselves with artificial intelligences!* 
+We humans---generally intelligent beings---are constantly finding new ways to augment ourselves with artificial intelligences!
 
 Let's imagine the point far along the tree of life where humans and and machine might eventually converge at.
 The cyber-physical organism that emerges at this point is likely totally inconceivable to us today.
