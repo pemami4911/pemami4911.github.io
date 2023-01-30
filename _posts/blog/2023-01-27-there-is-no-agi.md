@@ -20,9 +20,9 @@ MathJax.Hub.Config({
 ---
 **Disclaimer**: This post contains my personal thoughts on artificial intelligence (AI) as of January 2023. I reserve the right to update my priors in light of new information as time passes. Anything written here should be taken with a grain of salt.
 
-## Humans and machines as a single, cyber-physical organism
+## Haeckel's Tree
 
-Let's consider modern humans and machines together on the evolutionary tree of life.
+Let's look at where modern humans and machines are on Haeckel's evolutionary tree of life:
 
 {%
   include image.html
@@ -30,17 +30,19 @@ Let's consider modern humans and machines together on the evolutionary tree of l
   caption="Tree of Vertebrates, from Ernst Haeckel's The Evolution of Man, fifth edition, London, 1910"
 %}
 
-Originally, evolution pressured certain animals to grow large brains and walk upright.
+The story here is that at some point, evolution pressured certain animals to grow large brains and walk upright.
 Then, they started to develop and use tools.
 These tools further expanded their mental and physical faculties, which in turn helped make these creatures even smarter.
 Being smarter meant better tools, which again made them smarter, and eventually they developed the digital computer.
 
-If we see tools as an extension of our selves, is it a stretch to say that the *homo sapiens* branch of this tree represents a *single cyber-physical* organism?
-
 ## There is no such thing as AGI
+
 In pop culture, "artificial general intelligence" (AGI) is thought to be a sentient entity forged from silicon suddenly announced to the world in a press release by Big Tech Corp.
 It is thought that this AGI will have far superior capabilities to humans and will likely be uncontrollable.
-I argue that there is not and never will be such a thing.
+A Singularity follows when this AGI masters the ability to improve *itself*, without any human intervention.
+I argue that there is not, and never will be, such an AGI.
+
+## Powerful machines augment human intelligence
 
 Rather, I think the situation we are in resembles a slowly evolving symbiosis of increasingly intelligent humans and machines.
 We are constantly making new powerful tools that further empower our own general intelligence---which I think of as *artificially augmented general intelligence* (AAGI for short?).
@@ -51,6 +53,10 @@ We use Google Translate to speak to people in different languages, chat bots to 
 Imagine how an alien from another solar system might react if they were to see us driving a car.
 They might think we have exoskeletons that we can take off and put on at will. 
 We humans, or AAGIs, are constantly finding new ways to augment ourselves with artificial intelligences!
+
+## Humans and machines as a single, cyber-physical organism
+
+If we agree that powerful machines can augment our intelligence, is it a stretch to view *homo sapiens* and machines as a *single cyber-physical* organism?
 
 Let's imagine the point far along the tree of life where the line between what's human and and what's machine is totally blurred.
 The AAGI cyber-physical organism that emerges at this point of convergence is likely totally inconceivable to us today.
