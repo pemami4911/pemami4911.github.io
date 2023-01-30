@@ -18,7 +18,7 @@ MathJax.Hub.Config({
 </script>
 
 ---
-**Disclaimer**: This post contains my personal thoughts on artificial intelligence (AI) as of January 2023. I reserve the right to update my priors in light of new information as time passes. Anything written here should be taken with a grain of salt.
+**Disclaimer**: This post contains my personal thoughts on artificial intelligence (AI) as of January 2023. I reserve the right to update my priors in light of new information as time passes. What is written here is mostly speculation and should be taken with a grain of salt.
 
 ## Haeckel's Tree
 
@@ -31,9 +31,10 @@ Let's look at where modern humans and machines are on Haeckel's evolutionary tre
 %}
 
 The story here is that at some point, evolution pressured certain animals to grow large brains and walk upright.
-Then, they started to develop and use tools.
+Then, they started to develop and use tools (~2M years ago).
 These tools further expanded their mental and physical faculties, which in turn helped make these creatures even smarter.
 Being smarter meant better tools, which again made them smarter, and eventually they developed the digital computer.
+Something unique about humans---perhaps the combination of our ability to reason about abstract concepts like recursion, large brains, dexterous hands, and a propensity to socialize in large communities---enables us to not only *use* tools to survive but also to vastly *improve* ourselves.
 
 ## There is no such thing as AGI
 
@@ -44,30 +45,31 @@ I argue that there is not, and never will be, such an AGI.
 
 ## Powerful machines augment human intelligence
 
-Rather, I think the situation we are in resembles a slowly evolving symbiosis of increasingly intelligent humans and machines.
-We are constantly making new powerful tools that further empower our own general intelligence---which I think of as *artificially augmented general intelligence* (AAGI for short?).
+I believe this popular AGI fantasy ignores the effect that increasingly powerful technologies will have on humans and the role that humans have to play.
+Rather, the situation we are in moreso resembles an evolving symbiosis of increasingly intelligent machines *and humans*.
+We are constantly making newer, more powerful tools that further empower our own general intelligence---which I call *artificially augmented general intelligence* (AAGI).
 
 For example, today I use a Google Doc to temporarily expand my short-term memory while sitting in on a brainstorming meeting.
 We use satellites to augment our eyes to analyze the Earth's surface and microscopes to peer at things a nanometer long. 
 We use Google Translate to speak to people in different languages, chat bots to help us write code faster, and supercomputers to forecast tomorrow's weather.
 Imagine how an alien from another solar system might react if they were to see us driving a car.
 They might think we have exoskeletons that we can take off and put on at will. 
-We humans, or AAGIs, are constantly finding new ways to augment ourselves with artificial intelligences!
+We humans, or AAGIs, are constantly finding exciting ways to augment ourselves with artificial intelligences!
 
 ## Humans and machines as a single, cyber-physical organism
 
-If we agree that powerful machines can augment our intelligence, is it a stretch to view *homo sapiens* and machines as a *single cyber-physical* organism?
+If we agree that powerful machines augment our intelligence, is it a stretch to say that soon we will see *homo sapiens* and machines as a *single cyber-physical* organism?
 
-Let's imagine the point far along the tree of life where the line between what's human and and what's machine is totally blurred.
+Let's imagine the point far along the tree of life where the line between what's human and and what's machine has blurred completely.
 The AAGI cyber-physical organism that emerges at this point of convergence is likely totally inconceivable to us today.
 It will not resemble AGI in the pop culture sense.
-The truth is that this would take thousands or perhaps millions of years to happen, if it ever happens at all. 
-Evolution hasn't even reacted yet to the invention of the steam engine.
+A quick glance back at the tree of life suggests this might take thousands or perhaps millions of years to happen, if it ever happens at all. 
+Evolution hasn't really reacted yet to the invention of the steam engine.
 It won't happen next year. Or in 10 years. Or 100. 
 
-Others are happy to call an embodied computational learning system with agency, capable of rapidly expanding its repertoire of real world skills, an "AGI". Would this represent a bifurcation of the branch *homo sapiens* in our tree of life---a new branch that has split off from our own? 
-The crux of my perspective is that, in short answer, this is not the case.
-I believe we should not think about such systems outside of the context of their human designers and users.
+Others (including many scientists) are happy to call an embodied computational learning system with agency, capable of rapidly expanding its repertoire of real world skills, an "AGI". Would this represent a new bifurcation of the branch *homo sapiens* in our tree of life---a branch that has split off from our own? 
+The crux of my perspective says that, in short answer, this is not the case.
+I believe we should not think about such tools outside of the context of their human designers and users.
 
 ## Human knowledge in AI research
 I don't think it is a hot take to say that out of the tired symbolists vs. connectionists debate, those arguing for the fusion of both paradigms were always right.
@@ -78,7 +80,7 @@ There is a certain beauty to this cyclical, symbiotic relationship, at least to 
 
 ## What are the implications of all this?
 
-For one, we are already hurtling towards a singularity of a kind.
+For one, we are already hurtling towards a Singularity of a kind.
 {%
     include image.html
     img="/img/AGI/energy.png"
