@@ -18,8 +18,6 @@ MathJax.Hub.Config({
 </script>
 
 ---
-## Update log
-
 **Disclaimer**: This post contains my personal thoughts on artificial intelligence (AI) as of April 2023. I reserve the right to update my priors in light of new information as time passes. What is written here is mostly speculation and should be taken with a grain of salt.
 
 ## Haeckel's Tree
