@@ -90,7 +90,7 @@ namely “cyborg”, for finding a way to overcome various systems of domination
 ```
 However, perhaps unsurprisingly, some of Haraway's recent books have taken a [slight turn towards eugenics (population control, yuck!)](https://www.reddit.com/r/CriticalTheory/comments/pjt3ck/comment/hbyq1y0/?utm_source=share&utm_medium=web2x&context=3). It seems that, invariably, these theories all have a [modest proposal](https://en.wikipedia.org/wiki/A_Modest_Proposal) to make...
 
-My key takeaway here is that *it is a mistake to try to optimize the evolution of homo sapiens as a solution for societal problems.* 
+*It is always a mistake to try to optimize the evolution of homo sapiens as a solution for societal problems.* 
 
 ## Human knowledge in AI research
 I don't think it is a hot take to say that out of the tired symbolists vs. connectionists debate, those arguing for the fusion of both paradigms were always right.
