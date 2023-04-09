@@ -77,10 +77,10 @@ It won't happen next year. Or in 10 years. Or 100.
 
 Others (including many scientists) are happy to call an embodied computational learning system with agency, capable of rapidly expanding its repertoire of real world skills, an "AGI". Would this represent a new bifurcation of the branch *homo sapiens* in our tree of life---a branch that has split off from our own? 
 The crux of my perspective says that, in short answer, this is not the case.
-I believe we should not think about such tools outside of the context of their human designers and users.
+I believe this would still be considered a *tool*, and we should not think about such tools outside of the context of their human designers and users.
 
 ---
-**Update April 2023**: After initially writing this post, I came to learn about transhumanism, [its roots in eugenics](https://en.wikipedia.org/wiki/Julian_Huxley), and [posthumanism](https://en.wikipedia.org/wiki/Posthumanism). It was perhaps naive of me to suggest that an eventual convergence of homo sapiens and machines might be the result of random, undirected natural evolution rather than an intentional goal being strived for by certain groups of people with ulterior motives (e.g., eugenicists). I came across Donna Haraway's Cyborg Theory, which offers an intersectional and feminist perspective on the convergence of homo sapiens and machines. I highly suggest reading the article [Transhumanism, Posthumanism, and the "Cyborg Identity"](https://dergipark.org.tr/en/download/article-file/1803280) for a summary of her manifesto in proper context. Here's an excerpt:
+**Update April 2023**: After initially writing this post, I came to learn about transhumanism, [its roots in eugenics](https://en.wikipedia.org/wiki/Julian_Huxley), and [posthumanism](https://en.wikipedia.org/wiki/Posthumanism). It was perhaps naive of me to suggest that an eventual convergence of homo sapiens and machines will be the result of random, ~undirected, natural evolution rather than an intentional goal being strived for by certain groups of people with ulterior motives. I came across Donna Haraway's Cyborg Theory, which offers an intersectional and feminist perspective on the convergence of homo sapiens and machines. I highly suggest reading the article [Transhumanism, Posthumanism, and the "Cyborg Identity"](https://dergipark.org.tr/en/download/article-file/1803280) for a summary of her manifesto in proper context. Here's an excerpt:
 ```
 The “cyborg” of Haraway is a genderless and raceless mode of being imagined to find a way
 towards equality by eliminating all sorts of problematic dualisms like that of self/other,
@@ -88,6 +88,9 @@ culture/nature, male/female, civilized/primitive, right/wrong, truth/illusion, t
 God/man (Haraway 1990, 177). She intends to reach the so-called “posthuman state” of human beings,
 namely “cyborg”, for finding a way to overcome various systems of domination.
 ```
+However, perhaps unsurprisingly, some of Haraway's recent books have taken a [slight turn towards eugenics (population control, yuck!)](https://www.reddit.com/r/CriticalTheory/comments/pjt3ck/comment/hbyq1y0/?utm_source=share&utm_medium=web2x&context=3). It seems that, invariably, these theories all have a [modest proposal](https://en.wikipedia.org/wiki/A_Modest_Proposal) to make...
+
+My key takeaway here is that *it is a mistake to try to optimize the evolution of homo sapiens as a solution for societal problems.* 
 
 ## Human knowledge in AI research
 I don't think it is a hot take to say that out of the tired symbolists vs. connectionists debate, those arguing for the fusion of both paradigms were always right.
@@ -98,7 +101,7 @@ There is a certain beauty to this cyclical, symbiotic relationship, at least to 
 ---
 **Update April 2023**: It has since been reported that [OpenAI exploited workers to obtain labeled data](https://time.com/6247678/openai-chatgpt-kenya-workers/), presumably for RLHF.  
 
-## What are the implications of all this?
+## What are some implications of all this?
 
 For one, we are already hurtling towards an energy consumption Singularity.
 {%
@@ -115,8 +118,13 @@ Another implication is that dedicating time and resources to building alien AGI 
 My belief is that we AI researchers should be making new tools that augment all people *today* to lead longer, happier, and healthier lives.
 
 ---
-**Update April 2023**: Again, I believe the statement "*Perhaps evolution will eventually delete or re-write the parts of our DNA that predisposes some of us to do Evil things*" shows my initial naivety here. While natural evolution is random and undirected, in reality, there are certain groups of people (e.g., those with eugenicist tendencies) who wish to control what traits are passed down over generations. Moreover, "Good" and "Evil" are subjective concepts, and can be/have been weaponized for terrible things in the past.   
+**Update April 2023**: Again, I believe the statement "*Perhaps evolution will eventually delete or re-write the parts of our DNA that predisposes some of us to do Evil things*" shows my initial naivety here. 
+Although natural evolution is random and ~undirected, in reality, there are certain groups of people (e.g., those with eugenicist tendencies) who wish to control what traits are passed down over generations.
+This is especially dangerous because "Good" and "Evil" are subjective concepts, and can be/have been weaponized for terrible things in the past.
+
 
 ## In conclusion
-This is just an articulation of various thoughts I've been having about AI and evolution and how it relates to my ethos as an AI researcher. I hope it inspires others in this field, helps de-hype things a bit, and keeps us focused on a goal of *empowering humans to lead better lives*.
+This was an attempt at articulating various thoughts I've been having about AI and evolution and how it relates to my ethos as an AI researcher. I claim to know very little about most of the topics in this post--which are also quite challenging to discuss, so by writing about them I hope to help myself achieve more clarity. 
+
+Let's go out and build AI tools that *empower humans to lead better lives*.
 
