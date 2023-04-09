@@ -19,6 +19,7 @@ Contact: pemami[at]nrel[dot][gov]
 
 ## News
 
+* **March 2023** Our manuscript has been accepted by Machine Learning: Science & Technology! 
 * **December 2022** I will be in New Orleans for NeurIPS'22 (Nov 30th-Dec 3rd). Come say hi!
 * **October 2022** One paper accepted at the Machine Learning for Structural Biology workshop at NeurIPS'22!
 * **April 2022** Recognized as a [Highlighted Reviewer](https://iclr.cc/Conferences/2022/Reviewers) at ICLR'22!  
