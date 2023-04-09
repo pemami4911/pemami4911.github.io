@@ -115,7 +115,7 @@ Another implication is that dedicating time and resources to building alien AGI 
 My belief is that we AI researchers should be making new tools that augment all people *today* to lead longer, happier, and healthier lives.
 
 ---
-**Update April 2023** Again, I believe the statement "*Perhaps evolution will eventually delete or re-write the parts of our DNA that predisposes some of us to do Evil things*" shows my initial naivety here. While natural evolution is random and undirected, in reality, there are certain groups of people (e.g., those with eugenicist tendencies) who wish to control what traits are passed down over generations. Moreover, "Good" and "Evil" are subjective concepts, and can be/have been weaponized for terrible things in the past.   
+**Update April 2023**: Again, I believe the statement "*Perhaps evolution will eventually delete or re-write the parts of our DNA that predisposes some of us to do Evil things*" shows my initial naivety here. While natural evolution is random and undirected, in reality, there are certain groups of people (e.g., those with eugenicist tendencies) who wish to control what traits are passed down over generations. Moreover, "Good" and "Evil" are subjective concepts, and can be/have been weaponized for terrible things in the past.   
 
 ## In conclusion
 This is just an articulation of various thoughts I've been having about AI and evolution and how it relates to my ethos as an AI researcher. I hope it inspires others in this field, helps de-hype things a bit, and keeps us focused on a goal of *empowering humans to lead better lives*.
