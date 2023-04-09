@@ -107,22 +107,23 @@ OpenAI's transition to a for-profit AGI company is a stark reminder that tech co
 
 ## What are some implications of all this?
 
-For one, we are already hurtling towards an energy consumption Singularity.
+For one, the cycle of self-improvement due to new digital tools is already hurtling us towards an energy consumption Singularity.
 {%
     include image.html
     img="/img/AGI/energy.png"
 %}
+The Biden administration announced it is working towards [net-zero emissions by 2050](https://www.whitehouse.gov/briefing-room/statements-releases/2021/12/08/fact-sheet-president-biden-signs-executive-order-catalyzing-americas-clean-energy-economy-through-federal-sustainability/).
 
-This also says something about [**AGI** Alignment/Safety](https://www.agisafetyfundamentals.com) (not to be conflated with **AI** Alignment/Safety).
-If humans and machines are viewed as a single cyber-physical organism, the question of how to align the ethics of an alien AGI entity with our own makes no sense.
+Self-improvement and gradual convergence also says something about [**AGI** Alignment/Safety](https://www.agisafetyfundamentals.com) (not to be conflated with **AI** Alignment/Safety).
+If humans and machines are viewed as a single cyber-physical organism, the question of how to align the ethics of a sci-fi AGI entity with our own makes no sense.
 On the flip side, bad humans have always existed, so bad cyber-physical organisms have and will continue to exist.
 This is nature. 
 Perhaps evolution will eventually delete or re-write the parts of our DNA that predisposes some of us to do Evil things.
-Another implication is that dedicating time and resources to building alien AGI entities today is highly questionable at best.
+Another implication is that dedicating time and resources to building sci-fi AGI entities today is highly questionable at best.
 My belief is that we AI researchers should be making new tools that augment all people *today* to lead longer, happier, and healthier lives.
 
 ---
-**Update April 2023**: Again, I believe the statement "*Perhaps evolution will eventually delete or re-write the parts of our DNA that predisposes some of us to do Evil things*" shows my initial naivety here. 
+**Update April 2023**: Again, I believe the statement "*Perhaps evolution will eventually delete or re-write the parts of our DNA that predisposes some of us to do Evil things*" shows some naivety here. 
 Although natural evolution is random and ~undirected, in reality, there are certain groups of people (e.g., those with eugenicist tendencies) who wish to control what traits are passed down over generations.
 This is especially dangerous because "Good" and "Evil" are subjective concepts, and can be/have been weaponized for terrible things in the past.
 
