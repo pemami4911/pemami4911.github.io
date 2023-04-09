@@ -66,13 +66,14 @@ We humans, or AAGIs, are constantly finding exciting ways to augment ourselves w
 
 ## Humans and machines as a single, cyber-physical organism
 
-If we agree that powerful machines augment our intelligence, is it a stretch to say that soon we will consider *homo sapiens* and machines to be a *single cyber-physical* organism?
+If we agree that powerful machines augment our intelligence, is it a stretch to say that we can already consider *homo sapiens* and machines as a *single cyber-physical* organism?
 
-Let's imagine the point far along the tree of life where the line between what's human and and what's machine has blurred completely.
-The AAGI cyber-physical organism that emerges at this point of convergence is likely totally inconceivable to us today.
+If so, we can imagine a point far along into the future, up in the branches of the tree of life, where the line between what's human and and what's machine has blurred completely.
+The AAGI cyber-physical organism at this point of convergence is likely totally inconceivable to us today.
 It will not resemble AGI in the pop culture sense.
-A quick glance back at the tree of life suggests this might take thousands or perhaps millions of years to happen, if it ever happens at all. 
-Evolution hasn't really reacted yet to the invention of the steam engine.
+Moreover, natural evolution is a slow, winding, random process. 
+A quick glance back at the tree of life image suggests this gradual merging may take thousands or perhaps millions of years to happen, if it ever happens at all. 
+Evolution hasn't *really* reacted yet to the invention of the steam engine.
 It won't happen next year. Or in 10 years. Or 100. 
 
 Others (including many scientists) are happy to call an embodied computational learning system with agency, capable of rapidly expanding its repertoire of real world skills, an "AGI". Would this represent a new bifurcation of the branch *homo sapiens* in our tree of life---a branch that has split off from our own? 
@@ -80,7 +81,9 @@ The crux of my perspective says that, in short answer, this is not the case.
 I believe this would still be considered a *tool*, and we should not think about such tools outside of the context of their human designers and users.
 
 ---
-**Update April 2023**: After initially writing this post, I came to learn about transhumanism, [its roots in eugenics](https://en.wikipedia.org/wiki/Julian_Huxley), and [posthumanism](https://en.wikipedia.org/wiki/Posthumanism). It was perhaps naive of me to suggest that an eventual convergence of homo sapiens and machines will be the result of random, ~undirected, natural evolution rather than an intentional goal being strived for by certain groups of people with ulterior motives. I came across Donna Haraway's Cyborg Theory, which offers an intersectional and feminist perspective on the convergence of homo sapiens and machines. I highly suggest reading the article [Transhumanism, Posthumanism, and the "Cyborg Identity"](https://dergipark.org.tr/en/download/article-file/1803280) for a summary of her manifesto in proper context. Here's an excerpt:
+**Update April 2023**: After initially writing this post, I came to learn about transhumanism, [its roots in eugenics](https://en.wikipedia.org/wiki/Julian_Huxley), and [posthumanism](https://en.wikipedia.org/wiki/Posthumanism). 
+These theories seek ways to improve the world by optimizing humanity.
+I admit that it was naive of me to suggest that a gradual convergence of homo sapiens and digital tools could happen from random, ~undirected, natural evolution, as opposed to being intentionally engineered by certain groups of people with ulterior motives. I came across Donna Haraway's Cyborg Theory, which offers an intersectional and feminist framework to view such a convergence of homo sapiens and machines. I highly suggest reading the article [Transhumanism, Posthumanism, and the "Cyborg Identity"](https://dergipark.org.tr/en/download/article-file/1803280) for a summary of her manifesto in proper context. Here's an excerpt:
 ```
 The “cyborg” of Haraway is a genderless and raceless mode of being imagined to find a way
 towards equality by eliminating all sorts of problematic dualisms like that of self/other,
@@ -99,7 +102,8 @@ Like our ancestors, we will continue to use our knowledge to build increasingly 
 There is a certain beauty to this cyclical, symbiotic relationship, at least to me.
 
 ---
-**Update April 2023**: It has since been reported that [OpenAI exploited workers to obtain labeled data](https://time.com/6247678/openai-chatgpt-kenya-workers/), presumably for RLHF.  
+**Update April 2023**: It has since been reported that [OpenAI exploited workers to obtain labeled data](https://time.com/6247678/openai-chatgpt-kenya-workers/), presumably for RLHF. 
+OpenAI's transition to a for-profit AGI company is a stark reminder that tech companies entrenched in a capitalist framework have a ruthless imperative to innovate at all costs.  
 
 ## What are some implications of all this?
 
