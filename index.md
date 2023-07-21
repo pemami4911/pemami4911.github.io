@@ -23,13 +23,13 @@ Contact: pemami[at]nrel[dot][gov]
 
 ## News
 
-* **July 2023** We released [BuildingsBench](https://github.com/NREL/BuildingsBench), a platform for large-scale pretraining + finetuning of building load forecasting models!
+* **July 2023** One paper accepted at IEEE CDC'23
+* **July 2023** We released [BuildingsBench](https://github.com/NREL/BuildingsBench), a platform for large-scale pretraining + finetuning of building load forecasting models
 * **May 2023** I am now a research scientist at NREL!
-* **March 2023** Our manuscript has been accepted by Machine Learning: Science & Technology! 
+* **March 2023** Our manuscript has been accepted by Machine Learning: Science & Technology 
 * **December 2022** I will be in New Orleans for NeurIPS'22 (Nov 30th-Dec 3rd). Come say hi!
-* **October 2022** One paper accepted at the Machine Learning for Structural Biology workshop at NeurIPS'22!
-* **April 2022** Recognized as a [Highlighted Reviewer](https://iclr.cc/Conferences/2022/Reviewers) at ICLR'22!  
-* **January 2022** I am now a postdoc at NREL! 
+* **October 2022** One paper accepted at the Machine Learning for Structural Biology workshop at NeurIPS'22
+* **April 2022** Recognized as a [Highlighted Reviewer](https://iclr.cc/Conferences/2022/Reviewers) at ICLR'22  
 
 ## Recent Papers
 
