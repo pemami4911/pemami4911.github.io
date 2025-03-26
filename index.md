@@ -21,7 +21,7 @@ Contact: Patrick[dot]Emami[at]nrel[dot][gov]
 
 ## Internship Opportunities
 
-* **March 2025** I am looking for a year-round Ph.D-level graduate intern to work with us (NREL, JHU, PNNL, RPI) on evaluating and improving scientific hypothesis ranking with large language models. The start date is ASAP. Please apply [here](https://nrel.wd5.myworkdayjobs.com/NREL/job/Golden-CO/Graduate--Year-Round--Intern---Natural-Language-Processing---Large-Language-Models_R13769). 
+* **March 2025** We are looking for a year-round Ph.D-level graduate intern to work with us (NREL, JHU, PNNL, RPI) on evaluating and improving probabilistic reasoning with large language models for scientific discovery. Please apply [here](https://nrel.wd5.myworkdayjobs.com/NREL/job/Golden-CO/Graduate--Year-Round--Intern---Natural-Language-Processing---Large-Language-Models_R13769)! 
 
 ## News
 
