@@ -10,10 +10,8 @@ front: true
     img="/img/Home/Emami_headshot_wedding.png"
 %}
 
-I am a machine learning research scientist at the [National Renewable Energy Lab](https://www.nrel.gov/) (NREL). Currently, I am working on developing scientific foundation models and Assistants. In the past, I have researched advances in deep generative modeling and reinforcement learning. I am broadly interested in applications of AI to clean energy systems. 
+I am a machine learning research scientist at the [National Renewable Energy Lab](https://www.nrel.gov/) (NREL) with broad expertise in deep learning and foundation models. I lead a US Dept. of Energy ASCR-funded AI for Science project where we are researching hallucination mitigation, probabilistic reasoning, and multimodality in conversational Assistants. Our vision is to build Assistants that aid scientists by accelerating computational experiment-driven discovery. At NREL, I have applied my expertise in areas including building energy management and protein engineering. My contributions at NREL have been recognized with an Outstanding Mentor Award (2023) and a Postdoctoral Publication Award (2024). 
 
-At NREL, I apply ML to real-world problems such as building energy management, weather and power forecasting, synthetic biology, and materials science.
-NREL is a DOE national lab that uses AI and supercomputing to help tackle the climate crises, which I believe to be one of the most pressing challenges of our time. 
 
 [[CV](pdfs/cv.pdf)][[Google scholar](https://scholar.google.com/citations?user=WSU6_r0AAAAJ&hl=en)] [[Github](https://github.com/pemami4911)]
 
